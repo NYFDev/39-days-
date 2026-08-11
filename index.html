@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="39 DAYS — NYF Holdings private execution, evidence and editorial operating system." />
   <title>39 DAYS — NYF Holdings</title>
-  <meta name="theme-color" content="#0b0b0b" />
+  <meta name="theme-color" content="#090909" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -14,68 +15,88 @@
         <p class="eyebrow">NYF HOLDINGS / PRIVATE</p>
         <h1>39 DAYS</h1>
       </div>
-      <button id="quickAdd" class="ghost">+ Capture</button>
+      <div class="top-actions">
+        <button id="advanceDay" class="ghost">Advance day</button>
+        <button id="quickAdd" class="ghost">+ Capture</button>
+      </div>
     </header>
 
     <main>
       <section class="hero panel">
         <div>
-          <p class="eyebrow">THE ARC</p>
-          <h2>Document the transformation. Execute the next move. Keep the evidence.</h2>
-          <p class="muted">A private operating system for the 39-day arc, East Corner editorial work, people worth watching, and the receipts that turn a story into proof.</p>
+          <p class="eyebrow">THE OPERATING ARC</p>
+          <h2>Execute the next move. Keep the receipt. Turn the receipt into story.</h2>
+          <p class="muted">This is not a mood board. It is the evidence engine behind the 39-day transformation arc and the private desk behind East Corner.</p>
+          <div class="hero-links">
+            <a href="#execute">Execute</a><a href="#evidence">Evidence</a><a href="#east-corner">East Corner</a><a href="#dispatch">Dispatch</a>
+          </div>
         </div>
-        <div class="day-ring">
-          <span id="dayNumber">01</span>
-          <small>/ 39</small>
-        </div>
+        <div class="day-ring"><span id="dayNumber">01</span><small>/ 39</small></div>
       </section>
 
       <section class="grid stats">
         <article class="panel stat"><span>EXECUTION</span><strong id="executionScore">0%</strong><small>today complete</small></article>
         <article class="panel stat"><span>EVIDENCE</span><strong id="evidenceCount">0</strong><small>receipts logged</small></article>
-        <article class="panel stat"><span>EDITORIAL</span><strong id="storyCount">4</strong><small>active storylines</small></article>
+        <article class="panel stat"><span>STORY SIGNAL</span><strong id="noteCount">0</strong><small>captured notes</small></article>
       </section>
 
-      <section class="grid two">
+      <section id="execute" class="grid two">
         <article class="panel">
-          <div class="section-head"><div><p class="eyebrow">TODAY</p><h3>Execution ledger</h3></div><button id="resetToday" class="text-btn">reset</button></div>
+          <div class="section-head"><div><p class="eyebrow">TODAY</p><h3>Execution ledger</h3></div><button id="resetToday" class="text-btn">reset checks</button></div>
+          <p class="section-copy">Only concrete actions belong here. If it cannot be marked done, rewrite it.</p>
           <div id="taskList" class="task-list"></div>
           <form id="taskForm" class="inline-form"><input id="taskInput" placeholder="Add the next concrete action…" autocomplete="off"/><button>Add</button></form>
         </article>
 
-        <article class="panel">
+        <article id="evidence" class="panel">
           <div class="section-head"><div><p class="eyebrow">EVIDENCE</p><h3>Receipt log</h3></div><span class="chip">facts &gt; vibes</span></div>
           <form id="evidenceForm" class="stack-form">
-            <input id="evidenceTitle" placeholder="What happened?" required />
-            <textarea id="evidenceDetail" placeholder="What proves it? Link, amount, screenshot note, timestamp, witness…" required></textarea>
+            <input id="evidenceTitle" placeholder="What became materially true?" required />
+            <textarea id="evidenceDetail" placeholder="Amount, timestamp, screenshot note, email, witness, result, decision…" required></textarea>
             <button>Log evidence</button>
           </form>
           <div id="evidenceList" class="feed"></div>
         </article>
       </section>
 
-      <section class="panel editorial">
-        <div class="section-head"><div><p class="eyebrow">EAST CORNER</p><h3>Living editorial desk</h3></div><span class="chip">signal → story → action</span></div>
+      <section id="east-corner" class="panel editorial">
+        <div class="section-head"><div><p class="eyebrow">EAST CORNER</p><h3>Editorial universe</h3></div><span class="chip">signal → story → action</span></div>
+        <p class="section-copy wide">The cultural layer, the money layer, the founder layer, the receipts. Every series should teach, reveal, inspire or expose something worth carrying forward.</p>
         <div id="storyGrid" class="story-grid"></div>
       </section>
 
       <section class="grid two">
         <article class="panel">
           <div class="section-head"><div><p class="eyebrow">PEOPLE TO WATCH</p><h3>Builder index</h3></div><button id="addPerson" class="text-btn">+ person</button></div>
+          <p class="section-copy">Rank the people worth studying — billionaires, founders, civic figures, unsung heroes and operators across the Horn and diaspora.</p>
           <div id="peopleList" class="people-list"></div>
         </article>
 
         <article class="panel">
+          <div class="section-head"><div><p class="eyebrow">STORY INBOX</p><h3>Captured signals</h3></div><button id="clearNotes" class="text-btn">clear</button></div>
+          <div id="notesList" class="feed notes-feed"></div>
+        </article>
+      </section>
+
+      <section id="dispatch" class="grid two">
+        <article class="panel">
           <div class="section-head"><div><p class="eyebrow">39 DAYS</p><h3>Daily dispatch</h3></div><span class="chip">private draft</span></div>
-          <textarea id="dispatch" class="dispatch" placeholder="What changed today? What did you do? What became materially true?"></textarea>
+          <textarea id="dispatchText" class="dispatch" placeholder="What changed today? What did you execute? What evidence exists now that did not exist this morning? What is tomorrow's first move?"></textarea>
           <div class="dispatch-actions"><span id="saveStatus" class="muted">saved locally</span><button id="copyDispatch">Copy draft</button></div>
+        </article>
+
+        <article class="panel continuity">
+          <div><p class="eyebrow">CONTINUITY</p><h3>Carry the arc forward</h3></div>
+          <div class="continuity-rule"><strong>01</strong><span>Execute before narrating.</span></div>
+          <div class="continuity-rule"><strong>02</strong><span>Receipts turn memory into evidence.</span></div>
+          <div class="continuity-rule"><strong>03</strong><span>Editorial should return attention to action, not steal it.</span></div>
+          <div class="continuity-rule"><strong>04</strong><span>Follow power, builders and overlooked people with the same seriousness.</span></div>
+          <div class="backup-actions"><button id="exportData" class="ghost">Export backup</button><label class="ghost file-label">Import backup<input id="importData" type="file" accept="application/json" /></label></div>
         </article>
       </section>
     </main>
 
-    <nav class="bottom-nav">
-      <a href="#" class="active">Command</a><a href="#taskList">Execute</a><a href="#storyGrid">East Corner</a><a href="#peopleList">Watch</a>
-    </nav>
+    <nav class="bottom-nav"><a href="#" class="active">Command</a><a href="#execute">Execute</a><a href="#east-corner">East Corner</a><a href="#dispatch">Dispatch</a></nav>
   </div>
 
   <dialog id="captureDialog">
@@ -86,7 +107,6 @@
       <button value="default" id="captureSave">Save capture</button>
     </form>
   </dialog>
-
   <script src="app.js"></script>
 </body>
 </html>
