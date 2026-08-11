@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>39 DAYS — NYF Holdings</title>
+  <meta name="theme-color" content="#0b0b0b" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">NYF HOLDINGS / PRIVATE</p>
+        <h1>39 DAYS</h1>
+      </div>
+      <button id="quickAdd" class="ghost">+ Capture</button>
+    </header>
+
+    <main>
+      <section class="hero panel">
+        <div>
+          <p class="eyebrow">THE ARC</p>
+          <h2>Document the transformation. Execute the next move. Keep the evidence.</h2>
+          <p class="muted">A private operating system for the 39-day arc, East Corner editorial work, people worth watching, and the receipts that turn a story into proof.</p>
+        </div>
+        <div class="day-ring">
+          <span id="dayNumber">01</span>
+          <small>/ 39</small>
+        </div>
+      </section>
+
+      <section class="grid stats">
+        <article class="panel stat"><span>EXECUTION</span><strong id="executionScore">0%</strong><small>today complete</small></article>
+        <article class="panel stat"><span>EVIDENCE</span><strong id="evidenceCount">0</strong><small>receipts logged</small></article>
+        <article class="panel stat"><span>EDITORIAL</span><strong id="storyCount">4</strong><small>active storylines</small></article>
+      </section>
+
+      <section class="grid two">
+        <article class="panel">
+          <div class="section-head"><div><p class="eyebrow">TODAY</p><h3>Execution ledger</h3></div><button id="resetToday" class="text-btn">reset</button></div>
+          <div id="taskList" class="task-list"></div>
+          <form id="taskForm" class="inline-form"><input id="taskInput" placeholder="Add the next concrete action…" autocomplete="off"/><button>Add</button></form>
+        </article>
+
+        <article class="panel">
+          <div class="section-head"><div><p class="eyebrow">EVIDENCE</p><h3>Receipt log</h3></div><span class="chip">facts &gt; vibes</span></div>
+          <form id="evidenceForm" class="stack-form">
+            <input id="evidenceTitle" placeholder="What happened?" required />
+            <textarea id="evidenceDetail" placeholder="What proves it? Link, amount, screenshot note, timestamp, witness…" required></textarea>
+            <button>Log evidence</button>
+          </form>
+          <div id="evidenceList" class="feed"></div>
+        </article>
+      </section>
+
+      <section class="panel editorial">
+        <div class="section-head"><div><p class="eyebrow">EAST CORNER</p><h3>Living editorial desk</h3></div><span class="chip">signal → story → action</span></div>
+        <div id="storyGrid" class="story-grid"></div>
+      </section>
+
+      <section class="grid two">
+        <article class="panel">
+          <div class="section-head"><div><p class="eyebrow">PEOPLE TO WATCH</p><h3>Builder index</h3></div><button id="addPerson" class="text-btn">+ person</button></div>
+          <div id="peopleList" class="people-list"></div>
+        </article>
+
+        <article class="panel">
+          <div class="section-head"><div><p class="eyebrow">39 DAYS</p><h3>Daily dispatch</h3></div><span class="chip">private draft</span></div>
+          <textarea id="dispatch" class="dispatch" placeholder="What changed today? What did you do? What became materially true?"></textarea>
+          <div class="dispatch-actions"><span id="saveStatus" class="muted">saved locally</span><button id="copyDispatch">Copy draft</button></div>
+        </article>
+      </section>
+    </main>
+
+    <nav class="bottom-nav">
+      <a href="#" class="active">Command</a><a href="#taskList">Execute</a><a href="#storyGrid">East Corner</a><a href="#peopleList">Watch</a>
+    </nav>
+  </div>
+
+  <dialog id="captureDialog">
+    <form method="dialog" id="captureForm" class="dialog-card">
+      <div class="section-head"><h3>Quick capture</h3><button value="cancel" class="text-btn">close</button></div>
+      <select id="captureType"><option value="evidence">Evidence</option><option value="task">Task</option><option value="note">Story note</option></select>
+      <textarea id="captureText" placeholder="Drop it here before the thought disappears…"></textarea>
+      <button value="default" id="captureSave">Save capture</button>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
