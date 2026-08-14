@@ -67,11 +67,21 @@
       <section class="subscribe-panel" aria-labelledby="subscribe-title">
         <div class="archive-label"><span>Newsletter</span><span>Free public content</span></div>
         <h2 id="subscribe-title">Put the public record in your inbox.</h2>
-        <p>The web archive and RSS feed are open now. HubSpot email delivery is a separate account integration; until its form is connected, subscription requests go directly to NYF Holdings.</p>
-        <div class="dispatch-links">
-          <a class="button button-dark" href="mailto:nyfholdings@gmail.com?subject=Subscribe%20to%20the%20NYF%20Dispatch&body=Please%20add%20me%20to%20the%20NYF%20Holdings%20Dispatch.">Subscribe by email</a>
-          <a class="button button-outline" href="/feed.xml">Open RSS feed</a>
-        </div>
+        <p>The web archive and RSS feed stay open. Join the Dispatch for new East Corner and 39 DAYS releases; your address is stored in NYF’s protected CRM.</p>
+        <form class="dispatch-subscribe-form" data-newsletter-form>
+          <div class="dispatch-form-grid">
+            <label><span>Name <small>Optional</small></span><input name="name" autocomplete="name" maxlength="80"></label>
+            <label><span>Email</span><input name="email" type="email" autocomplete="email" maxlength="254" required></label>
+          </div>
+          <label class="dispatch-honeypot" aria-hidden="true"><span>Website</span><input name="website" tabindex="-1" autocomplete="off"></label>
+          <label class="dispatch-consent"><input name="consent" type="checkbox" value="yes" required><span>Send me the NYF Dispatch. I can unsubscribe at any time.</span></label>
+          <div class="dispatch-links">
+            <button class="button button-dark" type="submit">Join the Dispatch</button>
+            <a class="button button-outline" href="/feed.xml">Open RSS feed</a>
+          </div>
+          <p class="dispatch-status" role="status" aria-live="polite" data-newsletter-status>No inbox noise. Only released work.</p>
+        </form>
+        <noscript><p>Email <a href="mailto:nyfholdings@gmail.com?subject=Subscribe%20to%20the%20NYF%20Dispatch">nyfholdings@gmail.com</a> to join the Dispatch.</p></noscript>
       </section>
     </section>
   </main>

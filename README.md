@@ -2,6 +2,10 @@
 
 Public-facing website for `nyfholdings.ca`.
 
+Live site: [https://nyfholdings.ca/](https://nyfholdings.ca/)
+
+Search discovery: [sitemap.xml](https://nyfholdings.ca/sitemap.xml) · [robots.txt](https://nyfholdings.ca/robots.txt) · [RSS feed](https://nyfholdings.ca/feed.xml)
+
 ## Architecture
 
 - `/` — NYF Holdings corporate landing page

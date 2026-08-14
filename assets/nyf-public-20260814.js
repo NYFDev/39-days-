@@ -1,4 +1,8 @@
 // NYF Holdings public release 2026-08-14
+if (window.location.protocol === 'http:' && ['nyfholdings.ca', 'www.nyfholdings.ca'].includes(window.location.hostname)) {
+  window.location.replace(`https://${window.location.host}${window.location.pathname}${window.location.search}${window.location.hash}`);
+}
+
 const operationsFragments = new Set(['#crm', '#command', '#daily', '#activity', '#intelligence', '#evidence', '#financial']);
 if (operationsFragments.has(window.location.hash.toLowerCase()) && window.location.pathname === '/') {
   window.location.replace(`/operations/${window.location.hash}`);
@@ -123,3 +127,43 @@ if (searchForm && searchInput && searchResults && searchStatus) {
     });
 }
 
+const newsletterForm = document.querySelector('[data-newsletter-form]');
+const newsletterStatus = document.querySelector('[data-newsletter-status]');
+
+if (newsletterForm && newsletterStatus) {
+  newsletterForm.addEventListener('submit', async event => {
+    event.preventDefault();
+    const submitButton = newsletterForm.querySelector('button[type="submit"]');
+    const formData = new FormData(newsletterForm);
+    const payload = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      website: formData.get('website'),
+      consent: formData.get('consent') === 'yes',
+    };
+
+    submitButton.disabled = true;
+    newsletterStatus.textContent = 'Adding you to the Dispatch…';
+    newsletterStatus.classList.remove('is-error', 'is-success');
+
+    try {
+      const response = await fetch('https://nyf-east-corner.nyfh.chatgpt.site/api/public/newsletter', {
+        method: 'POST',
+        mode: 'cors',
+        credentials: 'omit',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(data.error || 'The list could not accept that address right now.');
+      newsletterForm.reset();
+      newsletterStatus.textContent = data.message || "You're on the Dispatch list.";
+      newsletterStatus.classList.add('is-success');
+    } catch (error) {
+      newsletterStatus.textContent = error instanceof Error ? error.message : 'The list could not accept that address right now.';
+      newsletterStatus.classList.add('is-error');
+    } finally {
+      submitButton.disabled = false;
+    }
+  });
+}
