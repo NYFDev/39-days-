@@ -1,35 +1,42 @@
-const KEY='nyf_os_v3';
-const base={day:1,tasks:[{id:1,text:'Admin: complete the highest-stakes call or submission',done:false},{id:2,text:'Body: complete today’s movement block',done:false},{id:3,text:'Business: move NYF Holdings one material step',done:false}],contacts:[],activities:[],days:{},dispatch:''};
-const $=s=>document.querySelector(s), clone=x=>JSON.parse(JSON.stringify(x));
-function load(){try{const saved=JSON.parse(localStorage.getItem(KEY)||'null');return saved?{...clone(base),...saved}:clone(base)}catch{return clone(base)}}
-let state=load();
-function persist(){localStorage.setItem(KEY,JSON.stringify(state));renderStats()}
-function stamp(){return new Date().toISOString()}
-function activity(type,title,detail='',meta={}){state.activities.push({id:crypto.randomUUID?.()||String(Date.now()+Math.random()),type,title,detail,time:stamp(),day:state.day,...meta})}
-function esc(s=''){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
-function renderStats(){const entry=state.days[state.day]||{},targets={push:100,pull:100,situps:109,squats:100},moves=Object.entries(targets).filter(([k,target])=>Number(entry[k])>=target).length;$('#executionScore').textContent=Math.round(moves/4*100)+'%';$('#activityCount').textContent=state.activities.length;$('#openTaskCount').textContent=state.tasks.filter(t=>!t.done).length;$('#dayNumber').textContent=String(state.day).padStart(2,'0');$('#dailyTitle').textContent='Day '+String(state.day).padStart(2,'0')}
-function renderTasks(){const root=$('#taskList');root.innerHTML='';state.tasks.forEach(t=>{const row=document.createElement('div');row.className='task'+(t.done?' done':'');row.innerHTML='<input type="checkbox"><span></span><button class="delete" aria-label="Delete task">×</button>';row.querySelector('input').checked=t.done;row.querySelector('span').textContent=t.text;row.querySelector('input').onchange=e=>{t.done=e.target.checked;activity('task',(t.done?'Completed: ':'Reopened: ')+t.text);persist();renderTasks();renderActivity();renderBrief()};row.querySelector('button').onclick=()=>{state.tasks=state.tasks.filter(x=>x.id!==t.id);persist();renderTasks()};root.appendChild(row)})}
-function renderContacts(){const root=$('#contactList');root.innerHTML=state.contacts.length?'':'<p class="muted">No contacts yet.</p>';[...state.contacts].reverse().forEach(c=>{const el=document.createElement('article');el.className='record';el.innerHTML='<div><strong></strong><small></small></div><select><option>active</option><option>waiting</option><option>follow-up</option><option>closed</option></select><p></p><button class="delete">delete</button>';el.querySelector('strong').textContent=c.name;el.querySelector('small').textContent=c.context||'No context';el.querySelector('p').textContent=c.next?'Next: '+c.next:'No next move set';const sel=el.querySelector('select');sel.value=c.status;sel.onchange=e=>{c.status=e.target.value;activity('contact',c.name+' → '+c.status,c.next);persist();renderActivity()};el.querySelector('button').onclick=()=>{state.contacts=state.contacts.filter(x=>x.id!==c.id);persist();renderContacts()};root.appendChild(el)})}
-const dailyIds=['push','pull','situps','squats','walk','ritual','bodyMeta','tagTime','dailyNote'];
-function loadDaily(){const d=state.days[state.day]||{};dailyIds.forEach(id=>$('#'+id).value=id==='dailyNote'?(d.note??''):(d[id]??''))}
-function renderDailyHistory(){const root=$('#dailyHistory');const days=Object.values(state.days).sort((a,b)=>b.day-a.day);root.innerHTML=days.length?'':'<p class="muted">Your first saved day will appear here.</p>';days.forEach(d=>{const el=document.createElement('article');el.className='record day-record';el.innerHTML='<strong></strong><small></small><p></p>';el.querySelector('strong').textContent='Day '+String(d.day).padStart(2,'0')+' · '+[d.push,d.pull,d.situps,d.squats].map(x=>x||0).join(' / ');el.querySelector('small').textContent=(d.walk||0)+' min walk · '+(d.ritual||0)+' min ritual · '+new Date(d.updated).toLocaleString();el.querySelector('p').textContent=[d.bodyMeta,d.note].filter(Boolean).join(' — ')||'Entry saved';root.appendChild(el)})}
-function filteredActivities(){const f=$('#activityFilter').value;return [...state.activities].filter(a=>f==='all'||a.type===f).reverse()}
-function renderActivity(){const root=$('#activityList'),rows=filteredActivities();root.innerHTML=rows.length?'':'<p class="muted">Nothing in this view yet.</p>';rows.forEach(a=>{const el=document.createElement('article');el.className='activity-item';el.innerHTML='<span class="type"></span><div><strong></strong><small></small><p></p></div><button class="delete" aria-label="Delete record">×</button>';el.querySelector('.type').textContent=a.type;el.querySelector('strong').textContent=a.title;el.querySelector('small').textContent='Day '+a.day+' · '+new Date(a.time).toLocaleString();el.querySelector('p').textContent=a.detail||'';el.querySelector('button').onclick=()=>{state.activities=state.activities.filter(x=>x.id!==a.id);persist();renderActivity();renderBrief()};root.appendChild(el)})}
-function makeBrief(){const today=state.activities.filter(a=>a.day===state.day),done=state.tasks.filter(t=>t.done),open=state.tasks.filter(t=>!t.done),entry=state.days[state.day]||{};const money=today.filter(a=>a.type==='financial'),evidence=today.filter(a=>a.type==='evidence'),editorial=today.filter(a=>a.type==='editorial'||a.type==='ai');return {headline:today.length?today.length+' signals captured on Day '+state.day:'Day '+state.day+' is waiting for its first receipt',body:[entry.walk?entry.walk+' minutes walked.':'Movement entry is still open.',done.length?done.length+' task'+(done.length===1?'':'s')+' completed.':'No task has been checked off yet.',evidence.length?evidence.length+' evidence receipt'+(evidence.length===1?'':'s')+' secured.':'The evidence ledger needs one material receipt.',money.length?money.length+' financial/admin event'+(money.length===1?'':'s')+' recorded.':'No financial/admin event recorded today.',editorial.length?editorial.length+' editorial or AI signal'+(editorial.length===1?'':'s')+' captured.':'The editorial layer has no new signal yet.'].join(' '),next:open[0]?.text||'Close the daily entry and name tomorrow’s first move.'}}
-function renderBrief(){const b=makeBrief();$('#brief').innerHTML='<h4>'+esc(b.headline)+'</h4><p>'+esc(b.body)+'</p><div class="next"><span>NEXT MATERIAL MOVE</span><strong>'+esc(b.next)+'</strong></div>'}
-$('#taskForm').onsubmit=e=>{e.preventDefault();const text=$('#taskInput').value.trim();if(!text)return;state.tasks.push({id:Date.now(),text,done:false});activity('task','Task created',text);$('#taskInput').value='';persist();renderTasks();renderActivity();renderBrief()};
-$('#contactForm').onsubmit=e=>{e.preventDefault();const c={id:Date.now(),name:$('#contactName').value.trim(),context:$('#contactContext').value.trim(),next:$('#contactNext').value.trim(),status:$('#contactStatus').value};state.contacts.push(c);activity('contact','Contact added: '+c.name,[c.context,c.next].filter(Boolean).join(' · '));e.target.reset();persist();renderContacts();renderActivity();renderBrief()};
-$('#dailyForm').onsubmit=e=>{e.preventDefault();const d={day:state.day,updated:stamp()};dailyIds.forEach(id=>d[id==='dailyNote'?'note':id]=$('#'+id).value);state.days[state.day]=d;activity('workout','Day '+state.day+' movement entry saved','Push '+(d.push||0)+' · Pull '+(d.pull||0)+' · Sit-ups '+(d.situps||0)+' · Squats '+(d.squats||0)+' · Walk '+(d.walk||0)+' min');if(d.bodyMeta)activity('body','Body metadata',d.bodyMeta);$('#dailySaved').textContent='saved';persist();renderDailyHistory();renderActivity();renderBrief()};
-$('#activityForm').onsubmit=e=>{e.preventDefault();activity($('#activityType').value,$('#activityTitle').value.trim(),$('#activityDetail').value.trim());e.target.reset();persist();renderActivity();renderBrief()};
-$('#activityFilter').onchange=renderActivity;
-$('#advanceDay').onclick=()=>{if(state.day>=39)return alert('Day 39 is the end of this arc. Export the record before starting another.');if(!confirm('Close Day '+state.day+' and open Day '+(state.day+1)+'?'))return;state.day++;persist();loadDaily();renderStats();renderBrief()};
-$('#refreshBrief').onclick=renderBrief;
-const dispatch=$('#dispatchText');dispatch.value=state.dispatch;let dispatchTimer;dispatch.oninput=()=>{clearTimeout(dispatchTimer);$('#dispatchStatus').textContent='saving…';dispatchTimer=setTimeout(()=>{state.dispatch=dispatch.value;persist();$('#dispatchStatus').textContent='saved locally'},250)};
-$('#seedDispatch').onclick=()=>{const b=makeBrief();dispatch.value=b.headline+'\n\n'+b.body+'\n\nNext: '+b.next;state.dispatch=dispatch.value;persist();$('#dispatchStatus').textContent='saved locally'};
-$('#copyDispatch').onclick=async()=>{try{await navigator.clipboard.writeText(dispatch.value);$('#copyDispatch').textContent='Copied'}catch{dispatch.select();document.execCommand('copy')}setTimeout(()=>$('#copyDispatch').textContent='Copy',1000)};
-const dialog=$('#captureDialog');$('#quickAdd').onclick=()=>dialog.showModal();$('#captureSave').onclick=e=>{e.preventDefault();const text=$('#captureText').value.trim();if(!text)return;const type=$('#captureType').value;activity(type,text.split('\n')[0].slice(0,120),text);if(type==='task')state.tasks.push({id:Date.now(),text,done:false});$('#captureText').value='';persist();renderAll();dialog.close()};
-$('#exportData').onclick=()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='nyf-39-days-day-'+String(state.day).padStart(2,'0')+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),500)};
-$('#importData').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{const x=JSON.parse(await file.text());if(!x||typeof x!=='object')throw Error();state={...clone(base),...x};persist();dispatch.value=state.dispatch||'';loadDaily();renderAll()}catch{alert('That backup is not valid NYF data.')}e.target.value=''};
-document.querySelectorAll('.bottom-nav a').forEach(a=>a.onclick=()=>{document.querySelectorAll('.bottom-nav a').forEach(x=>x.classList.remove('active'));a.classList.add('active')});
-function renderAll(){renderStats();renderTasks();renderContacts();renderDailyHistory();renderActivity();renderBrief()}
-loadDaily();renderAll();
+const menuButton = document.querySelector('[data-menu]');
+const navigation = document.querySelector('[data-nav]');
+
+function closeMenu() {
+  if (!menuButton || !navigation) return;
+  menuButton.setAttribute('aria-expanded', 'false');
+  navigation.classList.remove('is-open');
+}
+
+if (menuButton && navigation) {
+  menuButton.addEventListener('click', () => {
+    const open = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', String(!open));
+    navigation.classList.toggle('is-open', !open);
+  });
+
+  navigation.addEventListener('click', event => {
+    if (event.target.closest('a')) closeMenu();
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 900) closeMenu();
+  });
+}
+
+document.querySelectorAll('[data-year]').forEach(node => {
+  node.textContent = new Date().getFullYear();
+});
+
+const revealItems = document.querySelectorAll('[data-reveal]');
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.12 });
+  revealItems.forEach(item => observer.observe(item));
+} else {
+  revealItems.forEach(item => item.classList.add('is-visible'));
+}

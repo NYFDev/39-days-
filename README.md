@@ -1,24 +1,15 @@
-# 39 DAYS
+# NYF Holdings public site
 
-Private execution engine, evidence ledger, and living editorial system behind the NYF Holdings transformation arc.
+Public-facing website for `nyfholdings.ca`.
 
-## Functional baseline
+## Architecture
 
-The first product slice is intentionally dependency-free and mobile-first. Open `index.html` to run it.
+- `/` — NYF Holdings corporate landing page
+- `/east-corner/` — East Corner editorial desk
+- `/39-days/` — 39 DAYS public documentary page
 
-It includes:
-- a 39-day command dashboard
-- persistent execution checklist
-- evidence / receipt ledger
-- East Corner editorial desk
-- builder / billionaire / entrepreneur watchlist
-- private daily dispatch drafting
-- quick capture with local browser persistence
+The private operational hub is intentionally not part of this public build.
 
-## Product rule
+## Deployment
 
-The system should always return attention to the next material action while preserving enough evidence to tell the story later. Execution produces receipts. Receipts feed editorial. Editorial restores context and points back to execution.
-
-## Branch
-
-Current build work lives on `agent/functional-baseline` until reviewed and merged into `main`.
+GitHub Pages publishes the repository root from `main`. The `CNAME` file binds the deployment to `nyfholdings.ca`.
