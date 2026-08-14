@@ -31,6 +31,7 @@
 
 .east-article .article-hero { background: var(--orange); }
 .days-article .article-hero { background: var(--acid); }
+.signal-article .article-hero { background: var(--blue); color: white; }
 .archive-hero { background: var(--blue); color: white; }
 
 .article-hero-inner,
@@ -159,6 +160,28 @@
 .archive-card h2 { margin: auto 0 1.4rem; font-family: var(--serif); font-size: clamp(2.7rem, 5vw, 5.2rem); line-height: .9; letter-spacing: -.055em; font-weight: 400; }
 .archive-card p { max-width: 540px; margin: 0; color: #625e56; }
 .archive-card:hover p { color: #bdb8ad; }
+.current-signal { margin-top: clamp(4rem, 8vw, 8rem); padding: clamp(2rem, 5vw, 4.5rem); background: var(--ink); color: var(--paper); }
+.current-signal .archive-label { color: var(--acid); }
+.current-signal h2 { max-width: 940px; margin: 2rem 0 1.25rem; font-family: var(--serif); font-size: clamp(3.2rem, 7vw, 7.2rem); font-weight: 400; line-height: .86; letter-spacing: -.065em; }
+.current-signal > p { max-width: 720px; color: #cbc6bc; font-size: 1.08rem; }
+.signal-route-map { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 2.5rem; border-top: 1px solid #3a3935; border-left: 1px solid #3a3935; }
+.signal-route-map span { min-height: 92px; padding: 1rem; border-right: 1px solid #3a3935; border-bottom: 1px solid #3a3935; color: var(--paper); font-size: .72rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+.signal-route-map b { display: block; margin-bottom: .35rem; color: var(--orange); font-size: 1.2rem; }
+.signal-prose { max-width: 920px; }
+.signal-method { margin: 0 0 4rem; padding: 1.3rem 1.5rem; border: 1px solid var(--line-light); background: #e8e4da; font-size: .86rem; }
+.signal-lane { margin-top: 5rem; }
+.signal-lane:first-of-type { margin-top: 0; }
+.signal-lane-head { display: flex; justify-content: space-between; gap: 1rem; align-items: end; padding-bottom: 1rem; border-bottom: 5px solid var(--ink); }
+.signal-lane-head h2 { margin: 0; }
+.signal-lane-head span { padding-bottom: .4rem; color: var(--blue); font-size: .66rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+.signal-item { display: grid; grid-template-columns: minmax(100px, .25fr) minmax(0, 1fr); gap: clamp(1rem, 4vw, 3rem); padding: 2rem 0; border-bottom: 1px solid var(--line-light); }
+.signal-item-meta { color: #68635a; font-size: .68rem; font-weight: 900; letter-spacing: .09em; line-height: 1.6; text-transform: uppercase; }
+.signal-item-meta span, .signal-item-meta time { display: block; }
+.signal-item h3 { margin: 0 0 .8rem; font-family: var(--serif); font-size: clamp(2rem, 4vw, 3.6rem); font-weight: 400; letter-spacing: -.045em; line-height: .98; text-transform: none; }
+.signal-item p { margin: 0 0 1rem; }
+.signal-item .signal-why { padding-left: 1rem; border-left: 3px solid var(--orange); color: #4e4b45; font-size: .96rem; }
+.signal-source { display: inline-flex; align-items: center; gap: .5rem; color: var(--blue); font-size: .72rem; font-weight: 900; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
+.signal-source:hover { text-decoration: underline; }
 .subscribe-panel { margin-top: clamp(4rem, 8vw, 8rem); padding: clamp(2rem, 6vw, 6rem); background: var(--acid); }
 .subscribe-panel h2 { max-width: 900px; margin: 0; font-family: var(--serif); font-size: clamp(3rem, 7vw, 7rem); font-weight: 400; line-height: .9; letter-spacing: -.06em; }
 .subscribe-panel p { max-width: 570px; margin: 2rem 0; }
@@ -193,6 +216,7 @@
   .article-aside { position: static; }
   .article-aside a { display: inline-block; margin-right: 1rem; border-bottom: 0; }
   .archive-intro { grid-template-columns: 1fr; }
+  .signal-route-map { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 650px) {
@@ -204,5 +228,7 @@
   .archive-deck { margin-top: 2.4rem; }
   .archive-grid { grid-template-columns: 1fr; }
   .archive-card { min-height: 350px; }
+  .signal-item { grid-template-columns: 1fr; }
+  .signal-lane-head { align-items: start; flex-direction: column; }
   .prose h2 { margin-top: 4rem; }
 }

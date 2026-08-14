@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "issue": "signal-001",
+  "title": "Capital Is Moving. The Rails Are Catching Up.",
+  "url": "https://nyfholdings.ca/newsletter/signal-001/",
+  "publishedAt": "2026-08-14T16:00:00-06:00",
+  "scope": ["enterprise", "capital", "culture", "record"],
+  "method": "AI-assisted source synthesis with direct links to the originating publishers.",
+  "items": [
+    {
+      "lane": "capital",
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-14",
+      "headline": "Kenya widens the map of sovereign borrowing",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenya-plans-issue-eurobonds-samurai-bonds-202627-finance-ministry-says-2026-08-14/",
+      "summary": "Kenya's borrowing plan considers a first $300-million panda bond alongside Eurobond, Japanese-market, diaspora and sustainability-linked instruments while seeking to retire costly external debt.",
+      "whyItMatters": "The financing map is diversifying, making the cost, currency and accountability structure of each instrument as important as the amount raised."
+    },
+    {
+      "lane": "capital",
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-05",
+      "headline": "Nairobi plans a local doorway into the global AI trade",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenyas-stock-exchange-plans-east-africas-first-ai-focused-etf-2026-08-05/",
+      "summary": "The Nairobi Securities Exchange is developing an AI-focused ETF that could trade in Kenyan shillings before year-end.",
+      "whyItMatters": "A domestic wrapper can widen access and reduce currency friction while importing global technology-valuation risk."
+    },
+    {
+      "lane": "capital",
+      "source": "African Development Bank",
+      "sourcePublishedAt": "2026-06-24",
+      "headline": "A $9-million grant targets regional financial plumbing",
+      "sourceUrl": "https://www.afdb.org/en/news-and-events/african-development-fund-approves-9-million-grant-strengthen-financial-integration-across-east-africa-94838",
+      "summary": "The African Development Fund approved funding for East Africa and Horn of Africa capital-market and payment-system integration.",
+      "whyItMatters": "Cross-border settlement and capital-market rails determine whether regional investment can become repeatable."
+    },
+    {
+      "lane": "capital",
+      "source": "IOM / COMESA",
+      "sourcePublishedAt": "2026-06-23",
+      "headline": "Diaspora investment is being treated as corridor infrastructure",
+      "sourceUrl": "https://ehsa.iom.int/news/iom-and-comesa-advance-diaspora-investment-agenda-unlock-trade-corridor-opportunities-eastern-and-southern-africa",
+      "summary": "IOM and COMESA connected diaspora networks with entrepreneurship, investment and trade-corridor opportunities across Eastern and Southern Africa.",
+      "whyItMatters": "The institutional challenge is converting trust, expertise and remittance flows into productive investment without removing community control."
+    },
+    {
+      "lane": "enterprise",
+      "source": "Associated Press",
+      "sourcePublishedAt": "2026-06-01",
+      "headline": "Spiro's $215-million raise is a bet on the network",
+      "sourceUrl": "https://apnews.com/article/d9d5b52ef513cf5929c8828e252fa4c2",
+      "summary": "Spiro raised $215 million to expand an electric-mobility network it says includes 100,000 vehicles and 2,500 battery-swap stations across seven African markets.",
+      "whyItMatters": "The defensible asset is physical coverage and recurring energy access, not only the motorcycle."
+    },
+    {
+      "lane": "enterprise",
+      "source": "Menterprise Africa",
+      "sourcePublishedAt": "2026-08-03",
+      "headline": "Fifteen current doors for founders, researchers and creatives",
+      "sourceUrl": "https://menterprise.africa/august-2026-opportunities-african-entrepreneurs-innovators/",
+      "summary": "The August round-up collects current grants, accelerators, competitions and market-access programmes for African applicants.",
+      "whyItMatters": "Aggregation becomes useful when scattered calls become a decision surface, with primary eligibility and deadline checks retained."
+    },
+    {
+      "lane": "culture",
+      "source": "Vogue",
+      "sourcePublishedAt": "2026-08-10",
+      "headline": "Diaspora Calling! returns as a 35,000-person platform",
+      "sourceUrl": "https://www.vogue.com/article/lauryn-hill-diaspora-calling-festival",
+      "summary": "Lauryn Hill revived Diaspora Calling! with music, art, design and political dialogue across the African diaspora.",
+      "whyItMatters": "Cultural scale becomes infrastructure when a gathering creates durable relationships among artists, organizers, businesses and communities."
+    },
+    {
+      "lane": "record",
+      "source": "Horn of Africa Initiative",
+      "sourcePublishedAt": "2026-04-01",
+      "headline": "The regional portfolio is already measured in ten billions",
+      "sourceUrl": "https://hoainitiative.org/projects",
+      "summary": "The Horn of Africa Initiative reports 147 active projects with commitments totalling about $10.541 billion across four pillars.",
+      "whyItMatters": "A portfolio this large should be judged through project-level delivery, procurement, access and unfinished work—not pledge totals alone."
+    }
+  ]
+}
