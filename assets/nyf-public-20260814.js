@@ -1,4 +1,9 @@
 // NYF Holdings public release 2026-08-14
+const operationsFragments = new Set(['#crm', '#command', '#daily', '#activity', '#intelligence']);
+if (operationsFragments.has(window.location.hash.toLowerCase())) {
+  window.location.replace(`https://ops.nyfholdings.ca/${window.location.hash}`);
+}
+
 const menuButton = document.querySelector('[data-menu]');
 const navigation = document.querySelector('[data-nav]');
 
