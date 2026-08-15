@@ -1,0 +1,48 @@
+name: East Corner daily publisher
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/east-corner-publisher.yml'
+  schedule:
+    - cron: '0 14 * * *'
+    - cron: '0 15 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: east-corner-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Publish East Corner signal
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: python scripts/publish_east_corner.py
+
+      - name: Commit published issue
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No publisher changes to commit."
+            exit 0
+          fi
+          git config user.name "NYF East Corner Publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add newsletter feed.xml
+          git commit -m "Publish East Corner daily signal"
+          git push
