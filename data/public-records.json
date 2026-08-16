@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 2,
-  "generatedAt": "2026-08-16T01:40:02.723Z",
-  "count": 8,
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-15T19:41:00.836433-06:00",
+  "recordCount": 35,
   "records": [
     {
       "id": "record:github:d8637ef39d9d55ab0110",
@@ -1700,6 +1700,5 @@
       ],
       "payload": {}
     }
-  ],
-  "updatedAt": "2026-08-15T19:41:00.836433-06:00"
+  ]
 }
