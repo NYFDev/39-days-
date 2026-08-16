@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nyfholdings.ca/data/record.schema.json",
+  "title": "NYF Canonical Record",
+  "type": "object",
+  "required": ["id", "kind", "visibility", "status", "title", "occurredAt", "ingestedAt", "source", "taxonomy"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]+$" },
+    "kind": { "enum": ["source", "event", "note", "dispatch", "article", "project", "activity"] },
+    "visibility": { "enum": ["private", "internal", "public"] },
+    "status": { "enum": ["raw", "normalized", "review", "published", "archived"] },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string" },
+    "whyItMatters": { "type": "string" },
+    "occurredAt": { "type": "string", "format": "date-time" },
+    "ingestedAt": { "type": "string", "format": "date-time" },
+    "publishedAt": { "type": ["string", "null"], "format": "date-time" },
+    "source": {
+      "type": "object",
+      "required": ["system", "type", "locator"],
+      "properties": {
+        "system": { "enum": ["web", "gmail", "calendar", "drive", "github", "manual", "crm"] },
+        "type": { "type": "string" },
+        "locator": { "type": "string" },
+        "url": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "taxonomy": {
+      "type": "object",
+      "required": ["lanes", "topics", "geographies", "entities"],
+      "properties": {
+        "lanes": { "type": "array", "items": { "enum": ["enterprise", "capital", "culture", "record", "operations", "39-days"] } },
+        "topics": { "type": "array", "items": { "type": "string" } },
+        "geographies": { "type": "array", "items": { "type": "string" } },
+        "entities": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "publication": {
+      "type": "object",
+      "properties": {
+        "url": { "type": ["string", "null"] },
+        "surfaces": { "type": "array", "items": { "enum": ["east-corner", "journal", "newsletter", "activity", "39-days", "rss"] } }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "recordVersion": { "type": "integer", "minimum": 1 },
+        "derivedFrom": { "type": "array", "items": { "type": "string" } },
+        "verified": { "type": "boolean" }
+      }
+    }
+  },
+  "additionalProperties": true
+}
