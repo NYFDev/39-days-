@@ -1,56 +1,69 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://nyfholdings.ca/data/record.schema.json",
-  "title": "NYF Canonical Record",
+  "title": "NYF Canonical Record v2",
   "type": "object",
-  "required": ["id", "kind", "visibility", "status", "title", "occurredAt", "ingestedAt", "source", "taxonomy"],
+  "required": ["id", "schemaVersion", "visibility", "kind", "source", "title", "observedAt", "status"],
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]+$" },
-    "kind": { "enum": ["source", "event", "note", "dispatch", "article", "project", "activity"] },
-    "visibility": { "enum": ["private", "internal", "public"] },
-    "status": { "enum": ["raw", "normalized", "review", "published", "archived"] },
-    "title": { "type": "string", "minLength": 1 },
-    "summary": { "type": "string" },
-    "whyItMatters": { "type": "string" },
-    "occurredAt": { "type": "string", "format": "date-time" },
-    "ingestedAt": { "type": "string", "format": "date-time" },
-    "publishedAt": { "type": ["string", "null"], "format": "date-time" },
+    "schemaVersion": { "const": 2 },
+    "visibility": { "enum": ["public", "internal", "private"] },
+    "kind": { "enum": ["article", "report", "event", "email", "calendar", "document", "crm", "note", "artifact"] },
     "source": {
       "type": "object",
-      "required": ["system", "type", "locator"],
+      "required": ["name", "type"],
       "properties": {
-        "system": { "enum": ["web", "gmail", "calendar", "drive", "github", "manual", "crm"] },
-        "type": { "type": "string" },
-        "locator": { "type": "string" },
-        "url": { "type": ["string", "null"] }
+        "name": { "type": "string" },
+        "type": { "enum": ["web", "gmail", "calendar", "drive", "crm", "manual", "repository"] },
+        "canonicalUrl": { "type": "string" },
+        "externalId": { "type": "string" },
+        "publishedAt": { "type": ["string", "null"] },
+        "retrievedAt": { "type": ["string", "null"] }
       },
       "additionalProperties": true
     },
-    "taxonomy": {
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string" },
+    "context": { "type": "string" },
+    "observedAt": { "type": "string" },
+    "entities": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "geography": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "lanes": { "type": "array", "items": { "enum": ["enterprise", "capital", "culture", "record", "operations", "39-days"] }, "default": [] },
+    "topics": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "projects": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "status": { "enum": ["ingested", "enriched", "verified", "editorial", "published", "archived"] },
+    "verification": {
       "type": "object",
-      "required": ["lanes", "topics", "geographies", "entities"],
       "properties": {
-        "lanes": { "type": "array", "items": { "enum": ["enterprise", "capital", "culture", "record", "operations", "39-days"] } },
-        "topics": { "type": "array", "items": { "type": "string" } },
-        "geographies": { "type": "array", "items": { "type": "string" } },
-        "entities": { "type": "array", "items": { "type": "string" } }
-      }
+        "state": { "enum": ["unreviewed", "source-checked", "verified", "disputed"] },
+        "checkedAt": { "type": ["string", "null"] },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
     },
-    "publication": {
-      "type": "object",
-      "properties": {
-        "url": { "type": ["string", "null"] },
-        "surfaces": { "type": "array", "items": { "enum": ["east-corner", "journal", "newsletter", "activity", "39-days", "rss"] } }
-      }
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["surface"],
+        "properties": {
+          "surface": { "enum": ["east-corner", "newsletter", "feed", "39-days", "activity", "site"] },
+          "slug": { "type": "string" },
+          "publishedUrl": { "type": "string" },
+          "publishedAt": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
+      "default": []
     },
+    "payload": { "type": "object", "default": {} },
     "provenance": {
       "type": "object",
       "properties": {
-        "recordVersion": { "type": "integer", "minimum": 1 },
-        "derivedFrom": { "type": "array", "items": { "type": "string" } },
-        "verified": { "type": "boolean" }
-      }
+        "derivedFrom": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
     }
   },
-  "additionalProperties": true
+  "additionalProperties": false
 }

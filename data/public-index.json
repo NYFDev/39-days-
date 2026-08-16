@@ -1,12 +1,101 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-16T01:40:02.724Z",
-  "count": 8,
+  "generatedAt": "2026-08-15T00:00:00.000Z",
+  "count": 27,
   "records": [
+    {
+      "id": "record:repository:284a35c2fd7391a776f3",
+      "kind": "artifact",
+      "title": "The Region Is Financing Its Connective Tissue.",
+      "summary": "Eight source-linked signals on regional infrastructure, capital, culture and the public record across East Africa, the Horn and its diaspora.",
+      "observedAt": "2026-08-15",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/signal-002/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "aggregated newsletter",
+        "East Africa",
+        "Horn of Africa",
+        "diaspora",
+        "infrastructure",
+        "capital",
+        "enterprise",
+        "culture"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-002/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:54900d94fab56220874e",
+      "kind": "artifact",
+      "title": "The Dispatch Newsletter",
+      "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
+      "observedAt": "2026-08-15",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/",
+      "lanes": [
+        "enterprise",
+        "capital",
+        "culture",
+        "record"
+      ],
+      "topics": [
+        "newsletter",
+        "Dispatch",
+        "RSS",
+        "subscribe",
+        "free content"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:dd85b6673b4a5385dacc",
+      "kind": "artifact",
+      "title": "MVP Build Log",
+      "summary": "The public acceptance log for the NYF Holdings MVP: seven elapsed days and zero accepted deployments before the Day 07 release.",
+      "observedAt": "2026-08-15",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/build-log/",
+      "lanes": [
+        "operations",
+        "record"
+      ],
+      "topics": [
+        "build log",
+        "deployment",
+        "zero for seven",
+        "MVP",
+        "acceptance record"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/build-log/",
+          "publishedUrl": "https://nyfholdings.ca/build-log/"
+        }
+      ]
+    },
     {
       "id": "web:aotad:2027-registration-2026-08-15",
       "kind": "event",
       "title": "A diaspora exhibition opens its next public intake",
+      "summary": "Registration opens today for Art of the African Diaspora’s 2027 exhibition at Richmond Art Center. The non-juried exhibition runs from January 20 to March 20, 2027, and registration closes October 20, 2026.",
       "observedAt": "2026-08-15",
       "source": "Art of the African Diaspora",
       "sourceUrl": "https://aotad.org/",
@@ -26,6 +115,473 @@
           "surface": "newsletter",
           "slug": "signal-002",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:04a1d8efd3c1921de4bf",
+      "kind": "artifact",
+      "title": "Look Where the Centre Does Not",
+      "summary": "The opening East Corner note on enterprise, capital, culture and the work that disappears when coverage begins at the centre.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/east-corner/dispatch-001/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "frame",
+        "enterprise",
+        "capital",
+        "culture",
+        "record",
+        "builders"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/east-corner/dispatch-001/",
+          "publishedUrl": "https://nyfholdings.ca/east-corner/dispatch-001/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:0db6a208cbd2fef7b1d4",
+      "kind": "artifact",
+      "title": "Ten Cots",
+      "summary": "A long-form documentary and memoir project in development, with the public scope separated from its private source archive.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/ten-cots/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "Ten Cots",
+        "memoir",
+        "documentary",
+        "archive",
+        "long form"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/ten-cots/",
+          "publishedUrl": "https://nyfholdings.ca/ten-cots/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:1e0de02b427bc0bba223",
+      "kind": "artifact",
+      "title": "East Corner Archive",
+      "summary": "The permanent web archive for every released East Corner dispatch.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/east-corner/archive/",
+      "lanes": [
+        "enterprise",
+        "capital",
+        "culture",
+        "record"
+      ],
+      "topics": [
+        "East Corner",
+        "dispatches",
+        "editorial archive",
+        "articles"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/east-corner/archive/",
+          "publishedUrl": "https://nyfholdings.ca/east-corner/archive/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:1e91383efb5708288a32",
+      "kind": "artifact",
+      "title": "NYF Holdings",
+      "summary": "NYF Holdings builds public editorial, documentary and financial systems from a disciplined living record.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "holding company",
+        "Alberta",
+        "public MVP",
+        "portfolio",
+        "capital",
+        "evidence"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/",
+          "publishedUrl": "https://nyfholdings.ca/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:28da03b2501a6eade48c",
+      "kind": "artifact",
+      "title": "The NYF Method",
+      "summary": "Retrieval before reconstruction, evidence before mythology, and the working thesis QL = WN × SL.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/method/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "method",
+        "retrieval",
+        "evidence",
+        "quality of life",
+        "wins noticed",
+        "standard of life"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/method/",
+          "publishedUrl": "https://nyfholdings.ca/method/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:607a08bfdeda7b491f3a",
+      "kind": "artifact",
+      "title": "East Corner",
+      "summary": "An independent editorial desk following enterprise, capital, culture and overlooked builders across the Horn of Africa and its diaspora.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/east-corner/",
+      "lanes": [
+        "enterprise",
+        "capital",
+        "culture",
+        "record"
+      ],
+      "topics": [
+        "Horn of Africa",
+        "diaspora",
+        "enterprise",
+        "wealth",
+        "culture",
+        "builders"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/east-corner/",
+          "publishedUrl": "https://nyfholdings.ca/east-corner/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:759a087abc335cc9dd69",
+      "kind": "artifact",
+      "title": "Journal",
+      "summary": "Every free public article released by NYF Holdings, East Corner and 39 DAYS in one searchable web archive.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/blog/",
+      "lanes": [
+        "enterprise",
+        "capital",
+        "culture",
+        "record"
+      ],
+      "topics": [
+        "blog",
+        "articles",
+        "free content",
+        "archive",
+        "daily blog"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/blog/",
+          "publishedUrl": "https://nyfholdings.ca/blog/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:841ea57f274ef0766ef8",
+      "kind": "artifact",
+      "title": "The Alchemical Ledger",
+      "summary": "A financial record-organizing system in development: capture, extract, categorize and surface. This is a ledger, not an advisor.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/alchemical-ledger/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "ledger",
+        "records",
+        "categorize",
+        "financial administration",
+        "in development"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/alchemical-ledger/",
+          "publishedUrl": "https://nyfholdings.ca/alchemical-ledger/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:8444eb722c9d857b4806",
+      "kind": "artifact",
+      "title": "Research Desk",
+      "summary": "The public map for NYF research themes, reading lists and source-verified editorial notes.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/research/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "research",
+        "epigenetic dysregulation",
+        "attachment",
+        "polyvagal theory",
+        "allostatic load",
+        "fascia",
+        "somatic rewiring"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/research/",
+          "publishedUrl": "https://nyfholdings.ca/research/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:889ee8b3ca7317b663cd",
+      "kind": "artifact",
+      "title": "Zero for Seven Is the Record",
+      "summary": "Seven elapsed build days, zero previously accepted deployments, and the acceptance standard for the first public MVP.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/39-days/day-07/",
+      "lanes": [
+        "39-days",
+        "record"
+      ],
+      "topics": [
+        "day 07",
+        "zero for seven",
+        "deployment",
+        "MVP",
+        "acceptance"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/39-days/day-07/",
+          "publishedUrl": "https://nyfholdings.ca/39-days/day-07/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:94513b7e76da4a9cbdcc",
+      "kind": "artifact",
+      "title": "Operating System",
+      "summary": "A public map of the private NYF operating system: daily entry, CRM, activity, evidence, projects, financial administration, research and dispatch drafting.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/operations/",
+      "lanes": [
+        "operations",
+        "record"
+      ],
+      "topics": [
+        "operations",
+        "CRM",
+        "activity stream",
+        "evidence",
+        "daily entry",
+        "private workspace"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/operations/",
+          "publishedUrl": "https://nyfholdings.ca/operations/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:9cafc8833d682d7c38bb",
+      "kind": "artifact",
+      "title": "Capital Is Moving. The Rails Are Catching Up.",
+      "summary": "Eight source-linked signals across enterprise, capital, culture and the public record in East Africa, the Horn and its diaspora.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/signal-001/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "aggregated newsletter",
+        "source intelligence",
+        "East Africa",
+        "Horn of Africa",
+        "diaspora",
+        "capital",
+        "enterprise",
+        "culture"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-001/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-001/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:a1abc5e6c777dccde372",
+      "kind": "artifact",
+      "title": "39 DAYS Archive",
+      "summary": "The released day-by-day public record, with elapsed days and publication status stated plainly.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/39-days/archive/",
+      "lanes": [
+        "39-days",
+        "record"
+      ],
+      "topics": [
+        "39 days",
+        "archive",
+        "day 07",
+        "build record",
+        "chronology"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/39-days/archive/",
+          "publishedUrl": "https://nyfholdings.ca/39-days/archive/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:a971ff855d299002f4f4",
+      "kind": "artifact",
+      "title": "Projects",
+      "summary": "The public route map for East Corner, 39 DAYS, the Alchemical Ledger, the Research Desk and Ten Cots.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/projects/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "portfolio",
+        "projects",
+        "products",
+        "publishing",
+        "documentary"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/projects/",
+          "publishedUrl": "https://nyfholdings.ca/projects/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:b57cfbd5b02c1641cc16",
+      "kind": "artifact",
+      "title": "39 DAYS",
+      "summary": "A transformation documented while it is happening through execution, receipts, setbacks and a public record.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/39-days/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "39 days",
+        "daily record",
+        "execution",
+        "receipts",
+        "documentary"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/39-days/",
+          "publishedUrl": "https://nyfholdings.ca/39-days/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:e9188e0a73c7e1bffdfe",
+      "kind": "artifact",
+      "title": "Search NYF Holdings",
+      "summary": "Search every public NYF Holdings project, article, archive and operating note from one index.",
+      "observedAt": "2026-08-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/search/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "search",
+        "site index",
+        "find",
+        "directory"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/search/",
+          "publishedUrl": "https://nyfholdings.ca/search/"
         }
       ]
     },
@@ -33,6 +589,7 @@
       "id": "web:reuters:traxtion-regional-rail-2026-08-14",
       "kind": "article",
       "title": "Private rail capital is following open-access reform",
+      "summary": "Traxtion’s 3.4-billion-rand rolling-stock programme covers 46 locomotives and 920 wagons as African freight networks open to private operators. The company points to corridor investments including the $1.4-billion TAZARA concession linking Tanzania and Zambia.",
       "observedAt": "2026-08-14",
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/africa/south-africas-traxtion-bets-regional-rail-reforms-mineral-boom-2026-08-14/",
@@ -55,6 +612,21 @@
           "surface": "newsletter",
           "slug": "signal-002",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
         }
       ]
     },
@@ -62,6 +634,7 @@
       "id": "web:reuters:standard-bank-tanzania-2026-08-13",
       "kind": "article",
       "title": "Standard Bank puts another $80 million behind Tanzania",
+      "summary": "Standard Bank injected an additional $80 million into its Tanzania business in July. The group reported half-year headline earnings of 26.1 billion rand, up 10%, and expects rate-related pressure in its Africa operations to continue easing.",
       "observedAt": "2026-08-13",
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/africa/standard-bank-profit-jumps-10-fee-trading-growth-lower-impairments-2026-08-13/",
@@ -82,6 +655,21 @@
           "surface": "newsletter",
           "slug": "signal-002",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
         }
       ]
     },
@@ -89,6 +677,7 @@
       "id": "web:eac:ai4eac-2026-08-12",
       "kind": "article",
       "title": "A regional AI challenge pairs skills with a prize pool",
+      "summary": "The EAC and Germany launched the second AI4EAC challenge, aiming to skill 20,000 people across all partner states and offering $50,000 in prize funding for teams working on regional problems.",
       "observedAt": "2026-08-12",
       "source": "East African Community",
       "sourceUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3578-eac-and-germany-launch-2nd-artificial-intelligence-innovation-challenge-to-equip-east-african-for-the-digital-economy",
@@ -108,6 +697,21 @@
           "surface": "newsletter",
           "slug": "signal-002",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
         }
       ]
     },
@@ -115,6 +719,7 @@
       "id": "web:eac:germany-grant-2026-08-12",
       "kind": "article",
       "title": "Germany commits €39.8 million to the integration layer",
+      "summary": "Germany committed €39.8 million in new grant funding after development-cooperation negotiations with the EAC, with the package directed toward regional trade and economic integration.",
       "observedAt": "2026-08-12",
       "source": "East African Community",
       "sourceUrl": "https://www.eac.int/press-releases/155-resource-mobilization/3577-eac-and-germany-renew-cooperation-to-advance-regional-integration-with-%E2%82%AC39-8-million-in-new-grant-funding",
@@ -134,6 +739,21 @@
           "surface": "newsletter",
           "slug": "signal-002",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
         }
       ]
     },
@@ -141,6 +761,7 @@
       "id": "web:afdb:east-africa-outlook-2026-07-30",
       "kind": "report",
       "title": "East Africa’s growth outlook comes with a financing condition",
+      "summary": "The African Development Bank’s 2026 regional outlook projects East African growth of 5.9% in 2026 while arguing that sustaining it will require smarter financing and structural reform.",
       "observedAt": "2026-07-30",
       "source": "African Development Bank",
       "sourceUrl": "https://www.afdb.org/en/news-and-events/regional-economic-outlook-2026-new-report-shows-east-africa-can-sustain-strong-regional-growth-through-smarter-financing-bold-reforms-95923",
@@ -160,6 +781,21 @@
           "surface": "newsletter",
           "slug": "signal-002",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
         }
       ]
     },
@@ -167,6 +803,7 @@
       "id": "web:igad:stabilization-plan-2026-07-28",
       "kind": "report",
       "title": "IGAD lays out a year of regional stabilization work",
+      "summary": "IGAD completed internal planning for an EU-funded project supporting dialogue, mediation, preventive diplomacy and institutional strengthening in Sudan, South Sudan and the wider region. Its coordinated action plan runs from August 2026 through July 2027.",
       "observedAt": "2026-07-28",
       "source": "IGAD",
       "sourceUrl": "https://igad.int/igad-strengthens-internal-coordination-for-eu-funded-regional-stabilization-project/",
@@ -188,6 +825,21 @@
           "surface": "newsletter",
           "slug": "signal-002",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
         }
       ]
     },
@@ -195,6 +847,7 @@
       "id": "web:acasa:dissertation-grant-2026-06-02",
       "kind": "article",
       "title": "A new dissertation grant funds work before the archive hardens",
+      "summary": "ACASA launched a donor-funded grant for continuing PhD students researching the arts and cultures of Africa and the African diaspora. One or more $5,000 awards will be made annually, with the first application cycle opening in fall 2026.",
       "observedAt": "2026-06-02",
       "source": "Arts Council of the African Studies Association",
       "sourceUrl": "https://www.acasaonline.org/arts-council-of-the-african-studies-association-acasa-announces-grant-for-innovative-early-dissertation-research/",
@@ -214,6 +867,21 @@
       "outputs": [
         {
           "surface": "newsletter",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        },
+        {
+          "surface": "activity",
           "slug": "signal-002",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
         }

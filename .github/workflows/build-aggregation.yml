@@ -1,47 +1,36 @@
-name: Build aggregation projections
+name: Validate aggregation and discovery
 
 on:
-  push:
-    branches:
-      - main
-      - agent/next-generation-aggregation
-    paths:
-      - 'aggregation/**'
-      - '.github/workflows/build-aggregation.yml'
   pull_request:
     paths:
       - 'aggregation/**'
-      - '.github/workflows/build-aggregation.yml'
+      - 'assets/nyf-records.js'
+      - 'data/record.schema.json'
+      - 'newsletter/**'
+      - 'search-index.json'
+      - 'sitemap.xml'
+      - 'scripts/**'
+      - '.github/workflows/**'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Synchronize discovery inventory
+        run: python scripts/sync_discovery.py
       - name: Build canonical public projections
         run: node aggregation/build.mjs
-      - name: Commit generated data on branch pushes
-        if: github.event_name == 'push'
-        run: |
-          if git diff --quiet -- data/; then
-            echo 'Aggregation projections already current.'
-            exit 0
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/records.json data/public-index.json
-          git commit -m 'build aggregation projections'
-          git push
-      - name: Verify pull-request projections build
-        if: github.event_name == 'pull_request'
-        run: |
-          test -s data/records.json
-          test -s data/public-index.json
+      - name: Audit canonical routes and public records
+        run: python scripts/audit_public_site.py
+      - name: Require generated files to be committed
+        run: git diff --exit-code -- sitemap.xml data/records.json data/public-index.json data/public-records.json

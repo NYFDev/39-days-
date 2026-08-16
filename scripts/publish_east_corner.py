@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -12,6 +13,8 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 NEWS = ROOT / "newsletter"
+AGGREGATION_SOURCES = ROOT / "aggregation" / "sources"
+SEARCH_INDEX = ROOT / "search-index.json"
 TZ = ZoneInfo("America/Edmonton")
 BASE = "https://nyfholdings.ca"
 UA = "NYF-Holdings-East-Corner/1.0 (+https://nyfholdings.ca/newsletter/)"
@@ -122,6 +125,90 @@ def next_signal():
     return max(nums, default=0) + 1
 
 
+def stable_record_id(url):
+    digest = hashlib.sha256(f"web:{url}".encode()).hexdigest()[:20]
+    return f"record:web:{digest}"
+
+
+def normalized_source_records(number, now, items):
+    issue = f"signal-{number:03d}"
+    issue_url = f"{BASE}/newsletter/{issue}/"
+    retrieved = now.isoformat(timespec="seconds")
+    outputs = [
+        {"surface": surface, "slug": issue, "publishedUrl": issue_url, "publishedAt": retrieved}
+        for surface in ["newsletter", "east-corner", "feed", "activity"]
+    ]
+    return [
+        {
+            "id": stable_record_id(item["sourceUrl"]),
+            "schemaVersion": 2,
+            "visibility": "public",
+            "kind": "article",
+            "source": {
+                "name": item["source"],
+                "type": "web",
+                "canonicalUrl": item["sourceUrl"],
+                "publishedAt": item["sourcePublishedAt"],
+                "retrievedAt": retrieved,
+            },
+            "title": item["headline"],
+            "summary": item["summary"],
+            "context": item["whyItMatters"],
+            "observedAt": item["sourcePublishedAt"],
+            "entities": [item["source"]],
+            "geography": item.get("geography", []),
+            "lanes": [item["lane"]],
+            "topics": item.get("topics", []),
+            "projects": ["east-corner"],
+            "status": "published",
+            "verification": {
+                "state": "source-checked",
+                "checkedAt": retrieved,
+                "notes": "Direct publisher URL retained; automated summary requires source review before reliance.",
+            },
+            "outputs": outputs,
+            "payload": {"whyItMatters": item["whyItMatters"], "issue": issue},
+        }
+        for item in items
+    ]
+
+
+def write_source_batch(number, now, items):
+    AGGREGATION_SOURCES.mkdir(parents=True, exist_ok=True)
+    issue = f"signal-{number:03d}"
+    path = AGGREGATION_SOURCES / f"newsletter-{issue}.json"
+    path.write_text(
+        json.dumps(normalized_source_records(number, now, items), indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+
+def update_search_index(number, now, items):
+    entries = json.loads(SEARCH_INDEX.read_text(encoding="utf-8"))
+    issue = f"signal-{number:03d}"
+    route = f"/newsletter/{issue}/"
+    description = f"{len(items)} source-linked signals across enterprise, capital, culture and the public record."
+    record = {
+        "url": route,
+        "title": f"NYF Signal {number:03d}: East Corner daily signal",
+        "section": "Newsletter",
+        "description": description,
+        "keywords": ["East Corner", "newsletter", "enterprise", "capital", "culture", "source aggregation"],
+        "lastModified": now.date().isoformat(),
+    }
+
+    entries = [entry for entry in entries if entry.get("url") != route]
+    newsletter_position = next(
+        (index + 1 for index, entry in enumerate(entries) if entry.get("url") == "/newsletter/"),
+        len(entries),
+    )
+    entries.insert(newsletter_position, record)
+    for entry in entries:
+        if entry.get("url") == "/newsletter/":
+            entry["lastModified"] = now.date().isoformat()
+    SEARCH_INDEX.write_text(json.dumps(entries, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
 def esc(s):
     return html.escape(str(s), quote=True)
 
@@ -194,7 +281,11 @@ def main():
         "method": "Automated source discovery with direct publisher links; summaries use publisher metadata where available.",
         "items": items,
     }
-    (NEWS / "latest.json").write_text(json.dumps(latest, indent=2, ensure_ascii=False) + "\n")
+    issue_data = json.dumps(latest, indent=2, ensure_ascii=False) + "\n"
+    (out / "data.json").write_text(issue_data, encoding="utf-8")
+    (NEWS / "latest.json").write_text(issue_data, encoding="utf-8")
+    write_source_batch(number, now, items)
+    update_search_index(number, now, items)
     update_index(number, now, items)
     update_feed(number, now, items)
     print(f"Published {issue} with {len(items)} items.")

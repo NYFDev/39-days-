@@ -5,18 +5,23 @@ on:
   push:
     branches: [main]
     paths:
-      - 'newsletter/latest.json'
+      - 'aggregation/**'
+      - 'assets/nyf-records.js'
+      - 'data/record.schema.json'
+      - 'newsletter/**'
       - 'search-index.json'
-      - 'scripts/aggregate_records.py'
-      - 'scripts/publish_east_corner.py'
+      - 'sitemap.xml'
+      - 'scripts/**'
+      - '.github/workflows/east-corner-publisher.yml'
   schedule:
     - cron: '17 14 * * *'
+    - cron: '17 15 * * *'
 
 permissions:
   contents: write
 
 concurrency:
-  group: nyf-canonical-aggregator
+  group: nyf-canonical-publisher
   cancel-in-progress: false
 
 jobs:
@@ -33,14 +38,25 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
       - name: Publish East Corner signal on manual or scheduled runs
         if: github.event_name != 'push'
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: python scripts/publish_east_corner.py
 
-      - name: Normalize all known sources into canonical record layer
-        run: python scripts/aggregate_records.py
+      - name: Synchronize canonical search and sitemap inventory
+        run: python scripts/sync_discovery.py
+
+      - name: Build the one schema-v2 public record projection
+        run: node aggregation/build.mjs
+
+      - name: Audit canonical routes, discovery, and public data
+        run: python scripts/audit_public_site.py
 
       - name: Commit publisher outputs and canonical projections
         run: |
@@ -48,8 +64,8 @@ jobs:
             echo "No publisher or aggregation changes to commit."
             exit 0
           fi
-          git config user.name "NYF Canonical Aggregator"
+          git config user.name "NYF Canonical Publisher"
           git config user.email "actions@users.noreply.github.com"
-          git add newsletter feed.xml data/records.json data/public-records.json
-          git commit -m "Update canonical NYF records"
+          git add aggregation/sources newsletter feed.xml search-index.json sitemap.xml data/records.json data/public-index.json data/public-records.json
+          git commit -m "Publish NYF canonical record update"
           git push
