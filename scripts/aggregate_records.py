@@ -3,6 +3,7 @@
 
 The canonical store is the aggregation spine. Source-specific adapters normalize into
 one Record shape; public consumers receive a filtered projection only.
+Adapters currently cover the public site index and the latest East Corner signal.
 """
 from __future__ import annotations
 
