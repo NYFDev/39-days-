@@ -1,0 +1,137 @@
+{
+  "version": "2026-08-16",
+  "status": "working-retrieval-map",
+  "principles": [
+    "retrieval-before-reconstruction",
+    "substance-before-discovery",
+    "provenance-before-publication",
+    "measure-before-replication"
+  ],
+  "territories": [
+    {
+      "id": "alchemical-protocols",
+      "title": "Alchemical Protocols / Alchemical Ledger",
+      "readiness": "amber",
+      "core_question": "How do tax, accounting, ownership, collateral, distributions, insurance, valuation and capital formation interact as one financial system?",
+      "subjects": [
+        "tax return literacy",
+        "corporate structure",
+        "asset ownership",
+        "collateralization",
+        "intercompany economics",
+        "dividends and distributions",
+        "valuation",
+        "equity creation",
+        "insurance architecture",
+        "founder and celebrity wealth case studies"
+      ],
+      "retrieval_targets": [
+        "six-document protocol/application set",
+        "tax-line analysis",
+        "Kylie Jenner effect",
+        "McKinley General Factor",
+        "cross-collateralization and valuation research"
+      ]
+    },
+    {
+      "id": "east-corner",
+      "title": "East Corner",
+      "readiness": "green",
+      "core_question": "What economic, cultural, financial and institutional signals matter to East African and Somali diaspora communities?",
+      "subjects": [
+        "Somali diaspora business",
+        "diaspora capital",
+        "remittances",
+        "entrepreneurship",
+        "East African market intelligence",
+        "migration and economic mobility",
+        "ownership and custody",
+        "Horn of Africa infrastructure"
+      ]
+    },
+    {
+      "id": "pattern-recognition",
+      "title": "Pattern Recognition / Dusty Philosopher",
+      "readiness": "green",
+      "core_question": "What recurring behavioral, cultural and institutional patterns become visible when ordinary stories are synthesized across sources?",
+      "subjects": [
+        "behavioral pattern recognition",
+        "habit formation",
+        "automaticity",
+        "power and obligation",
+        "narrative synthesis"
+      ]
+    },
+    {
+      "id": "39-days",
+      "title": "39 DAYS",
+      "readiness": "green",
+      "core_question": "What does execution look like when chronology, receipts, failures and revisions are preserved?",
+      "subjects": [
+        "building in public",
+        "execution logs",
+        "project recovery",
+        "AI-assisted development",
+        "deployment remediation",
+        "evidence-based self-documentation"
+      ]
+    },
+    {
+      "id": "baby-bonuses-birkin-bags",
+      "title": "Baby Bonuses & Birkin Bags",
+      "readiness": "amber",
+      "core_question": "How do extraction, aspiration, consumption, family systems and financial architecture interact?",
+      "subjects": [
+        "consumer aspiration",
+        "family economics",
+        "status goods",
+        "capital allocation",
+        "kinship and financial obligation",
+        "household wealth formation",
+        "financial anthropology"
+      ]
+    },
+    {
+      "id": "research-infrastructure",
+      "title": "Research Desk / Infrastructure",
+      "readiness": "amber-green",
+      "core_question": "What source-verified technical and institutional research supports the larger NYF body of work?",
+      "subjects": [
+        "East African electrical infrastructure",
+        "power-system planning",
+        "distributed generation",
+        "hybridization",
+        "infrastructure finance",
+        "engineering documentation"
+      ],
+      "constraints": [
+        "review ownership, confidentiality and publication rights before public reuse"
+      ]
+    }
+  ],
+  "launch_gates": {
+    "corpus_gate": "At least 8-12 substantive source items or one deep manuscript/research body.",
+    "authority_gate": "NYF has an identifiable point of view or primary-source advantage.",
+    "retrieval_gate": "Prior work has been inventoried before new writing is commissioned.",
+    "editorial_gate": "Pages answer real questions and stand independently of monetization.",
+    "measurement_gate": "Existing surface demonstrates impressions, engagement or referral demand before replication."
+  },
+  "retrieval_schema": [
+    "id",
+    "working_title",
+    "source_system",
+    "source_locator",
+    "created_at",
+    "project_family",
+    "subject_territories",
+    "artifact_type",
+    "status",
+    "publicability",
+    "provenance_notes",
+    "feeds_into",
+    "derived_from",
+    "search_questions",
+    "keywords",
+    "retrieval_confidence"
+  ]
+}
