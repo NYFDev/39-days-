@@ -13,8 +13,8 @@
       const limit = Number(mount.dataset.recordLimit || 6);
       const visible = records
         .filter((record) => record.visibility === 'public' && record.status === 'published')
-        .filter((record) => !surface || record.publication?.surfaces?.includes(surface))
-        .sort((a, b) => new Date(b.publishedAt || b.occurredAt) - new Date(a.publishedAt || a.occurredAt))
+        .filter((record) => !surface || record.outputs?.some((output) => output.surface === surface))
+        .sort((a, b) => new Date(b.source?.publishedAt || b.observedAt) - new Date(a.source?.publishedAt || a.observedAt))
         .slice(0, limit);
 
       if (!visible.length) {
@@ -27,10 +27,11 @@
         const article = document.createElement('article');
         article.className = 'module record-card';
 
-        const lane = record.taxonomy?.lanes?.[0] || record.kind || 'record';
-        const date = new Date(record.publishedAt || record.occurredAt);
+        const lane = record.lanes?.[0] || record.kind || 'record';
+        const date = new Date(record.source?.publishedAt || record.observedAt);
         const label = `${lane} / ${Number.isNaN(date.valueOf()) ? '' : date.toLocaleDateString('en-CA', { year: 'numeric', month: 'short', day: 'numeric' })}`;
-        const url = record.publication?.url || record.source?.url || '#';
+        const output = record.outputs?.find((candidate) => !surface || candidate.surface === surface);
+        const url = output?.publishedUrl || record.source?.canonicalUrl || '#';
 
         article.innerHTML = `<span>${escapeHTML(label)}</span><h3><a href="${escapeAttribute(url)}">${escapeHTML(record.title)}</a></h3><p>${escapeHTML(record.summary || record.whyItMatters || '')}</p>`;
         fragment.appendChild(article);

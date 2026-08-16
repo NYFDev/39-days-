@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://nyfholdings.ca/schemas/record.schema.json",
-  "title": "NYF Canonical Record",
+  "title": "NYF Normalized Ingest Record v2",
   "type": "object",
   "required": ["id", "schemaVersion", "visibility", "kind", "source", "title", "observedAt", "status"],
   "properties": {
@@ -49,7 +49,8 @@
         "properties": {
           "surface": { "enum": ["east-corner", "newsletter", "feed", "39-days", "activity", "site"] },
           "slug": { "type": "string" },
-          "publishedUrl": { "type": "string" }
+          "publishedUrl": { "type": "string" },
+          "publishedAt": { "type": "string" }
         },
         "additionalProperties": false
       },

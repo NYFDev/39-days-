@@ -8,6 +8,7 @@ structure. A reviewed synthesis must be promoted separately before it is public.
 import datetime as dt
 import html
 import json
+import os
 import re
 import sys
 import urllib.parse
@@ -17,7 +18,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 NEWS = ROOT / "newsletter"
-QUEUE = ROOT / "data" / "editorial-queue.json"
+QUEUE = Path(os.environ.get("NYF_EDITORIAL_QUEUE", ROOT / "data" / "editorial-queue.json"))
 TZ = ZoneInfo("America/Edmonton")
 UA = "NYF-Holdings-East-Corner/2.0 (+https://nyfholdings.ca/newsletter/)"
 
@@ -137,6 +138,11 @@ def build_packet(now, items):
 
 def main():
     now = dt.datetime.now(TZ)
+    # Two UTC schedules cover Edmonton daylight and standard time; only the
+    # invocation that lands at 08:00 local time should create a packet.
+    if os.getenv("GITHUB_EVENT_NAME") == "schedule" and now.hour != 8:
+        print(f"Skipping: local time is {now:%H:%M %Z}, not 08:00.")
+        return
     items = discover()
     if len(items) < 6:
         raise SystemExit(f"Collector found only {len(items)} usable sources; refusing to create a thin editorial packet.")
