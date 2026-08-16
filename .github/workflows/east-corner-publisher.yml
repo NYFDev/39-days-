@@ -1,14 +1,22 @@
-name: East Corner publisher (manual fallback)
+name: NYF publisher and canonical aggregator
 
 on:
   workflow_dispatch:
-  # Daily publication runs through the verified source-and-route acceptance workflow.
+  push:
+    branches: [main]
+    paths:
+      - 'newsletter/latest.json'
+      - 'search-index.json'
+      - 'scripts/aggregate_records.py'
+      - 'scripts/publish_east_corner.py'
+  schedule:
+    - cron: '17 14 * * *'
 
 permissions:
   contents: write
 
 concurrency:
-  group: east-corner-publisher
+  group: nyf-canonical-aggregator
   cancel-in-progress: false
 
 jobs:
@@ -25,22 +33,23 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Publish East Corner signal
+      - name: Publish East Corner signal on manual or scheduled runs
+        if: github.event_name != 'push'
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: python scripts/publish_east_corner.py
 
-      - name: Normalize into canonical record layer
+      - name: Normalize all known sources into canonical record layer
         run: python scripts/aggregate_records.py
 
-      - name: Commit published issue and canonical records
+      - name: Commit publisher outputs and canonical projections
         run: |
           if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
-            echo "No publisher changes to commit."
+            echo "No publisher or aggregation changes to commit."
             exit 0
           fi
-          git config user.name "NYF East Corner Publisher"
+          git config user.name "NYF Canonical Aggregator"
           git config user.email "actions@users.noreply.github.com"
-          git add newsletter feed.xml data/records.json
-          git commit -m "Publish East Corner signal and normalize records"
+          git add newsletter feed.xml data/records.json data/public-records.json
+          git commit -m "Update canonical NYF records"
           git push
