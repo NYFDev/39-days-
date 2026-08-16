@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nyfholdings.ca/schemas/record.schema.json",
+  "title": "NYF Canonical Record",
+  "type": "object",
+  "required": ["id", "schemaVersion", "visibility", "kind", "source", "title", "observedAt", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]+$" },
+    "schemaVersion": { "const": 2 },
+    "visibility": { "enum": ["public", "internal", "private"] },
+    "kind": { "enum": ["article", "report", "event", "email", "calendar", "document", "crm", "note", "artifact"] },
+    "source": {
+      "type": "object",
+      "required": ["name", "type"],
+      "properties": {
+        "name": { "type": "string" },
+        "type": { "enum": ["web", "gmail", "calendar", "drive", "crm", "manual", "repository"] },
+        "canonicalUrl": { "type": "string" },
+        "externalId": { "type": "string" },
+        "publishedAt": { "type": ["string", "null"] },
+        "retrievedAt": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "title": { "type": "string" },
+    "summary": { "type": "string" },
+    "context": { "type": "string" },
+    "observedAt": { "type": "string" },
+    "entities": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "geography": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "lanes": { "type": "array", "items": { "enum": ["enterprise", "capital", "culture", "record", "operations", "39-days"] }, "default": [] },
+    "topics": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "projects": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "status": { "enum": ["ingested", "enriched", "verified", "editorial", "published", "archived"] },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "state": { "enum": ["unreviewed", "source-checked", "verified", "disputed"] },
+        "checkedAt": { "type": ["string", "null"] },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["surface"],
+        "properties": {
+          "surface": { "enum": ["east-corner", "newsletter", "feed", "39-days", "activity", "site"] },
+          "slug": { "type": "string" },
+          "publishedUrl": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
+      "default": []
+    },
+    "payload": { "type": "object", "default": {} }
+  },
+  "additionalProperties": false
+}
