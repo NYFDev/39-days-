@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-16T01:40:02.724Z",
+  "count": 8,
+  "records": [
+    {
+      "id": "web:aotad:2027-registration-2026-08-15",
+      "kind": "event",
+      "title": "A diaspora exhibition opens its next public intake",
+      "observedAt": "2026-08-15",
+      "source": "Art of the African Diaspora",
+      "sourceUrl": "https://aotad.org/",
+      "lanes": [
+        "culture"
+      ],
+      "topics": [
+        "art",
+        "diaspora",
+        "exhibition"
+      ],
+      "geography": [
+        "African diaspora"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    },
+    {
+      "id": "web:reuters:traxtion-regional-rail-2026-08-14",
+      "kind": "article",
+      "title": "Private rail capital is following open-access reform",
+      "observedAt": "2026-08-14",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/south-africas-traxtion-bets-regional-rail-reforms-mineral-boom-2026-08-14/",
+      "lanes": [
+        "enterprise"
+      ],
+      "topics": [
+        "rail",
+        "infrastructure",
+        "private capital",
+        "regional integration"
+      ],
+      "geography": [
+        "Tanzania",
+        "Zambia",
+        "Southern Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    },
+    {
+      "id": "web:reuters:standard-bank-tanzania-2026-08-13",
+      "kind": "article",
+      "title": "Standard Bank puts another $80 million behind Tanzania",
+      "observedAt": "2026-08-13",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/standard-bank-profit-jumps-10-fee-trading-growth-lower-impairments-2026-08-13/",
+      "lanes": [
+        "capital"
+      ],
+      "topics": [
+        "banking",
+        "capital allocation",
+        "regional integration"
+      ],
+      "geography": [
+        "Tanzania",
+        "Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    },
+    {
+      "id": "web:eac:ai4eac-2026-08-12",
+      "kind": "article",
+      "title": "A regional AI challenge pairs skills with a prize pool",
+      "observedAt": "2026-08-12",
+      "source": "East African Community",
+      "sourceUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3578-eac-and-germany-launch-2nd-artificial-intelligence-innovation-challenge-to-equip-east-african-for-the-digital-economy",
+      "lanes": [
+        "enterprise"
+      ],
+      "topics": [
+        "AI",
+        "skills",
+        "innovation"
+      ],
+      "geography": [
+        "East Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    },
+    {
+      "id": "web:eac:germany-grant-2026-08-12",
+      "kind": "article",
+      "title": "Germany commits €39.8 million to the integration layer",
+      "observedAt": "2026-08-12",
+      "source": "East African Community",
+      "sourceUrl": "https://www.eac.int/press-releases/155-resource-mobilization/3577-eac-and-germany-renew-cooperation-to-advance-regional-integration-with-%E2%82%AC39-8-million-in-new-grant-funding",
+      "lanes": [
+        "capital"
+      ],
+      "topics": [
+        "grants",
+        "trade",
+        "regional integration"
+      ],
+      "geography": [
+        "East Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    },
+    {
+      "id": "web:afdb:east-africa-outlook-2026-07-30",
+      "kind": "report",
+      "title": "East Africa’s growth outlook comes with a financing condition",
+      "observedAt": "2026-07-30",
+      "source": "African Development Bank",
+      "sourceUrl": "https://www.afdb.org/en/news-and-events/regional-economic-outlook-2026-new-report-shows-east-africa-can-sustain-strong-regional-growth-through-smarter-financing-bold-reforms-95923",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "growth",
+        "financing",
+        "reform"
+      ],
+      "geography": [
+        "East Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    },
+    {
+      "id": "web:igad:stabilization-plan-2026-07-28",
+      "kind": "report",
+      "title": "IGAD lays out a year of regional stabilization work",
+      "observedAt": "2026-07-28",
+      "source": "IGAD",
+      "sourceUrl": "https://igad.int/igad-strengthens-internal-coordination-for-eu-funded-regional-stabilization-project/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "stabilization",
+        "diplomacy",
+        "institutions"
+      ],
+      "geography": [
+        "Sudan",
+        "South Sudan",
+        "Horn of Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    },
+    {
+      "id": "web:acasa:dissertation-grant-2026-06-02",
+      "kind": "article",
+      "title": "A new dissertation grant funds work before the archive hardens",
+      "observedAt": "2026-06-02",
+      "source": "Arts Council of the African Studies Association",
+      "sourceUrl": "https://www.acasaonline.org/arts-council-of-the-african-studies-association-acasa-announces-grant-for-innovative-early-dissertation-research/",
+      "lanes": [
+        "culture"
+      ],
+      "topics": [
+        "research",
+        "grants",
+        "archives",
+        "art"
+      ],
+      "geography": [
+        "Africa",
+        "African diaspora"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-002",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ]
+    }
+  ]
+}
