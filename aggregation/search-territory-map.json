@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Retrieval-first map from recovered NYF work to searchable subject territories and possible publishing verticals. This is an inventory and hypothesis layer, not an instruction to mass-produce thin sites.",
+  "principles": [
+    "retrieval before reconstruction",
+    "substance before indexing",
+    "one substantive corpus may support multiple narrow search territories",
+    "unknown relationships remain unknown until retrieved",
+    "publication requires useful original value; do not generate doorway or thin SEO pages"
+  ],
+  "territories": [
+    {
+      "id": "alchemical-financial-architecture",
+      "label": "Alchemical Financial Architecture",
+      "status": "retrieval-active",
+      "recovered_signals": ["Alchemical Ledger", "Alchemical Protocols", "tax-line analysis", "corporate structure", "collateralization", "distributions and returns", "valuation", "equity creation"],
+      "case_studies_to_retrieve": ["Kylie Jenner effect", "McKinley General Factor"],
+      "possible_search_intents": ["how corporate structure affects valuation", "how distributions interact with equity value", "tax return lines and financial structure"],
+      "publication_candidate": "research / explainer vertical",
+      "confidence": "medium"
+    },
+    {
+      "id": "eastcorner-pattern-recognition",
+      "label": "Eastcorner Pattern Recognition",
+      "status": "recovered",
+      "recovered_signals": ["Dusty Philosopher", "Pattern Recognition", "Raw Story Movement", "Tiny Habits", "The Charge"],
+      "possible_search_intents": ["pattern recognition essays", "behavior and habit synthesis", "narrative financial and social analysis"],
+      "publication_candidate": "editorial vertical",
+      "confidence": "high"
+    },
+    {
+      "id": "diaspora-custody",
+      "label": "Diaspora Custody and Financial Infrastructure",
+      "status": "retrieval-active",
+      "recovered_signals": ["Eastcorner", "customer to custodian transformation", "Somali diaspora", "Custodian Collective", "Claw-bot"],
+      "possible_search_intents": ["diaspora financial infrastructure", "Somali diaspora finance", "digital custody models"],
+      "publication_candidate": "Eastcorner specialist vertical",
+      "confidence": "medium"
+    },
+    {
+      "id": "extraction-architecture",
+      "label": "Extraction Architecture",
+      "status": "recovered",
+      "recovered_signals": ["Baby Bonuses and Birkin Bags", "anatomical manuscript", "extraction architecture"],
+      "possible_search_intents": ["economic extraction systems", "consumer finance and status goods", "structural financial incentives"],
+      "publication_candidate": "long-form / dissertation-derived vertical",
+      "confidence": "high"
+    },
+    {
+      "id": "ten-cots-research",
+      "label": "Ten Cots Research",
+      "status": "retrieval-active",
+      "recovered_signals": ["Ten Cots", "research archive"],
+      "possible_search_intents": [],
+      "publication_candidate": "research vertical after corpus retrieval",
+      "confidence": "low"
+    }
+  ],
+  "next_retrieval": [
+    "Recover the Alchemical six-document architecture without assuming filenames.",
+    "Trace Kylie Jenner effect material by argument and source language, not title.",
+    "Recover the McKinley General Factor dissertation trail.",
+    "Map each recovered artifact to one or more search territories.",
+    "Measure corpus depth before deciding whether a territory deserves its own site or remains a section of nyfholdings.ca."
+  ]
+}
