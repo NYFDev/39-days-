@@ -1,5 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": null,
-  "records": []
+  "updatedAt": "2026-08-16T19:00:00Z",
+  "records": [
+    {
+      "id": "east-corner:dispatch-001",
+      "kind": "dispatch",
+      "visibility": "public",
+      "status": "published",
+      "title": "Look where the centre does not.",
+      "summary": "East Corner's opening editorial note on enterprise, capital, culture and the work that disappears when coverage begins at the centre.",
+      "whyItMatters": "Establishes the editorial method and public record that later East Corner reporting can cite and extend.",
+      "occurredAt": "2026-08-14T00:00:00Z",
+      "ingestedAt": "2026-08-16T19:00:00Z",
+      "publishedAt": "2026-08-14T00:00:00Z",
+      "source": {
+        "system": "github",
+        "type": "published-artifact",
+        "locator": "east-corner/dispatch-001/index.html",
+        "url": "https://nyfholdings.ca/east-corner/dispatch-001/"
+      },
+      "taxonomy": {
+        "lanes": ["enterprise", "capital", "culture", "record"],
+        "topics": ["editorial method", "ownership", "archive"],
+        "geographies": ["Horn of Africa", "diaspora"],
+        "entities": ["NYF Holdings", "East Corner"]
+      },
+      "publication": {
+        "url": "/east-corner/dispatch-001/",
+        "surfaces": ["east-corner", "journal", "rss", "activity"]
+      },
+      "provenance": {
+        "recordVersion": 1,
+        "derivedFrom": [],
+        "verified": true
+      }
+    }
+  ]
 }
