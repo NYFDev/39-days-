@@ -23,7 +23,7 @@ The public site is a projection over a canonical record layer rather than the pr
 
 A record is ingested once, retains provenance and taxonomy, and can then appear on one or more publication surfaces such as East Corner, Journal, newsletter, RSS, activity or 39 DAYS. Private/internal records must never be placed in the public static data file; future Gmail, Calendar, Drive and CRM ingest should normalize into the same schema in a private store and promote only explicitly public records into the static projection.
 
-The production publisher has one writer. Every issue creates its permanent page and JSON issue data, a normalized source batch, a search-index route, sitemap entry, RSS item and regenerated public record projection. The release audit requires the HTML canonicals, search inventory and sitemap to contain exactly the same indexable routes.
+The scheduled East Corner collector produces a time-limited review artifact outside the public site; it does not auto-publish a newsletter or expose the editorial queue. After a reviewed synthesis and normalized source batch are promoted, one production writer regenerates the public projection. The release audit requires the HTML canonicals, search inventory and sitemap to contain exactly the same indexable routes.
 
 The private operational hub is intentionally not part of this public build.
 

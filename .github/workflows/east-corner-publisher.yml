@@ -1,4 +1,4 @@
-name: NYF publisher and canonical aggregator
+name: NYF editorial collector and canonical aggregator
 
 on:
   workflow_dispatch:
@@ -43,22 +43,36 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Publish East Corner signal on manual or scheduled runs
+      - name: Collect an East Corner editorial review packet
         if: github.event_name != 'push'
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
+          NYF_EDITORIAL_QUEUE: ${{ runner.temp }}/nyf-editorial-queue.json
         run: python scripts/publish_east_corner.py
 
+      - name: Preserve the review packet outside the public site
+        if: github.event_name != 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: nyf-editorial-queue-${{ github.run_id }}
+          path: ${{ runner.temp }}/nyf-editorial-queue.json
+          if-no-files-found: ignore
+          retention-days: 14
+
       - name: Synchronize canonical search and sitemap inventory
+        if: github.event_name == 'push'
         run: python scripts/sync_discovery.py
 
       - name: Build the one schema-v2 public record projection
+        if: github.event_name == 'push'
         run: node aggregation/build.mjs
 
       - name: Audit canonical routes, discovery, and public data
+        if: github.event_name == 'push'
         run: python scripts/audit_public_site.py
 
       - name: Commit publisher outputs and canonical projections
+        if: github.event_name == 'push'
         run: |
           if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
             echo "No publisher or aggregation changes to commit."
