@@ -43,7 +43,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Collect an East Corner editorial review packet
+      - name: Collect East Corner sources and publish the Morning Wire
         if: github.event_name != 'push'
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
@@ -58,6 +58,19 @@ jobs:
           path: ${{ runner.temp }}/nyf-editorial-queue.json
           if-no-files-found: ignore
           retention-days: 14
+
+      - name: Commit scheduled Morning Wire
+        if: github.event_name != 'push'
+        run: |
+          if git diff --quiet -- newsletter/morning-wire/latest.json; then
+            echo "Morning Wire unchanged."
+            exit 0
+          fi
+          git config user.name "NYF East Corner Publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add newsletter/morning-wire/latest.json
+          git commit -m "Publish East Corner Morning Wire"
+          git push
 
       - name: Synchronize canonical search and sitemap inventory
         if: github.event_name == 'push'
