@@ -1,88 +1,15 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-002",
-  "title": "The Region Is Financing Its Connective Tissue.",
-  "url": "https://nyfholdings.ca/newsletter/signal-002/",
-  "publishedAt": "2026-08-15T08:30:00-06:00",
-  "scope": [
-    "enterprise",
-    "capital",
-    "culture",
-    "record"
-  ],
-  "method": "AI-assisted source synthesis with direct links to the originating publishers.",
+  "issue": "signal-003",
+  "title": "The Financing Menu Is Expanding. So Are the Conditions.",
+  "url": "https://nyfholdings.ca/newsletter/signal-003/",
+  "publishedAt": "2026-08-17T13:30:00-06:00",
+  "scope": ["capital", "infrastructure", "technology", "institutions"],
+  "method": "AI-assisted cross-source synthesis with direct links to originating publishers.",
   "items": [
-    {
-      "lane": "enterprise",
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-08-14",
-      "headline": "Private rail capital is following open-access reform",
-      "sourceUrl": "https://www.reuters.com/world/africa/south-africas-traxtion-bets-regional-rail-reforms-mineral-boom-2026-08-14/",
-      "summary": "Traxtion’s 3.4-billion-rand rolling-stock programme covers 46 locomotives and 920 wagons as African freight networks open to private operators. The company points to corridor investments including the $1.4-billion TAZARA concession linking Tanzania and Zambia.",
-      "whyItMatters": "The physical network is becoming investable only where policy creates durable access. For East Africa, TAZARA’s revival tests whether corridor finance can translate into lower freight friction rather than another isolated asset."
-    },
-    {
-      "lane": "enterprise",
-      "source": "East African Community",
-      "sourcePublishedAt": "2026-08-12",
-      "headline": "A regional AI challenge pairs skills with a prize pool",
-      "sourceUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3578-eac-and-germany-launch-2nd-artificial-intelligence-innovation-challenge-to-equip-east-african-for-the-digital-economy",
-      "summary": "The EAC and Germany launched the second AI4EAC challenge, aiming to skill 20,000 people across all partner states and offering $50,000 in prize funding for teams working on regional problems.",
-      "whyItMatters": "A competition is useful only if it becomes a pipeline. The stronger signal is the regional architecture—universities, public agencies and private partners sharing a programme that can carry talent beyond a single demo day."
-    },
-    {
-      "lane": "capital",
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-08-13",
-      "headline": "Standard Bank puts another $80 million behind Tanzania",
-      "sourceUrl": "https://www.reuters.com/world/africa/standard-bank-profit-jumps-10-fee-trading-growth-lower-impairments-2026-08-13/",
-      "summary": "Standard Bank injected an additional $80 million into its Tanzania business in July. The group reported half-year headline earnings of 26.1 billion rand, up 10%, and expects rate-related pressure in its Africa operations to continue easing.",
-      "whyItMatters": "The Tanzania allocation is a concrete vote on regional integration and loan growth. It also shows how continent-wide lenders are reallocating capital while local rate cycles still shape the speed of expansion."
-    },
-    {
-      "lane": "capital",
-      "source": "East African Community",
-      "sourcePublishedAt": "2026-08-12",
-      "headline": "Germany commits €39.8 million to the integration layer",
-      "sourceUrl": "https://www.eac.int/press-releases/155-resource-mobilization/3577-eac-and-germany-renew-cooperation-to-advance-regional-integration-with-%E2%82%AC39-8-million-in-new-grant-funding",
-      "summary": "Germany committed €39.8 million in new grant funding after development-cooperation negotiations with the EAC, with the package directed toward regional trade and economic integration.",
-      "whyItMatters": "Regional markets are assembled through shared standards, institutions and implementation capacity. Grant funding aimed at that layer can reduce transaction costs across many firms—but only if delivery is visible beyond the headline commitment."
-    },
-    {
-      "lane": "culture",
-      "source": "Art of the African Diaspora",
-      "sourcePublishedAt": "2026-08-15",
-      "headline": "A diaspora exhibition opens its next public intake",
-      "sourceUrl": "https://aotad.org/",
-      "summary": "Registration opens today for Art of the African Diaspora’s 2027 exhibition at Richmond Art Center. The non-juried exhibition runs from January 20 to March 20, 2027, and registration closes October 20, 2026.",
-      "whyItMatters": "Open-entry cultural infrastructure changes who gets recorded and encountered. The long lead time also gives artists a practical production and audience-building window rather than a one-night visibility spike."
-    },
-    {
-      "lane": "culture",
-      "source": "Arts Council of the African Studies Association",
-      "sourcePublishedAt": "2026-06-02",
-      "headline": "A new dissertation grant funds work before the archive hardens",
-      "sourceUrl": "https://www.acasaonline.org/arts-council-of-the-african-studies-association-acasa-announces-grant-for-innovative-early-dissertation-research/",
-      "summary": "ACASA launched a donor-funded grant for continuing PhD students researching the arts and cultures of Africa and the African diaspora. One or more $5,000 awards will be made annually, with the first application cycle opening in fall 2026.",
-      "whyItMatters": "Early-stage research money influences which questions reach museums, classrooms and public memory. Funding method development—not only finished scholarship—creates room for under-studied regions, artists and collections to enter the record."
-    },
-    {
-      "lane": "record",
-      "source": "African Development Bank",
-      "sourcePublishedAt": "2026-07-30",
-      "headline": "East Africa’s growth outlook comes with a financing condition",
-      "sourceUrl": "https://www.afdb.org/en/news-and-events/regional-economic-outlook-2026-new-report-shows-east-africa-can-sustain-strong-regional-growth-through-smarter-financing-bold-reforms-95923",
-      "summary": "The African Development Bank’s 2026 regional outlook projects East African growth of 5.9% in 2026 while arguing that sustaining it will require smarter financing and structural reform.",
-      "whyItMatters": "The forecast is not the result; it is the operating assumption. The useful record is whether financing quality, debt management and productive capacity improve enough to make the projection durable."
-    },
-    {
-      "lane": "record",
-      "source": "IGAD",
-      "sourcePublishedAt": "2026-07-28",
-      "headline": "IGAD lays out a year of regional stabilization work",
-      "sourceUrl": "https://igad.int/igad-strengthens-internal-coordination-for-eu-funded-regional-stabilization-project/",
-      "summary": "IGAD completed internal planning for an EU-funded project supporting dialogue, mediation, preventive diplomacy and institutional strengthening in Sudan, South Sudan and the wider region. Its coordinated action plan runs from August 2026 through July 2027.",
-      "whyItMatters": "A dated implementation window makes regional diplomacy more legible. It creates a basis for checking whether coordination moves from workshops into measurable mediation, stabilization and institutional work."
-    }
+    {"source":"Reuters","sourcePublishedAt":"2026-08-14","headline":"Kenya plans a wider sovereign borrowing mix","sourceUrl":"https://www.reuters.com/world/africa/kenya-plans-issue-eurobonds-samurai-bonds-202627-finance-ministry-says-2026-08-14/","whyItMatters":"Diversifying funding markets creates options, but debt sustainability still depends on productive deployment and servicing capacity."},
+    {"source":"The Times","sourcePublishedAt":"2026-08-15","headline":"Big Tech expands African infrastructure","sourceUrl":"https://www.thetimes.com/business/economics/article/big-tech-new-scramble-for-africa-260t68dpf","whyItMatters":"Cloud and connectivity investment makes power, regulation, data governance and local technical capacity part of the financing equation."},
+    {"source":"Financial Times","sourcePublishedAt":"2026-08-17","headline":"UAE defends the scale and character of its African investment","sourceUrl":"https://www.ft.com/content/d50b44ec-0226-4d28-8af3-73820fed7206","whyItMatters":"Gulf capital is now large enough to sit alongside Chinese, Western and multilateral financing in national development choices."},
+    {"source":"African Development Fund","sourcePublishedAt":"2026-06-24","headline":"Regional financial integration gets a $9 million implementation layer","sourceUrl":"https://adf.afdb.org/african-development-fund-approves-9-million-grant-to-strengthen-financial-integration-across-east-africa/","whyItMatters":"Integrated capital markets and payment systems can turn multiple national financing pools into a more usable regional market."}
   ]
 }
