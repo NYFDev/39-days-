@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""East Corner source collector and editorial packet builder.
+"""East Corner source collector, editorial packet builder, and public morning wire.
 
-The collector does not publish a newsletter. It gathers a broad source packet for
-editorial synthesis. Taxonomy is retrieval metadata, never the reader-facing
-structure. A reviewed synthesis must be promoted separately before it is public.
+The scheduled collector publishes a source-linked daily wire so East Corner always
+has current East Africa / Horn coverage even when a longer synthesis has not yet
+been promoted into a numbered Signal issue.
 """
 import datetime as dt
 import html
@@ -19,18 +19,17 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 NEWS = ROOT / "newsletter"
 QUEUE = Path(os.environ.get("NYF_EDITORIAL_QUEUE", ROOT / "data" / "editorial-queue.json"))
+WIRE = NEWS / "morning-wire" / "latest.json"
 TZ = ZoneInfo("America/Edmonton")
-UA = "NYF-Holdings-East-Corner/2.0 (+https://nyfholdings.ca/newsletter/)"
+UA = "NYF-Holdings-East-Corner/3.0 (+https://nyfholdings.ca/newsletter/)"
 
-# Broad beats are discovery inputs, not newsletter sections. A source may carry
-# several beats and the final issue should be organized around an editorial thesis.
 QUERIES = [
-    ("money-markets", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR "East Africa" OR "Horn of Africa") AND (finance OR investment OR bank OR bond OR trade OR payments OR remittance))'),
-    ("infrastructure-mobility", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR "East Africa" OR "Horn of Africa") AND (rail OR port OR logistics OR aviation OR energy OR infrastructure OR transport))'),
-    ("computing-technology", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR "East Africa" OR "Horn of Africa") AND (AI OR software OR telecom OR internet OR startup OR technology OR computing OR mobile))'),
-    ("culture-life", '(("East Africa" OR "Horn of Africa" OR "African diaspora") AND (music OR film OR art OR fashion OR design OR food OR architecture OR sport OR nightlife OR creator))'),
-    ("institutions-policy", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR "East Africa" OR "Horn of Africa") AND (government OR policy OR regulation OR development OR university OR research OR diplomacy))'),
-    ("diaspora-people", '((Somali OR Ethiopian OR Eritrean OR Kenyan OR Ugandan OR Tanzanian OR Rwandan OR "East African") AND diaspora AND (business OR culture OR technology OR investment OR artist OR founder))'),
+    ("money-markets", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR Eritrea OR Djibouti OR "East Africa" OR "Horn of Africa") AND (finance OR investment OR bank OR bond OR trade OR payments OR remittance))'),
+    ("infrastructure-mobility", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR Eritrea OR Djibouti OR "East Africa" OR "Horn of Africa") AND (rail OR port OR logistics OR aviation OR energy OR infrastructure OR transport))'),
+    ("computing-technology", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR Eritrea OR Djibouti OR "East Africa" OR "Horn of Africa") AND (AI OR software OR telecom OR internet OR startup OR technology OR computing OR mobile))'),
+    ("culture-life", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR Eritrea OR Djibouti OR "East Africa" OR "Horn of Africa" OR "African diaspora") AND (music OR film OR art OR fashion OR design OR food OR architecture OR sport OR nightlife OR creator))'),
+    ("institutions-policy", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR Eritrea OR Djibouti OR "East Africa" OR "Horn of Africa") AND (government OR policy OR regulation OR development OR university OR research OR diplomacy))'),
+    ("diaspora-people", '((Somali OR Ethiopian OR Eritrean OR Djiboutian OR Kenyan OR Ugandan OR Tanzanian OR Rwandan OR "East African") AND diaspora AND (business OR culture OR technology OR investment OR artist OR founder))'),
 ]
 BLOCKED_DOMAINS = {"facebook.com", "x.com", "twitter.com", "instagram.com", "tiktok.com", "youtube.com"}
 
@@ -72,7 +71,6 @@ def domain(url):
 
 
 def discover():
-    """Build a diverse raw packet. Do not force equal counts per category."""
     by_url = {}
     for beat, query in QUERIES:
         params = urllib.parse.urlencode({
@@ -109,9 +107,8 @@ def discover():
                 "sourceDescription": description_from_page(url),
                 "beats": [beat],
             }
-    # Keep enough breadth for collisions to emerge without dumping a firehose on review.
     rows = list(by_url.values())
-    rows.sort(key=lambda row: (row["sourcePublishedAt"], len(row["beats"])), reverse=True)
+    rows.sort(key=lambda row: (row["sourcePublishedAt"], len(row["beats"]), bool(row["sourceDescription"])), reverse=True)
     return rows[:30]
 
 
@@ -122,34 +119,50 @@ def build_packet(now, items):
         "status": "review",
         "publicationPolicy": {
             "autoPublish": False,
-            "rule": "Sources are evidence, not the newsletter. Publish only after a reviewed synthesis identifies a thesis and connects multiple records.",
+            "rule": "The numbered Signal remains reviewed synthesis. The public Morning Wire is source-linked discovery, not a synthesized editorial conclusion.",
         },
         "editorialInstructions": [
-            "Do not organize the reader-facing issue into fixed taxonomy lanes.",
+            "Do not organize the reader-facing Signal into fixed taxonomy lanes.",
             "Do not rewrite source headlines and present them as East Corner headlines.",
             "Find collisions across money, infrastructure, computing, institutions, culture and diaspora life.",
             "Prefer a small number of developed threads over a quota of category summaries.",
             "Keep direct source links attached to every factual claim used in synthesis.",
-            "Allow culture and technology to lead when the reporting supports it; neither is filler.",
         ],
         "sources": items,
     }
 
 
+def build_wire(now, items):
+    selected = items[:12]
+    return {
+        "schemaVersion": 1,
+        "product": "East Corner Morning Wire",
+        "generatedAt": now.isoformat(timespec="seconds"),
+        "date": now.date().isoformat(),
+        "timezone": "America/Edmonton",
+        "status": "published",
+        "editorialState": "source-linked discovery",
+        "note": "Automatically collected public reporting. Headlines and descriptions remain attributable to the originating publishers; numbered Signal issues are separately reviewed synthesis.",
+        "items": selected,
+    }
+
+
 def main():
     now = dt.datetime.now(TZ)
-    # Two UTC schedules cover Edmonton daylight and standard time; only the
-    # invocation that lands at 08:00 local time should create a packet.
     if os.getenv("GITHUB_EVENT_NAME") == "schedule" and now.hour != 8:
         print(f"Skipping: local time is {now:%H:%M %Z}, not 08:00.")
         return
     items = discover()
     if len(items) < 6:
-        raise SystemExit(f"Collector found only {len(items)} usable sources; refusing to create a thin editorial packet.")
+        raise SystemExit(f"Collector found only {len(items)} usable sources; refusing to create a thin East Corner wire.")
+
     packet = build_packet(now, items)
     QUEUE.parent.mkdir(parents=True, exist_ok=True)
     QUEUE.write_text(json.dumps(packet, indent=2, ensure_ascii=False) + "\n")
-    print(f"Editorial queue refreshed with {len(items)} sources. Nothing was auto-published.")
+
+    WIRE.parent.mkdir(parents=True, exist_ok=True)
+    WIRE.write_text(json.dumps(build_wire(now, items), indent=2, ensure_ascii=False) + "\n")
+    print(f"East Corner Morning Wire published with {min(len(items), 12)} sources; editorial queue refreshed with {len(items)} sources.")
 
 
 if __name__ == "__main__":
