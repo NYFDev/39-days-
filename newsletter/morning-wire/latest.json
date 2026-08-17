@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "product": "East Corner Morning Wire",
+  "generatedAt": "2026-08-17T13:30:00-06:00",
+  "date": "2026-08-17",
+  "timezone": "America/Edmonton",
+  "status": "published",
+  "editorialState": "seeded from current reviewed Signal 003",
+  "note": "This initial public wire is seeded from Signal 003. The scheduled collector now refreshes this file automatically with source-linked East Africa and Horn reporting.",
+  "items": [
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-14",
+      "sourceHeadline": "Kenya plans a wider sovereign borrowing mix",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenya-plans-issue-eurobonds-samurai-bonds-202627-finance-ministry-says-2026-08-14/",
+      "sourceDescription": "Kenya is considering panda, Samurai, Sukuk, diaspora and Eurobond issuance while managing a heavy debt-service burden.",
+      "beats": ["money-markets", "institutions-policy"]
+    },
+    {
+      "source": "The Times",
+      "sourcePublishedAt": "2026-08-15",
+      "sourceHeadline": "Big Tech expands African infrastructure",
+      "sourceUrl": "https://www.thetimes.com/business/economics/article/big-tech-new-scramble-for-africa-260t68dpf",
+      "sourceDescription": "Cloud, connectivity, subsea cable and data-centre investment are increasing while power capacity and data governance remain binding constraints.",
+      "beats": ["computing-technology", "infrastructure-mobility"]
+    },
+    {
+      "source": "Financial Times",
+      "sourcePublishedAt": "2026-08-17",
+      "sourceHeadline": "UAE defends the scale and character of its African investment",
+      "sourceUrl": "https://www.ft.com/content/d50b44ec-0226-4d28-8af3-73820fed7206",
+      "sourceDescription": "Gulf capital is now large enough to sit alongside Chinese, Western and multilateral financing in national development choices.",
+      "beats": ["money-markets", "institutions-policy"]
+    },
+    {
+      "source": "African Development Fund",
+      "sourcePublishedAt": "2026-06-24",
+      "sourceHeadline": "Regional financial integration gets a $9 million implementation layer",
+      "sourceUrl": "https://adf.afdb.org/african-development-fund-approves-9-million-grant-to-strengthen-financial-integration-across-east-africa/",
+      "sourceDescription": "The East Africa and Horn of Africa capital-markets and payment-systems project spans nine countries and targets cross-border investment and market infrastructure.",
+      "beats": ["money-markets", "institutions-policy"]
+    }
+  ]
+}
