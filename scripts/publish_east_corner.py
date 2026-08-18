@@ -149,9 +149,6 @@ def build_wire(now, items):
 
 def main():
     now = dt.datetime.now(TZ)
-    if os.getenv("GITHUB_EVENT_NAME") == "schedule" and now.hour != 8:
-        print(f"Skipping: local time is {now:%H:%M %Z}, not 08:00.")
-        return
     items = discover()
     if len(items) < 6:
         raise SystemExit(f"Collector found only {len(items)} usable sources; refusing to create a thin East Corner wire.")
