@@ -1,43 +1,59 @@
 {
   "schemaVersion": 1,
   "product": "East Corner Morning Wire",
-  "generatedAt": "2026-08-17T13:30:00-06:00",
-  "date": "2026-08-17",
+  "generatedAt": "2026-08-18T04:23:00-06:00",
+  "date": "2026-08-18",
   "timezone": "America/Edmonton",
   "status": "published",
-  "editorialState": "seeded from current reviewed Signal 003",
-  "note": "This initial public wire is seeded from Signal 003. The scheduled collector now refreshes this file automatically with source-linked East Africa and Horn reporting.",
+  "editorialState": "manually curated morning edition",
+  "note": "Curated East Corner morning scan. Priority is current regional movement in capital, infrastructure and institutions; every item links to the originating source.",
   "items": [
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-08-14",
-      "sourceHeadline": "Kenya plans a wider sovereign borrowing mix",
-      "sourceUrl": "https://www.reuters.com/world/africa/kenya-plans-issue-eurobonds-samurai-bonds-202627-finance-ministry-says-2026-08-14/",
-      "sourceDescription": "Kenya is considering panda, Samurai, Sukuk, diaspora and Eurobond issuance while managing a heavy debt-service burden.",
-      "beats": ["money-markets", "institutions-policy"]
-    },
-    {
-      "source": "The Times",
-      "sourcePublishedAt": "2026-08-15",
-      "sourceHeadline": "Big Tech expands African infrastructure",
-      "sourceUrl": "https://www.thetimes.com/business/economics/article/big-tech-new-scramble-for-africa-260t68dpf",
-      "sourceDescription": "Cloud, connectivity, subsea cable and data-centre investment are increasing while power capacity and data governance remain binding constraints.",
-      "beats": ["computing-technology", "infrastructure-mobility"]
-    },
     {
       "source": "Financial Times",
       "sourcePublishedAt": "2026-08-17",
       "sourceHeadline": "UAE defends the scale and character of its African investment",
       "sourceUrl": "https://www.ft.com/content/d50b44ec-0226-4d28-8af3-73820fed7206",
-      "sourceDescription": "Gulf capital is now large enough to sit alongside Chinese, Western and multilateral financing in national development choices.",
+      "sourceDescription": "Gulf capital is now large enough to sit alongside Chinese, Western and multilateral financing in national development choices across Africa, with direct implications for the Horn and East Africa.",
       "beats": ["money-markets", "institutions-policy"]
+    },
+    {
+      "source": "AlHuda CIBE",
+      "sourcePublishedAt": "2026-08-17",
+      "sourceHeadline": "Interest-free banking and Takaful forum convenes in Addis Ababa",
+      "sourceUrl": "https://www.alhudacibe.com/ibtf2026/",
+      "sourceDescription": "Regulators, bankers and finance practitioners are meeting in Addis Ababa around Islamic banking, Takaful, microfinance and financial inclusion, with National Bank of Ethiopia officials among the speakers.",
+      "beats": ["money-markets", "institutions-policy"]
+    },
+    {
+      "source": "International Water Management Institute",
+      "sourcePublishedAt": "2026-08-17",
+      "sourceHeadline": "Africa water and sanitation leadership symposium opens in Kigali",
+      "sourceUrl": "https://www.iwmi.org/events/africa-water-sanitation-systems-leadership-symposium-2026/",
+      "sourceDescription": "The Kigali gathering puts financial credibility and investable water and sanitation systems at the centre of infrastructure reform, bringing political, fiscal, financial and technical leadership into one room.",
+      "beats": ["infrastructure-mobility", "institutions-policy"]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-14",
+      "sourceHeadline": "Kenya plans a wider sovereign borrowing mix",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenya-plans-issue-eurobonds-samurai-bonds-202627-finance-ministry-says-2026-08-14/",
+      "sourceDescription": "Kenya is considering panda, Samurai, Sukuk, diaspora and Eurobond issuance while managing a heavy debt-service burden, widening the financing menu while also widening exposure to external conditions.",
+      "beats": ["money-markets", "institutions-policy"]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-01-10",
+      "sourceHeadline": "Ethiopia begins $12.5 billion construction of Africa's biggest airport",
+      "sourceUrl": "https://www.reuters.com/world/africa/ethiopia-begins-125-billion-construction-africas-biggest-airport-2026-01-10/",
+      "sourceDescription": "The Bishoftu airport project moves into its major construction phase in August 2026, tying Ethiopian Airlines growth to one of the continent's largest infrastructure financing programmes.",
+      "beats": ["infrastructure-mobility", "money-markets"]
     },
     {
       "source": "African Development Fund",
       "sourcePublishedAt": "2026-06-24",
       "sourceHeadline": "Regional financial integration gets a $9 million implementation layer",
       "sourceUrl": "https://adf.afdb.org/african-development-fund-approves-9-million-grant-to-strengthen-financial-integration-across-east-africa/",
-      "sourceDescription": "The East Africa and Horn of Africa capital-markets and payment-systems project spans nine countries and targets cross-border investment and market infrastructure.",
+      "sourceDescription": "The East Africa and Horn capital-markets and payment-systems project spans nine countries and targets cross-border investment, market infrastructure and regional financial integration.",
       "beats": ["money-markets", "institutions-policy"]
     }
   ]
