@@ -12,11 +12,14 @@ on:
       - 'search-index.json'
       - 'sitemap.xml'
       - 'scripts/**'
+      - 'EAST_CORNER_EDITORIAL.md'
       - '.github/workflows/east-corner-publisher.yml'
   schedule:
-    # 03:17 America/Edmonton: MDT in summer, MST in winter.
-    - cron: '17 9 * * *'
-    - cron: '17 10 * * *'
+    # 03:02 America/Edmonton preflight. Two UTC schedules cover MDT/MST;
+    # publish_east_corner.py suppresses the duplicate outside local hour 03.
+    # The reader-facing East Corner deadline is 04:00 America/Edmonton.
+    - cron: '2 9 * * *'
+    - cron: '2 10 * * *'
 
 permissions:
   contents: write
