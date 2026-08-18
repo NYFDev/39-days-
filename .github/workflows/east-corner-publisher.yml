@@ -14,8 +14,9 @@ on:
       - 'scripts/**'
       - '.github/workflows/east-corner-publisher.yml'
   schedule:
-    - cron: '17 14 * * *'
-    - cron: '17 15 * * *'
+    # 03:17 America/Edmonton: MDT in summer, MST in winter.
+    - cron: '17 9 * * *'
+    - cron: '17 10 * * *'
 
 permissions:
   contents: write
