@@ -117,46 +117,27 @@ def build_packet(now, items):
         "schemaVersion": 2,
         "generatedAt": now.isoformat(timespec="seconds"),
         "status": "review",
-        "publicationPolicy": {
-            "autoPublish": False,
-            "rule": "The numbered Signal remains reviewed synthesis. The public Morning Wire is source-linked discovery, not a synthesized editorial conclusion.",
-        },
-        "editorialInstructions": [
-            "Do not organize the reader-facing Signal into fixed taxonomy lanes.",
-            "Do not rewrite source headlines and present them as East Corner headlines.",
-            "Find collisions across money, infrastructure, computing, institutions, culture and diaspora life.",
-            "Prefer a small number of developed threads over a quota of category summaries.",
-            "Keep direct source links attached to every factual claim used in synthesis.",
-        ],
+        "publicationPolicy": {"autoPublish": False, "rule": "The numbered Signal remains reviewed synthesis. The public Morning Wire is source-linked discovery, not a synthesized editorial conclusion."},
+        "editorialInstructions": ["Do not organize the reader-facing Signal into fixed taxonomy lanes.", "Do not rewrite source headlines and present them as East Corner headlines.", "Find collisions across money, infrastructure, computing, institutions, culture and diaspora life.", "Prefer a small number of developed threads over a quota of category summaries.", "Keep direct source links attached to every factual claim used in synthesis."],
         "sources": items,
     }
 
 
 def build_wire(now, items):
-    selected = items[:12]
-    return {
-        "schemaVersion": 1,
-        "product": "East Corner Morning Wire",
-        "generatedAt": now.isoformat(timespec="seconds"),
-        "date": now.date().isoformat(),
-        "timezone": "America/Edmonton",
-        "status": "published",
-        "editorialState": "source-linked discovery",
-        "note": "Automatically collected public reporting. Headlines and descriptions remain attributable to the originating publishers; numbered Signal issues are separately reviewed synthesis.",
-        "items": selected,
-    }
+    return {"schemaVersion": 1, "product": "East Corner Morning Wire", "generatedAt": now.isoformat(timespec="seconds"), "date": now.date().isoformat(), "timezone": "America/Edmonton", "status": "published", "editorialState": "source-linked discovery", "note": "Automatically collected public reporting. Headlines and descriptions remain attributable to the originating publishers; numbered Signal issues are separately reviewed synthesis.", "items": items[:12]}
 
 
 def main():
     now = dt.datetime.now(TZ)
+    if os.getenv("GITHUB_EVENT_NAME") == "schedule" and now.hour != 3:
+        print(f"Skipping duplicate schedule: local time is {now:%H:%M %Z}; publication window is 03:00.")
+        return
     items = discover()
     if len(items) < 6:
         raise SystemExit(f"Collector found only {len(items)} usable sources; refusing to create a thin East Corner wire.")
-
     packet = build_packet(now, items)
     QUEUE.parent.mkdir(parents=True, exist_ok=True)
     QUEUE.write_text(json.dumps(packet, indent=2, ensure_ascii=False) + "\n")
-
     WIRE.parent.mkdir(parents=True, exist_ok=True)
     WIRE.write_text(json.dumps(build_wire(now, items), indent=2, ensure_ascii=False) + "\n")
     print(f"East Corner Morning Wire published with {min(len(items), 12)} sources; editorial queue refreshed with {len(items)} sources.")
