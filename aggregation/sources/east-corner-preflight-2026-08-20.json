@@ -1,0 +1,365 @@
+[
+  {
+    "id": "web:reuters:uganda-citibank-road-2026-08-20",
+    "schemaVersion": 2,
+    "visibility": "internal",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/world/africa/uganda-eyes-up-242-million-citibank-infrastructure-project-2026-08-20/",
+      "publishedAt": "2026-08-20",
+      "retrievedAt": "2026-08-20T08:58:00-06:00"
+    },
+    "title": "Uganda seeks up to €207.7 million from Citibank for an eastern road",
+    "summary": "Uganda is seeking up to €207.7 million, about $242.55 million, from Citibank for a road in the country's east. Reuters reports the proposed borrowing alongside IMF and central-bank warnings about debt service and pressure on social-sector spending.",
+    "context": "Editorial question: when a road is presented as connectivity, what existing public spending is displaced by the financing structure before the road produces a return?",
+    "observedAt": "2026-08-20",
+    "entities": [
+      "Government of Uganda",
+      "Citibank"
+    ],
+    "geography": [
+      "Uganda",
+      "East Africa"
+    ],
+    "lanes": [
+      "capital",
+      "record"
+    ],
+    "topics": [
+      "public debt",
+      "roads",
+      "infrastructure finance"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "verified",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-08-20T08:58:00-06:00",
+      "notes": "Preflight only; editorial review required before publication."
+    },
+    "outputs": [],
+    "payload": {}
+  },
+  {
+    "id": "web:ap:kenya-power-expansion-2026-08-19",
+    "schemaVersion": 2,
+    "visibility": "internal",
+    "kind": "article",
+    "source": {
+      "name": "Associated Press",
+      "type": "web",
+      "canonicalUrl": "https://apnews.com/article/kenya-nuclear-geothermal-renewable-solar-e9a7bfa17c05bf6d752c52ff508917fb",
+      "publishedAt": "2026-08-19",
+      "retrievedAt": "2026-08-20T08:58:00-06:00"
+    },
+    "title": "Kenya triples its power target while affordability remains unresolved",
+    "summary": "Kenya's long-term generation plan rises from about 1,500 MW to 5,500 MW, including 2,000 MW of nuclear power, 700 MW of hydropower and new geothermal projects. AP reports that costs, grid losses, financing and power contracts may prevent new capacity from lowering bills.",
+    "context": "Editorial question: Kenya may not have a generation problem so much as a delivery-and-pricing problem; more megawatts can coexist with power that remains too expensive to industrialize.",
+    "observedAt": "2026-08-19",
+    "entities": [
+      "KenGen",
+      "Kenya Power"
+    ],
+    "geography": [
+      "Kenya",
+      "East Africa"
+    ],
+    "lanes": [
+      "enterprise",
+      "capital"
+    ],
+    "topics": [
+      "energy",
+      "industrialization",
+      "grid losses",
+      "electricity pricing"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "verified",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-08-20T08:58:00-06:00",
+      "notes": "Preflight only; editorial review required before publication."
+    },
+    "outputs": [],
+    "payload": {}
+  },
+  {
+    "id": "web:reuters:eabl-asahi-reserve-2026-08-17",
+    "schemaVersion": 2,
+    "visibility": "internal",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/world/africa/kenyas-competition-regulator-seeks-reserve-fund-diageos-eabl-sale-2026-08-17/",
+      "publishedAt": "2026-08-17",
+      "retrievedAt": "2026-08-20T08:58:00-06:00"
+    },
+    "title": "Kenyan regulators seek a reserve before EABL changes hands",
+    "summary": "Kenya's competition regulator proposed that EABL set aside as much as 15 billion shillings, about $115 million, before approving Diageo's sale of its 65% stake to Asahi. Diageo disputes the condition; the $2.3 billion transaction remains under review.",
+    "context": "Editorial question: the deal is not only foreign capital entering and leaving; it is a test of how liabilities, distributors and minority interests are priced when control of a regional consumer institution moves.",
+    "observedAt": "2026-08-18",
+    "entities": [
+      "East African Breweries",
+      "Diageo",
+      "Asahi Group Holdings",
+      "Competition Authority of Kenya"
+    ],
+    "geography": [
+      "Kenya",
+      "East Africa"
+    ],
+    "lanes": [
+      "capital",
+      "record"
+    ],
+    "topics": [
+      "mergers",
+      "competition policy",
+      "consumer business"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "verified",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-08-20T08:58:00-06:00",
+      "notes": "Preflight only; editorial review required before publication."
+    },
+    "outputs": [],
+    "payload": {}
+  },
+  {
+    "id": "web:igad:mutual-recognition-trade-2026-08-18",
+    "schemaVersion": 2,
+    "visibility": "internal",
+    "kind": "article",
+    "source": {
+      "name": "IGAD",
+      "type": "web",
+      "canonicalUrl": "https://igad.int/igad-member-states-advance-mutual-recognition-agreements-to-facilitate-regional-trade/",
+      "publishedAt": "2026-08-18",
+      "retrievedAt": "2026-08-20T08:58:00-06:00"
+    },
+    "title": "IGAD advances mutual recognition work for regional agricultural trade",
+    "summary": "IGAD, the AfCFTA Secretariat and member-state representatives completed a technical workshop on mutual recognition agreements intended to reduce standards and conformity-assessment barriers in priority agricultural value chains.",
+    "context": "Editorial question: the invisible cost of regional trade is often proving the same product twice; recognition agreements matter when they replace duplicated compliance with trusted regional proof.",
+    "observedAt": "2026-08-18",
+    "entities": [
+      "IGAD",
+      "AfCFTA Secretariat",
+      "World Bank"
+    ],
+    "geography": [
+      "Horn of Africa",
+      "East Africa"
+    ],
+    "lanes": [
+      "enterprise",
+      "record"
+    ],
+    "topics": [
+      "trade facilitation",
+      "standards",
+      "agriculture",
+      "AfCFTA"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "verified",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-08-20T08:58:00-06:00",
+      "notes": "Primary institutional source. Preflight only; editorial review required before publication."
+    },
+    "outputs": [],
+    "payload": {}
+  },
+  {
+    "id": "web:igad:cross-border-trade-network-2026-08-20",
+    "schemaVersion": 2,
+    "visibility": "internal",
+    "kind": "event",
+    "source": {
+      "name": "IGAD",
+      "type": "web",
+      "canonicalUrl": "https://igad.int/events/consultative-meeting-to-establish-an-igad-cross-border-trade-knowledge-sharing-network/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-20T08:58:00-06:00"
+    },
+    "title": "IGAD convenes a cross-border trade knowledge-sharing network",
+    "summary": "IGAD lists an ongoing consultative meeting in Nairobi on August 20–21 to establish a cross-border trade knowledge-sharing network.",
+    "context": "Editorial question: regional policy produces value only when border operators can exchange working knowledge fast enough to change the actual crossing, not merely the conference record.",
+    "observedAt": "2026-08-20",
+    "entities": [
+      "IGAD"
+    ],
+    "geography": [
+      "Nairobi",
+      "Horn of Africa",
+      "East Africa"
+    ],
+    "lanes": [
+      "enterprise",
+      "record"
+    ],
+    "topics": [
+      "cross-border trade",
+      "knowledge infrastructure",
+      "regional integration"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "verified",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-08-20T08:58:00-06:00",
+      "notes": "Primary institutional event listing. Preflight only; editorial review required before publication."
+    },
+    "outputs": [],
+    "payload": {}
+  },
+  {
+    "id": "web:unesco:east-africa-living-heritage-climate-2026-08-16",
+    "schemaVersion": 2,
+    "visibility": "internal",
+    "kind": "report",
+    "source": {
+      "name": "UNESCO Intangible Cultural Heritage",
+      "type": "web",
+      "canonicalUrl": "https://ich.unesco.org/en/news/unesco-publishes-case-studies-on-living-heritage-and-climate-change-in-east-africa-13364",
+      "publishedAt": "2026-08-16",
+      "retrievedAt": "2026-08-20T08:58:00-06:00"
+    },
+    "title": "UNESCO publishes East African case studies linking living heritage and climate",
+    "summary": "UNESCO's Intangible Cultural Heritage programme published case studies on living heritage and climate change in East Africa as part of regional safeguarding work.",
+    "context": "Editorial question: climate adaptation is also cultural memory—what communities know how to carry, revise and teach before an emergency turns that knowledge into a museum object.",
+    "observedAt": "2026-08-16",
+    "entities": [
+      "UNESCO"
+    ],
+    "geography": [
+      "East Africa"
+    ],
+    "lanes": [
+      "culture",
+      "record"
+    ],
+    "topics": [
+      "living heritage",
+      "climate adaptation",
+      "knowledge"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "verified",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-08-20T08:58:00-06:00",
+      "notes": "Primary institutional source. Preflight only; editorial review required before publication."
+    },
+    "outputs": [],
+    "payload": {}
+  },
+  {
+    "id": "web:smithsonian:here-pride-belonging-2026",
+    "schemaVersion": 2,
+    "visibility": "internal",
+    "kind": "event",
+    "source": {
+      "name": "Smithsonian National Museum of African Art",
+      "type": "web",
+      "canonicalUrl": "https://africa.si.edu/exhibitions/here-pride-and-belonging-african-art",
+      "publishedAt": "2026-01-23",
+      "retrievedAt": "2026-08-20T08:58:00-06:00"
+    },
+    "title": "Here: Pride and Belonging keeps queer African artists at the centre",
+    "summary": "The Smithsonian's National Museum of African Art is presenting Here: Pride and Belonging in African Art through August 30, 2026, with artists' voices central to the exhibition.",
+    "context": "Editorial question: the exhibit's significance is not simply representation; it is institutional authorship being returned to queer African artists whose work is often described through someone else's permission structure.",
+    "observedAt": "2026-08-20",
+    "entities": [
+      "Smithsonian National Museum of African Art"
+    ],
+    "geography": [
+      "African diaspora",
+      "United States"
+    ],
+    "lanes": [
+      "culture"
+    ],
+    "topics": [
+      "art",
+      "LGBTQ",
+      "belonging",
+      "diaspora"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "verified",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-08-20T08:58:00-06:00",
+      "notes": "Primary institutional exhibition page. Preflight only; editorial review required before publication."
+    },
+    "outputs": [],
+    "payload": {}
+  },
+  {
+    "id": "web:hibf:continuity-books-2026",
+    "schemaVersion": 2,
+    "visibility": "internal",
+    "kind": "event",
+    "source": {
+      "name": "Hargeysa International Book Fair",
+      "type": "web",
+      "canonicalUrl": "https://www.hargeysabookfair.com/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-20T08:58:00-06:00"
+    },
+    "title": "Hargeysa Book Fair records continuity through the books themselves",
+    "summary": "The official Hargeysa International Book Fair site identifies the 19th edition's theme as Continuity and maintains a gallery of its 2026 books.",
+    "context": "Editorial question: a Horn literary institution makes continuity concrete by leaving a catalogue, not only an event—books become the infrastructure through which a language community remembers itself forward.",
+    "observedAt": "2026-08-20",
+    "entities": [
+      "Hargeysa International Book Fair"
+    ],
+    "geography": [
+      "Hargeisa",
+      "Somaliland",
+      "Horn of Africa"
+    ],
+    "lanes": [
+      "culture",
+      "record"
+    ],
+    "topics": [
+      "books",
+      "Somali literature",
+      "archives",
+      "continuity"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "verified",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-08-20T08:58:00-06:00",
+      "notes": "Primary cultural institution source. Preflight only; editorial review required before publication."
+    },
+    "outputs": [],
+    "payload": {}
+  }
+]
