@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-004",
-  "title": "Growth Is Arriving Before the Balance Sheet Is Ready.",
-  "url": "https://nyfholdings.ca/newsletter/signal-004/",
-  "publishedAt": "2026-08-18T04:27:00-06:00",
-  "scope": ["uganda", "capital", "oil", "infrastructure", "institutions"],
-  "method": "AI-assisted editorial synthesis with direct links to originating publishers.",
+  "issue": "signal-003",
+  "title": "The Financing Menu Is Expanding. So Are the Conditions.",
+  "url": "https://nyfholdings.ca/newsletter/signal-003/",
+  "publishedAt": "2026-08-17T13:30:00-06:00",
+  "scope": ["capital", "infrastructure", "technology", "institutions"],
+  "method": "AI-assisted cross-source synthesis with direct links to originating publishers.",
   "items": [
-    {"source":"Reuters","sourcePublishedAt":"2026-08-17","headline":"IMF plans September Uganda programme mission","sourceUrl":"https://www.reuters.com/world/africa/imf-visit-uganda-next-month-negotiations-new-programme-2026-08-17/","whyItMatters":"Uganda's expected oil growth is arriving alongside debt-service pressure and a weakening fiscal position, making programme terms and fiscal room the morning's key signal."},
-    {"source":"African Development Bank","sourcePublishedAt":"2026","headline":"Infrastructure expansion still outruns regional integration","sourceUrl":"https://www.afdb.org/sites/default/files/documents/publications/ader_2026_en_web.pdf","whyItMatters":"New assets create regional productivity only when corridors, digital systems and cross-border infrastructure become interoperable."}
+    {"source":"Reuters","sourcePublishedAt":"2026-08-14","headline":"Kenya plans a wider sovereign borrowing mix","sourceUrl":"https://www.reuters.com/world/africa/kenya-plans-issue-eurobonds-samurai-bonds-202627-finance-ministry-says-2026-08-14/","whyItMatters":"Diversifying funding markets creates options, but debt sustainability still depends on productive deployment and servicing capacity."},
+    {"source":"The Times","sourcePublishedAt":"2026-08-15","headline":"Big Tech expands African infrastructure","sourceUrl":"https://www.thetimes.com/business/economics/article/big-tech-new-scramble-for-africa-260t68dpf","whyItMatters":"Cloud and connectivity investment makes power, regulation, data governance and local technical capacity part of the financing equation."},
+    {"source":"Financial Times","sourcePublishedAt":"2026-08-17","headline":"UAE defends the scale and character of its African investment","sourceUrl":"https://www.ft.com/content/d50b44ec-0226-4d28-8af3-73820fed7206","whyItMatters":"Gulf capital is now large enough to sit alongside Chinese, Western and multilateral financing in national development choices."},
+    {"source":"African Development Fund","sourcePublishedAt":"2026-06-24","headline":"Regional financial integration gets a $9 million implementation layer","sourceUrl":"https://adf.afdb.org/african-development-fund-approves-9-million-grant-to-strengthen-financial-integration-across-east-africa/","whyItMatters":"Integrated capital markets and payment systems can turn multiple national financing pools into a more usable regional market."}
   ]
 }
