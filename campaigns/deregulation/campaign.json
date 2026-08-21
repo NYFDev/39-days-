@@ -1,0 +1,17 @@
+{
+  "campaign": "deregulation",
+  "status": "active",
+  "indexingGate": "Search Console remains blocked until all intended public campaign routes exist and sitemap generation passes route inventory.",
+  "funnel": {
+    "discovery": ["public essay", "East Corner synthesis", "IRL attention offshoots", "search/social referral"],
+    "publicPreview": "/campaigns/deregulation/",
+    "capture": {"type": "email", "endpoint": "/api/public/newsletter", "requiredFields": ["email", "consent"], "attributionFields": ["campaign", "source"]},
+    "unlock": ["full white papers", "source notes", "campaign offshoots"],
+    "retention": ["NYF Dispatch", "new campaign releases"]
+  },
+  "editorialRule": "Sources are evidence; synthesis is the product. Do not force public prose into fixed taxonomy lanes.",
+  "plannedPapers": [
+    {"slug": "deregulation-to-automation", "title": "From Deregulation to Automation", "status": "draft"},
+    {"slug": "attention-before-the-web", "title": "The Balloon Was Already an Algorithm", "status": "draft"}
+  ]
+}
