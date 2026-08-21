@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "desk": "East Corner",
+  "capturedAt": "2026-08-21",
+  "status": "editorial-review-required",
+  "publicationAction": "held",
+  "subject": "Uganda Jinja–Mbulamuti–Kamuli–Bukungu and Jinja City roads financing",
+  "editorialRule": "Source preservation only. No numbered Signal may be generated from this memo without original editorial framing and review.",
+  "documentedFacts": [
+    {
+      "claim": "Uganda's finance ministry asked Parliament to authorize borrowing up to €207.77 million from Citi Bank and other financial institutions for a 127 km road and 10 km of Jinja City roads.",
+      "source": "Parliament of Uganda CMIS — Ministry of Finance brief",
+      "sourceDate": "August 2026",
+      "url": "https://cmis.parliament.go.ug/cmis/views/4c0d4f5c-5de4-4a69-8d4f-5c5de4da69c8%253B1.0"
+    },
+    {
+      "claim": "The signed civil-works contract is €161.77 million with M/S Power China International Group Limited, dated 15 March 2023.",
+      "source": "Parliament of Uganda CMIS — Ministry of Finance brief",
+      "sourceDate": "August 2026",
+      "url": "https://cmis.parliament.go.ug/cmis/views/4c0d4f5c-5de4-4a69-8d4f-5c5de4da69c8%253B1.0"
+    },
+    {
+      "claim": "The ATIDI-covered facility is €179.26 million: €161.77 million for civil works plus a stated €17.49 million insurance premium, equal to 10.81% of the civil-works contract.",
+      "source": "Parliament of Uganda CMIS — Ministry of Finance brief",
+      "sourceDate": "August 2026",
+      "url": "https://cmis.parliament.go.ug/cmis/views/4c0d4f5c-5de4-4a69-8d4f-5c5de4da69c8%253B1.0"
+    },
+    {
+      "claim": "The ATIDI-covered facility is presented with a 10-year tenor, three-year grace period, 1.40% arrangement fee, €20,000 annual agency fee, 2.50% margin over a stated 2.55% six-month-average Euribor, 5.05% stated interest rate, and 0.750% commitment fee.",
+      "source": "Parliament of Uganda CMIS — Ministry of Finance brief",
+      "sourceDate": "August 2026",
+      "url": "https://cmis.parliament.go.ug/cmis/views/4c0d4f5c-5de4-4a69-8d4f-5c5de4da69c8%253B1.0"
+    },
+    {
+      "claim": "A separate €28.51 million commercial facility covers €26.17 million of land acquisition and €2.34 million of construction supervision and design review; it is presented with a six-year tenor, three-year grace period, 1.40% arrangement fee, €10,000 annual agency fee, 4.50% margin over stated Euribor, 7.05% stated interest rate, and 1.25% commitment fee.",
+      "source": "Parliament of Uganda CMIS — Ministry of Finance brief",
+      "sourceDate": "August 2026",
+      "url": "https://cmis.parliament.go.ug/cmis/views/4c0d4f5c-5de4-4a69-8d4f-5c5de4da69c8%253B1.0"
+    },
+    {
+      "claim": "The ministry's brief reports total public debt of US$34.86 billion, or 52.7% of GDP, at the end of December 2025.",
+      "source": "Parliament of Uganda CMIS — Ministry of Finance brief",
+      "sourceDate": "August 2026",
+      "url": "https://cmis.parliament.go.ug/cmis/views/4c0d4f5c-5de4-4a69-8d4f-5c5de4da69c8%253B1.0"
+    },
+    {
+      "claim": "The same road has appeared in prior government budgets, including as Project 1810 in the FY2024/25 UNRA vote.",
+      "source": "Uganda Ministry of Finance budget portal — UNRA Vote 113",
+      "sourceDate": "FY2024/25",
+      "url": "https://budget.finance.go.ug/sites/default/files/Sector%20Spending%20Agency%20Budgets%20and%20Performance/Uganda%20National%20Roads%20Authority_17.pdf"
+    },
+    {
+      "claim": "Reporting in April 2021 described the corridor as a government promise dating to 2001 and said contractor procurement was then still underway.",
+      "source": "Daily Monitor",
+      "sourceDate": "2021-04-29",
+      "url": "https://www.monitor.co.ug/uganda/news/national/works-on-jinja-kamuli-road-to-start--3381146"
+    }
+  ],
+  "corroboratingReports": [
+    {
+      "source": "Reuters",
+      "sourceDate": "2026-08-20",
+      "url": "https://www.reuters.com/world/africa/uganda-eyes-up-242-million-citibank-infrastructure-project-2026-08-20/",
+      "note": "Corroborates the proposed borrowing amount and debt-service concern, but does not identify the road, contractor or detailed financing terms."
+    },
+    {
+      "source": "New Vision",
+      "sourceDate": "2026-08-21",
+      "url": "https://www.newvision.co.ug/category/news/jinja-bukungu-road-upgrade-to-create-alternat-NV_239167_082026",
+      "note": "Corroborates the road scope, PowerChina contract, ATIDI replacement of Sinosure, premium and component amounts."
+    }
+  ],
+  "derivedCalculations": [
+    {
+      "calculation": "€207.77 million / 137 km = approximately €1.52 million per km.",
+      "caveat": "This is a headline financing-per-kilometre figure, not a construction unit cost; the numerator includes insurance, land acquisition, supervision and design review."
+    },
+    {
+      "calculation": "€161.77 million / 137 km = approximately €1.18 million per km.",
+      "caveat": "This is the signed civil-works contract divided by the combined stated route length; it is not evidence of final outturn cost."
+    },
+    {
+      "calculation": "€17.49 million / €207.77 million = approximately 8.42% of total proposed financing.",
+      "caveat": "The official brief separately states that the premium equals 10.81% of the civil-works contract."
+    }
+  ],
+  "unresolvedQuestions": [
+    "Which institutions besides Citi Bank would be original lenders, and what shares would each hold?",
+    "Who is the named insured, beneficiary and guarantor under the ATIDI instrument, and what events trigger or exclude payment?",
+    "What is the amortization schedule and total projected debt service under each facility after fees, premium and variable Euribor?",
+    "What sovereign guarantees, indemnities, waivers, governing-law provisions and enforcement rights appear in the finance documents?",
+    "Have all land, environmental and social authorizations required before first disbursement been completed?",
+    "What is the current commencement, mobilization and disbursement status under the PowerChina contract signed in March 2023?",
+    "How do prior appropriations for Project 1810 reconcile with the current financing request and work completed to date?"
+  ],
+  "rejectedOrUnsupportedLinks": [
+    {
+      "claim": "A current proposal grants China additional fishing access in exchange for or alongside this road financing.",
+      "status": "unsupported in the checked record",
+      "note": "No source-verifiable link was found in the parliamentary brief, Reuters report, road budget records or direct institutional searches. Do not publish this connection without a separate primary document."
+    },
+    {
+      "claim": "PowerChina is the lender.",
+      "status": "disproven",
+      "note": "The record identifies PowerChina as civil-works contractor and Citi Bank/other financial institutions as proposed lenders."
+    }
+  ],
+  "adjacentCurrentSignals": [
+    {
+      "lane": "enterprise",
+      "source": "IGAD",
+      "sourceDate": "2026-08-21",
+      "title": "IGAD Advances Cross-Border Trade Knowledge-Sharing through Regional Consultation",
+      "url": "https://igad.int/",
+      "note": "Primary institutional notice; retain the direct article URL before publication if selected."
+    },
+    {
+      "lane": "capital",
+      "source": "East African Community",
+      "sourceDate": "2026-08-14",
+      "title": "EAC and Germany Renew Cooperation to Advance Regional Integration with €39.8 Million in New Grant Funding",
+      "url": "https://www.eac.int/press-releases/155-resource-mobilization/3577-eac-and-germany-renew-cooperation-to-advance-regional-integration-with-%E2%82%AC39-8-million-in-new-grant-funding"
+    }
+  ]
+}
