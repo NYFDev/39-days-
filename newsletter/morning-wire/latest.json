@@ -1,59 +1,61 @@
 {
   "schemaVersion": 1,
   "product": "East Corner Morning Wire",
-  "generatedAt": "2026-08-18T04:23:00-06:00",
-  "date": "2026-08-18",
+  "generatedAt": "2026-08-23T19:24:00-06:00",
+  "date": "2026-08-23",
   "timezone": "America/Edmonton",
   "status": "published",
-  "editorialState": "manually curated morning edition",
-  "note": "Curated East Corner morning scan. Priority is current regional movement in capital, infrastructure and institutions; every item links to the originating source.",
+  "collectionStatus": "full",
+  "collectionCount": 6,
+  "editorialState": "source-linked discovery",
+  "note": "Curated source-linked Sunday scan. Headlines remain attributable to the originating publishers; this is discovery material, not a numbered East Corner editorial conclusion.",
   "items": [
     {
-      "source": "Financial Times",
-      "sourcePublishedAt": "2026-08-17",
-      "sourceHeadline": "UAE defends the scale and character of its African investment",
-      "sourceUrl": "https://www.ft.com/content/d50b44ec-0226-4d28-8af3-73820fed7206",
-      "sourceDescription": "Gulf capital is now large enough to sit alongside Chinese, Western and multilateral financing in national development choices across Africa, with direct implications for the Horn and East Africa.",
-      "beats": ["money-markets", "institutions-policy"]
-    },
-    {
-      "source": "AlHuda CIBE",
-      "sourcePublishedAt": "2026-08-17",
-      "sourceHeadline": "Interest-free banking and Takaful forum convenes in Addis Ababa",
-      "sourceUrl": "https://www.alhudacibe.com/ibtf2026/",
-      "sourceDescription": "Regulators, bankers and finance practitioners are meeting in Addis Ababa around Islamic banking, Takaful, microfinance and financial inclusion, with National Bank of Ethiopia officials among the speakers.",
-      "beats": ["money-markets", "institutions-policy"]
-    },
-    {
-      "source": "International Water Management Institute",
-      "sourcePublishedAt": "2026-08-17",
-      "sourceHeadline": "Africa water and sanitation leadership symposium opens in Kigali",
-      "sourceUrl": "https://www.iwmi.org/events/africa-water-sanitation-systems-leadership-symposium-2026/",
-      "sourceDescription": "The Kigali gathering puts financial credibility and investable water and sanitation systems at the centre of infrastructure reform, bringing political, fiscal, financial and technical leadership into one room.",
-      "beats": ["infrastructure-mobility", "institutions-policy"]
-    },
-    {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-08-14",
-      "sourceHeadline": "Kenya plans a wider sovereign borrowing mix",
-      "sourceUrl": "https://www.reuters.com/world/africa/kenya-plans-issue-eurobonds-samurai-bonds-202627-finance-ministry-says-2026-08-14/",
-      "sourceDescription": "Kenya is considering panda, Samurai, Sukuk, diaspora and Eurobond issuance while managing a heavy debt-service burden, widening the financing menu while also widening exposure to external conditions.",
-      "beats": ["money-markets", "institutions-policy"]
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-01-10",
-      "sourceHeadline": "Ethiopia begins $12.5 billion construction of Africa's biggest airport",
-      "sourceUrl": "https://www.reuters.com/world/africa/ethiopia-begins-125-billion-construction-africas-biggest-airport-2026-01-10/",
-      "sourceDescription": "The Bishoftu airport project moves into its major construction phase in August 2026, tying Ethiopian Airlines growth to one of the continent's largest infrastructure financing programmes.",
+      "sourcePublishedAt": "2026-08-22",
+      "sourceHeadline": "Tanzania commissions country's largest hydropower plant",
+      "sourceUrl": "https://www.reuters.com/business/energy/tanzania-commissions-countrys-largest-hydropower-plant-2026-08-22/",
+      "sourceDescription": "Tanzania commissioned a 2,115-megawatt hydropower plant, more than doubling national generation capacity and creating potential room for power exports and additional industrial demand.",
       "beats": ["infrastructure-mobility", "money-markets"]
     },
     {
-      "source": "African Development Fund",
-      "sourcePublishedAt": "2026-06-24",
-      "sourceHeadline": "Regional financial integration gets a $9 million implementation layer",
-      "sourceUrl": "https://adf.afdb.org/african-development-fund-approves-9-million-grant-to-strengthen-financial-integration-across-east-africa/",
-      "sourceDescription": "The East Africa and Horn capital-markets and payment-systems project spans nine countries and targets cross-border investment, market infrastructure and regional financial integration.",
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-21",
+      "sourceHeadline": "Official creditors back Ethiopia bond restructuring, flag risks in warrant",
+      "sourceUrl": "https://www.reuters.com/world/africa/official-creditors-back-ethiopia-bond-restructuring-flag-risks-warrant-2026-08-21/",
+      "sourceDescription": "Ethiopia's official creditors approved a preliminary restructuring agreement covering the country's $1 billion Eurobond, moving the sovereign closer to an exit from default while creditors continue to scrutinize the proposed terms.",
+      "beats": ["money-markets", "institutions-policy"]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-21",
+      "sourceHeadline": "Somali child hunger crisis deepens as facilities close due to aid cuts, UNICEF says",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/somali-child-hunger-crisis-deepens-facilities-close-due-aid-cuts-unicef-says-2026-08-21/",
+      "sourceDescription": "UNICEF said 205 health and nutrition facilities have closed after humanitarian funding cuts, while nearly 1.9 million Somali children are projected to experience malnutrition in 2026.",
+      "beats": ["institutions-policy", "culture-life"]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-20",
+      "sourceHeadline": "Uganda eyes up to $242 million from Citibank for infrastructure project",
+      "sourceUrl": "https://www.reuters.com/world/africa/uganda-eyes-up-242-million-citibank-infrastructure-project-2026-08-20/",
+      "sourceDescription": "Uganda is considering borrowing up to 207.7 million euros from Citibank to help finance a major road project in the country's east, linking commercial bank financing directly to public infrastructure delivery.",
+      "beats": ["infrastructure-mobility", "money-markets", "institutions-policy"]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-19",
+      "sourceHeadline": "Kenya Airways says its fuel cost up 72% due to Middle East conflict",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenya-airways-says-its-fuel-cost-up-72-due-middle-east-conflict-2026-08-19/",
+      "sourceDescription": "Kenya Airways said Middle East conflict lifted first-half fuel costs by 72% and disrupted spare-parts supply and aircraft maintenance, transmitting geopolitical pressure directly into regional aviation operating costs.",
+      "beats": ["infrastructure-mobility", "money-markets"]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-17",
+      "sourceHeadline": "Kenya's competition regulator seeks reserve fund in Diageo's EABL sale",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenyas-competition-regulator-seeks-reserve-fund-diageos-eabl-sale-2026-08-17/",
+      "sourceDescription": "Kenya's competition regulator proposed a reserve of up to 15 billion shillings before approving the sale of Diageo's EABL stake to Asahi, placing regulatory risk allocation directly inside a major cross-border transaction.",
       "beats": ["money-markets", "institutions-policy"]
     }
   ]
