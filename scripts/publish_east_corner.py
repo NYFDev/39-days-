@@ -21,7 +21,7 @@ NEWS = ROOT / "newsletter"
 QUEUE = Path(os.environ.get("NYF_EDITORIAL_QUEUE", ROOT / "data" / "editorial-queue.json"))
 WIRE = NEWS / "morning-wire" / "latest.json"
 TZ = ZoneInfo("America/Edmonton")
-UA = "NYF-Holdings-East-Corner/3.0 (+https://nyfholdings.ca/newsletter/)"
+UA = "NYF-Holdings-East-Corner/3.1 (+https://nyfholdings.ca/newsletter/)"
 
 QUERIES = [
     ("money-markets", '((Kenya OR Ethiopia OR Somalia OR Rwanda OR Uganda OR Tanzania OR Eritrea OR Djibouti OR "East Africa" OR "Horn of Africa") AND (finance OR investment OR bank OR bond OR trade OR payments OR remittance))'),
@@ -124,7 +124,24 @@ def build_packet(now, items):
 
 
 def build_wire(now, items):
-    return {"schemaVersion": 1, "product": "East Corner Morning Wire", "generatedAt": now.isoformat(timespec="seconds"), "date": now.date().isoformat(), "timezone": "America/Edmonton", "status": "published", "editorialState": "source-linked discovery", "note": "Automatically collected public reporting. Headlines and descriptions remain attributable to the originating publishers; numbered Signal issues are separately reviewed synthesis.", "items": items[:12]}
+    full = len(items) >= 6
+    return {
+        "schemaVersion": 1,
+        "product": "East Corner Morning Wire",
+        "generatedAt": now.isoformat(timespec="seconds"),
+        "date": now.date().isoformat(),
+        "timezone": "America/Edmonton",
+        "status": "published",
+        "collectionStatus": "full" if full else "limited",
+        "collectionCount": len(items),
+        "editorialState": "source-linked discovery",
+        "note": (
+            "Automatically collected public reporting. Headlines and descriptions remain attributable to the originating publishers; numbered Signal issues are separately reviewed synthesis."
+            if full
+            else "Limited source day. The available source-linked reporting is published rather than silently suppressing the Morning Wire; numbered Signal issues still require separate editorial review."
+        ),
+        "items": items[:12],
+    }
 
 
 def main():
@@ -133,8 +150,8 @@ def main():
         print(f"Skipping duplicate schedule: local time is {now:%H:%M %Z}; publication window is 03:00.")
         return
     items = discover()
-    if len(items) < 6:
-        raise SystemExit(f"Collector found only {len(items)} usable sources; refusing to create a thin East Corner wire.")
+    if not items:
+        raise SystemExit("Collector found zero usable sources; preserving the previous Morning Wire instead of overwriting it with an empty edition.")
     packet = build_packet(now, items)
     QUEUE.parent.mkdir(parents=True, exist_ok=True)
     QUEUE.write_text(json.dumps(packet, indent=2, ensure_ascii=False) + "\n")
