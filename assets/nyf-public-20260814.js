@@ -3,6 +3,11 @@ if (window.location.protocol === 'http:' && ['nyfholdings.ca', 'www.nyfholdings.
   window.location.replace(`https://${window.location.host}${window.location.pathname}${window.location.search}${window.location.hash}`);
 }
 
+const appManifest = document.createElement('link');
+appManifest.rel = 'manifest';
+appManifest.href = '/manifest.webmanifest';
+document.head.append(appManifest);
+
 const operationsFragments = new Set(['#crm', '#command', '#daily', '#activity', '#intelligence', '#evidence', '#financial']);
 if (operationsFragments.has(window.location.hash.toLowerCase()) && window.location.pathname === '/') {
   window.location.replace(`/operations/${window.location.hash}`);
