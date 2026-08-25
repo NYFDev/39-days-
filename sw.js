@@ -1,4 +1,4 @@
-const CACHE = 'nyf-public-v1';
+const CACHE = 'nyf-public-v2';
 const CORE = [
   '/',
   '/assets/nyf-public-20260814.css',
