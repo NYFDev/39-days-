@@ -1,12 +1,11 @@
 // NYF Holdings public release 2026-08-14
-if (window.location.protocol === 'http:' && ['nyfholdings.ca', 'www.nyfholdings.ca'].includes(window.location.hostname)) {
-  window.location.replace(`https://${window.location.host}${window.location.pathname}${window.location.search}${window.location.hash}`);
+const existingManifest = document.head.querySelector('link[rel="manifest"]');
+if (!existingManifest) {
+  const appManifest = document.createElement('link');
+  appManifest.rel = 'manifest';
+  appManifest.href = '/manifest.webmanifest';
+  document.head.append(appManifest);
 }
-
-const appManifest = document.createElement('link');
-appManifest.rel = 'manifest';
-appManifest.href = '/manifest.webmanifest';
-document.head.append(appManifest);
 
 const operationsFragments = new Set(['#crm', '#command', '#daily', '#activity', '#intelligence', '#evidence', '#financial']);
 if (operationsFragments.has(window.location.hash.toLowerCase()) && window.location.pathname === '/') {
@@ -173,7 +172,7 @@ if (newsletterForm && newsletterStatus) {
   });
 }
 
-if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator && window.isSecureContext) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/sw.js').catch(() => {});
   });
