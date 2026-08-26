@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "East Corner Morning Wire",
-  "generatedAt": "2026-08-25T04:01:21-06:00",
-  "date": "2026-08-25",
+  "generatedAt": "2026-08-26T04:00:44-06:00",
+  "date": "2026-08-26",
   "timezone": "America/Edmonton",
   "status": "published",
-  "collectionStatus": "partial",
-  "collectionCount": 3,
+  "collectionStatus": "full",
+  "collectionCount": 4,
   "editorialState": "source-linked discovery",
-  "note": "Three materially new, source-linked records since the prior wire. This is discovery material, not a numbered East Corner editorial conclusion; Signal 005 remains held below the four-item review gate.",
+  "note": "Four materially new source-linked records since the prior wire. This remains discovery material, not a numbered East Corner editorial conclusion; Signal 005 is held because the source mix does not meet the reviewed synthesis and primary-source gate.",
   "items": [
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-08-25",
-      "sourceHeadline": "Iran war makes multibillion-dollar Tanzania LNG more attractive, Equinor says",
-      "sourceUrl": "https://www.reuters.com/business/energy/equinor-hopes-make-pretty-big-namibia-oil-discovery-2026-08-25/",
-      "sourceDescription": "Equinor says Hormuz energy disruption improves the strategic case for Tanzania's long-stalled LNG export project, estimated by Tanzania at about $42 billion and tied to 47.13 trillion cubic feet of gas. Investment terms remain under negotiation; no final investment decision was reported.",
-      "whyItMatters": "Geopolitical supply risk can improve Tanzania's bargaining position, but attractiveness is not execution. The unresolved issue is whether negotiated terms convert urgency into durable domestic value.",
-      "inferenceOrUnresolved": "No final investment decision was reported.",
+      "sourcePublishedAt": "2026-08-26",
+      "sourceHeadline": "Kenya Airways to reveal potential new investors as losses deepen",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenya-airways-reveal-potential-new-investors-losses-deepen-2026-08-26/",
+      "sourceDescription": "Kenya Airways says it expects to disclose potential new investors within weeks as it seeks capital to reduce debt pressure, return grounded aircraft to service and fund its turnaround. The carrier reported a corrected first-half pre-tax loss of 15.92 billion Kenyan shillings, up from 12.17 billion shillings a year earlier, while its chairman said interest had come from local and international investors.",
+      "whyItMatters": "The capital raise is now tied to balance-sheet restructuring, fleet availability and the limits of state support. Investor interest is not a completed transaction, and the ownership terms remain unresolved.",
+      "inferenceOrUnresolved": "No investor, valuation, transaction structure or completed capital commitment was announced.",
       "beats": [
         "enterprise",
         "capital",
@@ -26,12 +26,12 @@
     },
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-08-24",
-      "sourceHeadline": "Two UN peacekeepers killed in South Sudan ambush, UN says",
-      "sourceUrl": "https://www.reuters.com/world/africa/two-un-peacekeepers-killed-south-sudan-ambush-un-says-2026-08-24/",
-      "sourceDescription": "Two Ethiopian UN peacekeepers were killed and seven other people injured in what the UN described as a deliberately targeted patrol ambush in South Sudan's Jonglei State. The attackers remain unidentified, and the UN called for a prompt investigation.",
-      "whyItMatters": "Regional security cooperation depends on peacekeepers being able to operate without impunity. Accountability, not only force presence, is the unresolved institutional test.",
-      "inferenceOrUnresolved": "The attackers had not been identified at publication.",
+      "sourcePublishedAt": "2026-08-26",
+      "sourceHeadline": "Son of Uganda's president says he will stand for top job in 2031",
+      "sourceUrl": "https://www.reuters.com/world/africa/son-ugandas-president-says-he-will-stand-top-job-2031-2026-08-26/",
+      "sourceDescription": "Uganda's military chief Muhoozi Kainerugaba, President Yoweri Museveni's son, said he intends to run for president in 2031. Reuters notes that he previously declared an intention to run in the last election before withdrawing and backing his father.",
+      "whyItMatters": "The declaration makes succession politics more explicit but does not establish a candidacy or election outcome. The institutional question is how military command, party power and electoral competition remain separated.",
+      "inferenceOrUnresolved": "The statement is an intention five years ahead; party nomination, ballot access and President Museveni's plans are unresolved.",
       "beats": [
         "record",
         "institutions-policy",
@@ -40,16 +40,29 @@
     },
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-08-24",
-      "sourceHeadline": "Kenya arrests four in probe into 18 elephant deaths in Amboseli",
-      "sourceUrl": "https://www.reuters.com/business/environment/kenya-arrests-four-probe-into-18-elephant-deaths-amboseli-2026-08-24/",
-      "sourceDescription": "Kenyan authorities arrested four suspects and recovered chemicals while investigating 18 elephant deaths in the Amboseli ecosystem; the suspects were later released on bail. Preliminary findings point toward a toxic substance, but experts dispute the pesticide explanation and authorities say no culpability has been established.",
-      "whyItMatters": "The evidence remains unsettled. The material question is whether the investigation can separate farm-wildlife conflict from deliberate poisoning without converting suspicion into a completed narrative.",
-      "inferenceOrUnresolved": "Cause and culpability remain under investigation.",
+      "sourcePublishedAt": "2026-08-26",
+      "sourceHeadline": "Tanzania's vice president resigns in less than a year",
+      "sourceUrl": "https://www.reuters.com/world/africa/tanzanias-vice-president-resigns-less-than-year-2026-08-26/",
+      "sourceDescription": "Tanzania's government said Vice President Emmanuel John Nchimbi will leave office on September 4 after President Samia Suluhu Hassan accepted his resignation. The official statement gave no reason and said constitutional procedures would be used to appoint a successor.",
+      "whyItMatters": "The vacancy creates an immediate constitutional transition inside the governing system. Any causal connection to Nchimbi's recent constitutional-reform remarks would be inference, not an established fact.",
+      "inferenceOrUnresolved": "The government did not state a reason for the resignation or name a successor.",
       "beats": [
         "record",
-        "environment",
         "institutions-policy"
+      ]
+    },
+    {
+      "source": "IGAD",
+      "sourcePublishedAt": "2026-08-25",
+      "sourceHeadline": "Health Emergency Preparedness, Response and Resilience Project for Eastern and Southern Africa (P180127)",
+      "sourceUrl": "https://igad.int/health-emergency-preparedness-response-and-resilience-project-for-eastern-and-southern-africa-under-phase-i-of-the-multiphase-programmatic-approach-p180127-2/",
+      "sourceDescription": "IGAD published the regional context and implementation controls for its health-emergency preparedness and resilience project, including environmental and social commitments, staffing, monitoring, reporting and grievance-management requirements. The page states that the International Development Association is providing original and additional financing under project agreements.",
+      "whyItMatters": "Cross-border disease preparedness depends on the implementation layer, not only the financing announcement. The disclosed controls identify where readiness and accountability can be tested as the project moves forward.",
+      "inferenceOrUnresolved": "The page does not state a new financing amount, approval date or completion result; none is inferred.",
+      "beats": [
+        "record",
+        "institutions-policy",
+        "health"
       ]
     }
   ]
