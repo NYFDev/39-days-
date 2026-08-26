@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nyfholdings.ca/schemas/funnel-event-v1.json",
+  "title": "NYF Funnel Event v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["event_id", "event_name", "occurred_at", "anonymous_id", "session_id", "content_id", "source", "medium", "landing_path", "consent_version"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 8},
+    "event_name": {
+      "type": "string",
+      "enum": ["page_view", "article_engaged", "article_depth", "video_outbound", "evidence_cta_view", "evidence_request", "newsletter_signup", "newsletter_click", "return_visit", "next_investigation_click"]
+    },
+    "occurred_at": {"type": "string", "format": "date-time"},
+    "anonymous_id": {"type": "string", "minLength": 8},
+    "subscriber_id": {"type": ["string", "null"]},
+    "session_id": {"type": "string", "minLength": 8},
+    "content_id": {"type": "string", "minLength": 1},
+    "asset_id": {"type": ["string", "null"]},
+    "campaign_id": {"type": ["string", "null"]},
+    "source": {"type": "string", "minLength": 1},
+    "medium": {"type": "string", "minLength": 1},
+    "landing_path": {"type": "string", "pattern": "^/"},
+    "properties": {"type": "object", "additionalProperties": true},
+    "consent_version": {"type": "string", "minLength": 1}
+  }
+}
