@@ -1,68 +1,83 @@
 {
   "schemaVersion": 1,
   "product": "East Corner Morning Wire",
-  "generatedAt": "2026-08-26T04:00:44-06:00",
-  "date": "2026-08-26",
+  "generatedAt": "2026-08-29T04:00:11-06:00",
+  "date": "2026-08-29",
   "timezone": "America/Edmonton",
   "status": "published",
   "collectionStatus": "full",
-  "collectionCount": 4,
+  "collectionCount": 5,
   "editorialState": "source-linked discovery",
-  "note": "Four materially new source-linked records since the prior wire. This remains discovery material, not a numbered East Corner editorial conclusion; Signal 005 is held because the source mix does not meet the reviewed synthesis and primary-source gate.",
+  "note": "Five materially new source-linked records published after the 26 August wire. This is discovery material, not a numbered East Corner editorial conclusion; Signal 005 remains held because the new set lacks the two-primary-source foundation required for reviewed synthesis.",
   "items": [
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-08-26",
-      "sourceHeadline": "Kenya Airways to reveal potential new investors as losses deepen",
-      "sourceUrl": "https://www.reuters.com/world/africa/kenya-airways-reveal-potential-new-investors-losses-deepen-2026-08-26/",
-      "sourceDescription": "Kenya Airways says it expects to disclose potential new investors within weeks as it seeks capital to reduce debt pressure, return grounded aircraft to service and fund its turnaround. The carrier reported a corrected first-half pre-tax loss of 15.92 billion Kenyan shillings, up from 12.17 billion shillings a year earlier, while its chairman said interest had come from local and international investors.",
-      "whyItMatters": "The capital raise is now tied to balance-sheet restructuring, fleet availability and the limits of state support. Investor interest is not a completed transaction, and the ownership terms remain unresolved.",
-      "inferenceOrUnresolved": "No investor, valuation, transaction structure or completed capital commitment was announced.",
+      "sourcePublishedAt": "2026-08-28",
+      "sourceHeadline": "Ugandan King Oyo Nyimba, once world's youngest monarch, dies at 34",
+      "sourceUrl": "https://www.reuters.com/world/africa/ugandan-king-oyo-nyimba-once-worlds-youngest-monarch-dies-34-2026-08-28/",
+      "sourceDescription": "Oyo Nyimba Kabamba Iguru Rukidi IV, King of Tooro, died at 34 after becoming monarch at age three in 1995. Tooro's prime minister announced the death, did not disclose a cause, and said continuity of the Crown was assured.",
+      "whyItMatters": "Uganda's traditional monarchies hold little formal political power but retain major cultural and social influence. The immediate institutional record is succession continuity, while the identity and arrangements of the heir remain undisclosed.",
+      "inferenceOrUnresolved": "The cause of death and the heir's identity were not disclosed in the report.",
       "beats": [
-        "enterprise",
-        "capital",
-        "infrastructure-mobility"
-      ]
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-08-26",
-      "sourceHeadline": "Son of Uganda's president says he will stand for top job in 2031",
-      "sourceUrl": "https://www.reuters.com/world/africa/son-ugandas-president-says-he-will-stand-top-job-2031-2026-08-26/",
-      "sourceDescription": "Uganda's military chief Muhoozi Kainerugaba, President Yoweri Museveni's son, said he intends to run for president in 2031. Reuters notes that he previously declared an intention to run in the last election before withdrawing and backing his father.",
-      "whyItMatters": "The declaration makes succession politics more explicit but does not establish a candidacy or election outcome. The institutional question is how military command, party power and electoral competition remain separated.",
-      "inferenceOrUnresolved": "The statement is an intention five years ahead; party nomination, ballot access and President Museveni's plans are unresolved.",
-      "beats": [
-        "record",
-        "institutions-policy",
-        "security"
-      ]
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-08-26",
-      "sourceHeadline": "Tanzania's vice president resigns in less than a year",
-      "sourceUrl": "https://www.reuters.com/world/africa/tanzanias-vice-president-resigns-less-than-year-2026-08-26/",
-      "sourceDescription": "Tanzania's government said Vice President Emmanuel John Nchimbi will leave office on September 4 after President Samia Suluhu Hassan accepted his resignation. The official statement gave no reason and said constitutional procedures would be used to appoint a successor.",
-      "whyItMatters": "The vacancy creates an immediate constitutional transition inside the governing system. Any causal connection to Nchimbi's recent constitutional-reform remarks would be inference, not an established fact.",
-      "inferenceOrUnresolved": "The government did not state a reason for the resignation or name a successor.",
-      "beats": [
+        "culture",
         "record",
         "institutions-policy"
       ]
     },
     {
-      "source": "IGAD",
-      "sourcePublishedAt": "2026-08-25",
-      "sourceHeadline": "Health Emergency Preparedness, Response and Resilience Project for Eastern and Southern Africa (P180127)",
-      "sourceUrl": "https://igad.int/health-emergency-preparedness-response-and-resilience-project-for-eastern-and-southern-africa-under-phase-i-of-the-multiphase-programmatic-approach-p180127-2/",
-      "sourceDescription": "IGAD published the regional context and implementation controls for its health-emergency preparedness and resilience project, including environmental and social commitments, staffing, monitoring, reporting and grievance-management requirements. The page states that the International Development Association is providing original and additional financing under project agreements.",
-      "whyItMatters": "Cross-border disease preparedness depends on the implementation layer, not only the financing announcement. The disclosed controls identify where readiness and accountability can be tested as the project moves forward.",
-      "inferenceOrUnresolved": "The page does not state a new financing amount, approval date or completion result; none is inferred.",
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-28",
+      "sourceHeadline": "Kenya police fire tear gas to disperse traders protesting import duty hike",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenya-police-fire-tear-gas-disperse-traders-protesting-import-duty-hike-2026-08-28/",
+      "sourceDescription": "Police used tear gas as small-scale traders protested a Kenya Revenue Authority customs valuation change and hundreds of central Nairobi businesses closed. The minimum benchmark for a consolidated 40-foot container rose to 3.2 million Kenyan shillings from 2.5 million; KRA says the measure targets undervaluation, while traders say it raises clearing costs.",
+      "whyItMatters": "The policy exposes a direct conflict between revenue enforcement, local-manufacturer protection and the working-capital burden on small import-dependent businesses. The distributional and price effects are not yet established.",
+      "inferenceOrUnresolved": "Police had not commented in the report, and no measured effect on consumer prices, compliance or import volumes was available.",
+      "beats": [
+        "enterprise",
+        "capital",
+        "institutions-policy"
+      ]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-28",
+      "sourceHeadline": "Extensive power cuts hamper life in Sudan",
+      "sourceUrl": "https://www.reuters.com/world/africa/extensive-power-cuts-hamper-life-sudan-2026-08-28/",
+      "sourceDescription": "Blackouts across army-controlled areas are interrupting livelihoods and reconstruction as residents return to Khartoum. Reuters reports grid damage from drone attacks and looting alongside limited repair funding; Sudan has exempted personal solar panels from customs and fees.",
+      "whyItMatters": "Electricity is now a binding reconstruction constraint: without reliable power, returned households and small firms cannot restore productive activity. The solar exemption offers a decentralized response but does not replace grid repair.",
+      "inferenceOrUnresolved": "The RSF disputed allegations that it targeted the power grid, and responsibility for individual outages remains contested.",
+      "beats": [
+        "enterprise",
+        "infrastructure-energy",
+        "record"
+      ]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-28",
+      "sourceHeadline": "Ethiopia reinstates accreditation of Reuters journalists after six-month suspension",
+      "sourceUrl": "https://www.reuters.com/business/media-telecom/ethiopia-reinstates-accreditation-reuters-journalists-after-six-month-suspension-2026-08-28/",
+      "sourceDescription": "The Ethiopian Media Authority reinstated accreditation for three Addis Ababa-based Reuters journalists after a six-month suspension. The regulator said renewal followed discussions with senior Reuters officials; the original revocation followed a Reuters investigation about an alleged fighter-training camp for Sudan's RSF.",
+      "whyItMatters": "Reaccreditation restores formal reporting access but does not resolve the underlying press-freedom or regional-security questions. The distinction between access restored and disputed facts settled must remain explicit.",
+      "inferenceOrUnresolved": "Ethiopia has not publicly commented on the underlying investigation, so the reported camp remains unresolved in this record.",
       "beats": [
         "record",
         "institutions-policy",
-        "health"
+        "media"
+      ]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-08-28",
+      "sourceHeadline": "At least 49 people killed in armed cattle raid in South Sudan",
+      "sourceUrl": "https://www.reuters.com/world/africa/least-49-people-killed-armed-cattle-raid-south-sudan-2026-08-28/",
+      "sourceDescription": "Officials said at least 49 people were killed and 33 wounded when armed cattle raiders attacked herders in Warrap State's Tonj North county. Warrap's government attributed the raid to attackers from Unity State and others; Unity officials said the attackers were not all from Unity and that both states were coordinating.",
+      "whyItMatters": "The attack shows how armed competition over grazing land and water continues to overwhelm local security arrangements ahead of South Sudan's expected December election. Cooperation between the two state governments is announced, not yet demonstrated by arrests or de-escalation.",
+      "inferenceOrUnresolved": "The full composition of the attacking group and accountability outcome remain unresolved.",
+      "beats": [
+        "record",
+        "security",
+        "institutions-policy"
       ]
     }
   ]
