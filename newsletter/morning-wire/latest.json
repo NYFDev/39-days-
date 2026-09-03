@@ -1,79 +1,79 @@
 {
   "schemaVersion": 1,
   "product": "East Corner Morning Wire",
-  "generatedAt": "2026-08-29T04:00:11-06:00",
-  "date": "2026-08-29",
+  "generatedAt": "2026-09-03T04:02:31-06:00",
+  "date": "2026-09-03",
   "timezone": "America/Edmonton",
   "status": "published",
   "collectionStatus": "full",
   "collectionCount": 5,
   "editorialState": "source-linked discovery",
-  "note": "Five materially new source-linked records published after the 26 August wire. This is discovery material, not a numbered East Corner editorial conclusion; Signal 005 remains held because the new set lacks the two-primary-source foundation required for reviewed synthesis.",
+  "note": "Five materially new source-linked records published after the 29 August wire. This is discovery material, not a numbered East Corner editorial conclusion; Signal 005 remains held because the set does not meet the two-primary-source foundation required for reviewed synthesis.",
   "items": [
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-08-28",
-      "sourceHeadline": "Ugandan King Oyo Nyimba, once world's youngest monarch, dies at 34",
-      "sourceUrl": "https://www.reuters.com/world/africa/ugandan-king-oyo-nyimba-once-worlds-youngest-monarch-dies-34-2026-08-28/",
-      "sourceDescription": "Oyo Nyimba Kabamba Iguru Rukidi IV, King of Tooro, died at 34 after becoming monarch at age three in 1995. Tooro's prime minister announced the death, did not disclose a cause, and said continuity of the Crown was assured.",
-      "whyItMatters": "Uganda's traditional monarchies hold little formal political power but retain major cultural and social influence. The immediate institutional record is succession continuity, while the identity and arrangements of the heir remain undisclosed.",
-      "inferenceOrUnresolved": "The cause of death and the heir's identity were not disclosed in the report.",
-      "beats": [
-        "culture",
-        "record",
-        "institutions-policy"
-      ]
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-08-28",
-      "sourceHeadline": "Kenya police fire tear gas to disperse traders protesting import duty hike",
-      "sourceUrl": "https://www.reuters.com/world/africa/kenya-police-fire-tear-gas-disperse-traders-protesting-import-duty-hike-2026-08-28/",
-      "sourceDescription": "Police used tear gas as small-scale traders protested a Kenya Revenue Authority customs valuation change and hundreds of central Nairobi businesses closed. The minimum benchmark for a consolidated 40-foot container rose to 3.2 million Kenyan shillings from 2.5 million; KRA says the measure targets undervaluation, while traders say it raises clearing costs.",
-      "whyItMatters": "The policy exposes a direct conflict between revenue enforcement, local-manufacturer protection and the working-capital burden on small import-dependent businesses. The distributional and price effects are not yet established.",
-      "inferenceOrUnresolved": "Police had not commented in the report, and no measured effect on consumer prices, compliance or import volumes was available.",
+      "sourcePublishedAt": "2026-09-01",
+      "sourceHeadline": "Kenya aviation workers end strike that disrupted flights, officials say",
+      "sourceUrl": "https://www.reuters.com/business/world-at-work/kenya-aviation-workers-end-strike-that-disrupted-flights-officials-say-2026-09-01/",
+      "sourceDescription": "Kenya's aviation workers ended a two-day strike after the union, aviation authorities and Jambojet signed a return-to-work agreement. The disruption delayed and cancelled flights linking Nairobi with airports across East Africa and beyond; negotiations continue over collective agreements and other grievances.",
+      "whyItMatters": "The stoppage exposed how labour relations at Nairobi's main aviation hub can propagate quickly through regional passenger and cargo networks. Service has resumed, but the underlying labour disputes are not settled.",
+      "inferenceOrUnresolved": "The agreement restores operations while leaving the outstanding collective-bargaining and workplace issues under negotiation.",
       "beats": [
         "enterprise",
-        "capital",
-        "institutions-policy"
-      ]
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-08-28",
-      "sourceHeadline": "Extensive power cuts hamper life in Sudan",
-      "sourceUrl": "https://www.reuters.com/world/africa/extensive-power-cuts-hamper-life-sudan-2026-08-28/",
-      "sourceDescription": "Blackouts across army-controlled areas are interrupting livelihoods and reconstruction as residents return to Khartoum. Reuters reports grid damage from drone attacks and looting alongside limited repair funding; Sudan has exempted personal solar panels from customs and fees.",
-      "whyItMatters": "Electricity is now a binding reconstruction constraint: without reliable power, returned households and small firms cannot restore productive activity. The solar exemption offers a decentralized response but does not replace grid repair.",
-      "inferenceOrUnresolved": "The RSF disputed allegations that it targeted the power grid, and responsibility for individual outages remains contested.",
-      "beats": [
-        "enterprise",
-        "infrastructure-energy",
+        "infrastructure-logistics",
         "record"
       ]
     },
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-08-28",
-      "sourceHeadline": "Ethiopia reinstates accreditation of Reuters journalists after six-month suspension",
-      "sourceUrl": "https://www.reuters.com/business/media-telecom/ethiopia-reinstates-accreditation-reuters-journalists-after-six-month-suspension-2026-08-28/",
-      "sourceDescription": "The Ethiopian Media Authority reinstated accreditation for three Addis Ababa-based Reuters journalists after a six-month suspension. The regulator said renewal followed discussions with senior Reuters officials; the original revocation followed a Reuters investigation about an alleged fighter-training camp for Sudan's RSF.",
-      "whyItMatters": "Reaccreditation restores formal reporting access but does not resolve the underlying press-freedom or regional-security questions. The distinction between access restored and disputed facts settled must remain explicit.",
-      "inferenceOrUnresolved": "Ethiopia has not publicly commented on the underlying investigation, so the reported camp remains unresolved in this record.",
+      "sourcePublishedAt": "2026-09-02",
+      "sourceHeadline": "Ethiopian Airlines nears Boeing cargo plane order, sources say",
+      "sourceUrl": "https://www.reuters.com/business/aerospace-defense/ethiopian-airlines-nears-boeing-cargo-plane-order-sources-say-2026-09-02/",
+      "sourceDescription": "Two industry sources told Reuters that Ethiopian Airlines was nearing an order for eight to 10 Boeing 777 freighters, potentially including two current-generation 777Fs and later 777-8Fs. Neither Boeing nor Ethiopian Airlines confirmed the negotiations; the carrier is also helping finance a $12.5-billion airport project at Bishoftu.",
+      "whyItMatters": "A larger freighter fleet would deepen Addis Ababa's position as an African cargo hub alongside the planned airport expansion. The commercial terms, delivery timetable and final aircraft mix remain unconfirmed.",
+      "inferenceOrUnresolved": "This is a reported negotiation, not an announced order; Boeing and Ethiopian Airlines did not confirm it.",
       "beats": [
-        "record",
-        "institutions-policy",
-        "media"
+        "enterprise",
+        "capital",
+        "infrastructure-logistics"
       ]
     },
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-08-28",
-      "sourceHeadline": "At least 49 people killed in armed cattle raid in South Sudan",
-      "sourceUrl": "https://www.reuters.com/world/africa/least-49-people-killed-armed-cattle-raid-south-sudan-2026-08-28/",
-      "sourceDescription": "Officials said at least 49 people were killed and 33 wounded when armed cattle raiders attacked herders in Warrap State's Tonj North county. Warrap's government attributed the raid to attackers from Unity State and others; Unity officials said the attackers were not all from Unity and that both states were coordinating.",
-      "whyItMatters": "The attack shows how armed competition over grazing land and water continues to overwhelm local security arrangements ahead of South Sudan's expected December election. Cooperation between the two state governments is announced, not yet demonstrated by arrests or de-escalation.",
-      "inferenceOrUnresolved": "The full composition of the attacking group and accountability outcome remain unresolved.",
+      "sourcePublishedAt": "2026-09-02",
+      "sourceHeadline": "Kenyan editor found safe after abduction, employer says",
+      "sourceUrl": "https://www.reuters.com/business/media-telecom/kenyan-editor-found-safe-after-abduction-standard-group-says-2026-09-02/",
+      "sourceDescription": "Standard Group said associate editor Alex Kiprotich was abducted near Nakuru by armed men and released hours later near Masinga Dam, more than 200 km away. The company's chief executive said the abductors demanded the newspaper's sources; police opened an investigation while criticizing aspects of the newspaper's reporting.",
+      "whyItMatters": "The case puts source protection and journalist safety back into Kenya's institutional record. Kiprotich's safe recovery does not resolve who carried out the abduction or whether anyone will be held accountable.",
+      "inferenceOrUnresolved": "The abductors' identities, the circumstances of release and accountability outcome remain unresolved.",
+      "beats": [
+        "record",
+        "media",
+        "institutions-policy"
+      ]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-09-03",
+      "sourceHeadline": "Kenya private sector activity slows in August, PMI shows",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenya-private-sector-activity-slows-august-pmi-shows-2026-09-03/",
+      "sourceDescription": "The Stanbic Bank Kenya Purchasing Managers' Index fell to 49.7 in August from 51.3 in July, moving below the 50 threshold that separates expansion from contraction. Survey respondents cited supply constraints, higher raw-material costs and tight cash flow even as demand strengthened.",
+      "whyItMatters": "The reading suggests demand alone is not translating into output when firms face input and liquidity constraints. One monthly survey does not establish a durable downturn.",
+      "inferenceOrUnresolved": "The PMI is a survey indicator rather than a complete measure of national output, and the duration of the contraction signal is unknown.",
+      "beats": [
+        "enterprise",
+        "capital",
+        "record"
+      ]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-09-03",
+      "sourceHeadline": "Foreign support, drones fuel Sudan war and possible war crimes, UN probe says",
+      "sourceUrl": "https://www.reuters.com/world/americas/foreign-support-drones-fuel-sudan-war-possible-war-crimes-un-probe-says-2026-09-03/",
+      "sourceDescription": "A U.N. fact-finding mission said foreign weapons, technology, fighters and logistics are sustaining Sudan's war and expanding both sides' drone reach. It recorded more than 1,000 deaths from drone strikes in the first five months of 2026 and said some operations may amount to war crimes; parties named in the report disputed or did not answer allegations.",
+      "whyItMatters": "The report connects external supply networks to civilian harm and the destruction of essential infrastructure far from front lines. Its allegations require careful attribution because several governments and both Sudanese belligerents contest responsibility.",
+      "inferenceOrUnresolved": "The UAE denied supplying military materiel, Somalia cited information-sharing gaps while denying authorized support, and investigations into external support for Sudan's army remain at an early stage.",
       "beats": [
         "record",
         "security",
