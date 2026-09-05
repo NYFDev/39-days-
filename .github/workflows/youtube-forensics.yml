@@ -1,0 +1,75 @@
+name: YouTube Forensics Bot
+
+on:
+  workflow_dispatch:
+    inputs:
+      youtube_url:
+        description: Public YouTube URL to analyze
+        required: true
+        type: string
+      slug:
+        description: Output folder slug
+        required: false
+        default: source
+        type: string
+      mode:
+        description: Analysis depth
+        required: true
+        default: full
+        type: choice
+        options:
+          - map
+          - full
+      minutes:
+        description: Approximate video duration in minutes
+        required: true
+        default: '60'
+        type: string
+      model:
+        description: Gemini model
+        required: true
+        default: gemini-3.6-flash
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Gemini SDK
+        run: pip install --disable-pip-version-check google-genai
+      - name: Require Gemini secret
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "Repository secret GEMINI_API_KEY is required."
+            exit 1
+          fi
+      - name: Run source-forensic pipeline
+        run: |
+          python scripts/youtube_forensics.py \
+            "${{ inputs.youtube_url }}" \
+            --slug "${{ inputs.slug }}" \
+            --mode "${{ inputs.mode }}" \
+            --minutes "${{ inputs.minutes }}" \
+            --model "${{ inputs.model }}"
+      - name: Commit source map and forensic passes
+        run: |
+          git config user.name "nyf-forensics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add research/youtube/
+          if git diff --cached --quiet; then
+            echo "No analysis changes to commit."
+            exit 0
+          fi
+          git commit -m "Add YouTube forensic analysis: ${{ inputs.slug }}"
+          git push origin HEAD:${{ github.ref_name }}
