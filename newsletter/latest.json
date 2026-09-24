@@ -1,15 +1,51 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-003",
-  "title": "The Financing Menu Is Expanding. So Are the Conditions.",
-  "url": "https://nyfholdings.ca/newsletter/signal-003/",
-  "publishedAt": "2026-08-17T13:30:00-06:00",
-  "scope": ["capital", "infrastructure", "technology", "institutions"],
-  "method": "AI-assisted cross-source synthesis with direct links to originating publishers.",
+  "issue": "signal-005",
+  "title": "The Political Calendar Is Moving Faster Than the Guardrails.",
+  "url": "https://nyfholdings.ca/newsletter/signal-005/",
+  "publishedAt": "2026-09-24T04:00:00-06:00",
+  "scope": [
+    "institutions",
+    "conflict",
+    "digital infrastructure",
+    "public health"
+  ],
+  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a five-item gate including two primary institutional sources.",
   "items": [
-    {"source":"Reuters","sourcePublishedAt":"2026-08-14","headline":"Kenya plans a wider sovereign borrowing mix","sourceUrl":"https://www.reuters.com/world/africa/kenya-plans-issue-eurobonds-samurai-bonds-202627-finance-ministry-says-2026-08-14/","whyItMatters":"Diversifying funding markets creates options, but debt sustainability still depends on productive deployment and servicing capacity."},
-    {"source":"The Times","sourcePublishedAt":"2026-08-15","headline":"Big Tech expands African infrastructure","sourceUrl":"https://www.thetimes.com/business/economics/article/big-tech-new-scramble-for-africa-260t68dpf","whyItMatters":"Cloud and connectivity investment makes power, regulation, data governance and local technical capacity part of the financing equation."},
-    {"source":"Financial Times","sourcePublishedAt":"2026-08-17","headline":"UAE defends the scale and character of its African investment","sourceUrl":"https://www.ft.com/content/d50b44ec-0226-4d28-8af3-73820fed7206","whyItMatters":"Gulf capital is now large enough to sit alongside Chinese, Western and multilateral financing in national development choices."},
-    {"source":"African Development Fund","sourcePublishedAt":"2026-06-24","headline":"Regional financial integration gets a $9 million implementation layer","sourceUrl":"https://adf.afdb.org/african-development-fund-approves-9-million-grant-to-strengthen-financial-integration-across-east-africa/","whyItMatters":"Integrated capital markets and payment systems can turn multiple national financing pools into a more usable regional market."}
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-09-22",
+      "headline": "South Sudan dissolves its transitional government ahead of a delayed election",
+      "sourceUrl": "https://www.reuters.com/world/africa/south-sudans-president-signs-election-law-changes-ahead-december-vote-2026-09-22/",
+      "whyItMatters": "Removing constitutional and census prerequisites accelerates the timetable while leaving voter registration and institutional safeguards unresolved."
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-09-23",
+      "headline": "Tigrayan forces reportedly seize Mekelle airport as regional flights stop",
+      "sourceUrl": "https://www.reuters.com/world/africa/ethiopian-airlines-suspends-flights-tigray-region-2026-01-07/",
+      "whyItMatters": "Control of transport infrastructure and suspended civilian flights indicate a material escalation around the fragile Pretoria peace framework."
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-09-22",
+      "headline": "United States reportedly links Sudanese army chief's UN visa to a ceasefire plan",
+      "sourceUrl": "https://www.reuters.com/world/africa/us-withholding-sudanese-leaders-visa-over-ceasefire-plan-sources-say-2026-09-22/",
+      "whyItMatters": "Visa leverage has become part of ceasefire diplomacy, but the State Department did not confirm the reported condition and the dispute may harden positions."
+    },
+    {
+      "source": "East African Community",
+      "sourcePublishedAt": "2026-09-23",
+      "headline": "EAC and IGAD coordinate regional digital integration programmes",
+      "sourceUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3596-eac%2C-igad-and-eastern-african-countries-unite-to-accelerate-regional-digital-integration-and-connectivity",
+      "whyItMatters": "Cross-border broadband, compatible regulation and shared digital skills are the institutional layer needed to turn national projects into a regional market."
+    },
+    {
+      "source": "East African Community",
+      "sourcePublishedAt": "2026-09-23",
+      "headline": "EAC trains 120 frontline health professionals for high-consequence outbreaks",
+      "sourceUrl": "https://www.eac.int/press-releases/147-health/3595-eac-steps-up-regional-infectious-disease-outbreak-preparedness%2C-calls-for-more-support",
+      "whyItMatters": "Regional preparedness depends on a reusable clinical training network, not only emergency mobilization after an outbreak begins."
+    }
   ]
 }
