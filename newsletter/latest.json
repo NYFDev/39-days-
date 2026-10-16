@@ -1,51 +1,39 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-005",
-  "title": "The Political Calendar Is Moving Faster Than the Guardrails.",
-  "url": "https://nyfholdings.ca/newsletter/signal-005/",
-  "publishedAt": "2026-09-24T04:00:00-06:00",
-  "scope": [
-    "institutions",
-    "conflict",
-    "digital infrastructure",
-    "public health"
-  ],
-  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a five-item gate including two primary institutional sources.",
+  "issue": "signal-006",
+  "title": "The Calendars Are Set. The Conditions Are Not.",
+  "url": "https://nyfholdings.ca/newsletter/signal-006/",
+  "publishedAt": "2026-10-16T04:00:00-06:00",
+  "scope": ["institutions", "capital", "diplomacy", "tourism"],
+  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a four-item gate including two primary government or institutional sources.",
   "items": [
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-09-22",
-      "headline": "South Sudan dissolves its transitional government ahead of a delayed election",
-      "sourceUrl": "https://www.reuters.com/world/africa/south-sudans-president-signs-election-law-changes-ahead-december-vote-2026-09-22/",
-      "whyItMatters": "Removing constitutional and census prerequisites accelerates the timetable while leaving voter registration and institutional safeguards unresolved."
+      "sourcePublishedAt": "2026-10-15",
+      "headline": "Somalia sets April parliamentary and May presidential election dates",
+      "sourceUrl": "https://www.reuters.com/world/africa/somalia-says-it-will-hold-presidential-election-may-2027-2026-10-15/",
+      "whyItMatters": "A published timetable creates a measurable transition point, while opposition concerns and the security environment remain unresolved."
     },
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-09-23",
-      "headline": "Tigrayan forces reportedly seize Mekelle airport as regional flights stop",
-      "sourceUrl": "https://www.reuters.com/world/africa/ethiopian-airlines-suspends-flights-tigray-region-2026-01-07/",
-      "whyItMatters": "Control of transport infrastructure and suspended civilian flights indicate a material escalation around the fragile Pretoria peace framework."
+      "sourcePublishedAt": "2026-10-16",
+      "headline": "Kenya seeks new multilateral budget financing before June 2027",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenya-talks-fresh-multilateral-financing-central-bank-chief-says-2026-10-16/",
+      "whyItMatters": "Concessional external funding could reduce domestic borrowing pressure, but the amount, terms and timing remain unsettled."
     },
     {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-09-22",
-      "headline": "United States reportedly links Sudanese army chief's UN visa to a ceasefire plan",
-      "sourceUrl": "https://www.reuters.com/world/africa/us-withholding-sudanese-leaders-visa-over-ceasefire-plan-sources-say-2026-09-22/",
-      "whyItMatters": "Visa leverage has become part of ceasefire diplomacy, but the State Department did not confirm the reported condition and the dispute may harden positions."
-    },
-    {
-      "source": "East African Community",
-      "sourcePublishedAt": "2026-09-23",
-      "headline": "EAC and IGAD coordinate regional digital integration programmes",
-      "sourceUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3596-eac%2C-igad-and-eastern-african-countries-unite-to-accelerate-regional-digital-integration-and-connectivity",
-      "whyItMatters": "Cross-border broadband, compatible regulation and shared digital skills are the institutional layer needed to turn national projects into a regional market."
+      "source": "UK Foreign, Commonwealth & Development Office",
+      "sourcePublishedAt": "2026-10-15",
+      "headline": "United Kingdom urges de-escalation between Ethiopia and Eritrea",
+      "sourceUrl": "https://www.gov.uk/government/news/uk-statement-on-escalating-tensions-between-ethiopia-and-eritrea-15-october",
+      "whyItMatters": "The official statement adds diplomatic pressure but does not establish that the parties have accepted mediation or agreed to de-escalate."
     },
     {
       "source": "East African Community",
-      "sourcePublishedAt": "2026-09-23",
-      "headline": "EAC trains 120 frontline health professionals for high-consequence outbreaks",
-      "sourceUrl": "https://www.eac.int/press-releases/147-health/3595-eac-steps-up-regional-infectious-disease-outbreak-preparedness%2C-calls-for-more-support",
-      "whyItMatters": "Regional preparedness depends on a reusable clinical training network, not only emergency mobilization after an outbreak begins."
+      "sourcePublishedAt": "2026-10-15",
+      "headline": "EAC adopts a ten-year regional tourism marketing strategy",
+      "sourceUrl": "https://www.eac.int/press-releases/156-tourism-wildlife-management/3608-eac-ministers-adopt-ten-year-tourism-marketing-strategy-and-commit-to-leverage-afcon-2027",
+      "whyItMatters": "Common standards, cross-border packages and easier movement can create a regional tourism product, but implementation remains national and incomplete."
     }
   ]
 }
