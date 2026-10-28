@@ -1,39 +1,58 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-006",
-  "title": "The Calendars Are Set. The Conditions Are Not.",
-  "url": "https://nyfholdings.ca/newsletter/signal-006/",
-  "publishedAt": "2026-10-16T04:00:00-06:00",
-  "scope": ["institutions", "capital", "diplomacy", "tourism"],
-  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a four-item gate including two primary government or institutional sources.",
+  "issue": "signal-007",
+  "title": "The Capacity Is Local. The Shock Is Regional.",
+  "url": "https://nyfholdings.ca/newsletter/signal-007/",
+  "publishedAt": "2026-10-28T04:00:00-06:00",
+  "scope": [
+    "record",
+    "enterprise",
+    "institutions",
+    "public health"
+  ],
+  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a six-item gate including two primary institutional sources.",
   "items": [
     {
+      "source": "Kenya National Commission on Human Rights",
+      "sourcePublishedAt": "2026-10-27",
+      "headline": "Moyale displacement overwhelms local reception capacity",
+      "sourceUrl": "https://www.knchr.org/Articles/ArtMID/2432/ArticleID/1269/KNCHR-Calls-for-Urgent-Rights-Based-Humanitarian-Response-to-Influx-of-Ethiopian-Refugees-in-Moyale",
+      "whyItMatters": "The rapid rise turns a local conflict into a cross-border capacity test for reception, registration and public health. The total is still a reported estimate, and calm observed on October 27 does not establish that the underlying conflict is resolved."
+    },
+    {
+      "source": "East African Community",
+      "sourcePublishedAt": "2026-10-16",
+      "headline": "EAC advances regional e-commerce coordination",
+      "sourceUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3609-eac-partner-states-advance-measure-to-strengthen-e-commerce-and-digital-trade",
+      "whyItMatters": "Common rules and interoperable systems could widen market access for smaller firms and make cross-border trade more usable. The record establishes coordination and planned measures, not completed interoperability or measured commercial outcomes."
+    },
+    {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-10-15",
-      "headline": "Somalia sets April parliamentary and May presidential election dates",
-      "sourceUrl": "https://www.reuters.com/world/africa/somalia-says-it-will-hold-presidential-election-may-2027-2026-10-15/",
-      "whyItMatters": "A published timetable creates a measurable transition point, while opposition concerns and the security environment remain unresolved."
+      "sourcePublishedAt": "2026-10-23",
+      "headline": "Kenya reports a second Ebola death and nine confirmed cases",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-reports-second-death-ebola-2026-10-23/",
+      "whyItMatters": "Containment depends on contact tracing holding beyond known exposure chains. The absence of reported community transmission is a current surveillance finding, not proof that onward transmission cannot occur."
     },
     {
       "source": "Reuters",
       "sourcePublishedAt": "2026-10-16",
-      "headline": "Kenya seeks new multilateral budget financing before June 2027",
-      "sourceUrl": "https://www.reuters.com/world/africa/kenya-talks-fresh-multilateral-financing-central-bank-chief-says-2026-10-16/",
-      "whyItMatters": "Concessional external funding could reduce domestic borrowing pressure, but the amount, terms and timing remain unsettled."
+      "headline": "Ethiopia installs a six-month caretaker administration in Tigray",
+      "sourceUrl": "https://www.reuters.com/world/africa/ethiopias-abiy-names-new-tigray-government-wants-polls-six-months-2026-10-16/",
+      "whyItMatters": "A fixed mandate creates a near-term test of authority, service restoration and electoral preparation. The administration’s durability and the response of Tigrayan political and armed actors remain unresolved."
     },
     {
-      "source": "UK Foreign, Commonwealth & Development Office",
-      "sourcePublishedAt": "2026-10-15",
-      "headline": "United Kingdom urges de-escalation between Ethiopia and Eritrea",
-      "sourceUrl": "https://www.gov.uk/government/news/uk-statement-on-escalating-tensions-between-ethiopia-and-eritrea-15-october",
-      "whyItMatters": "The official statement adds diplomatic pressure but does not establish that the parties have accepted mediation or agreed to de-escalate."
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-10-23",
+      "headline": "Abyei market strike exposes a fuel corridor serving Sudan’s war",
+      "sourceUrl": "https://www.reuters.com/world/africa/drone-strike-market-town-exposes-reach-trade-fuelling-sudan-war-2026-10-23/",
+      "whyItMatters": "The record shows how civilian trade routes can become part of a wider war economy and therefore a target. The supply-network evidence does not itself identify who launched the strike."
     },
     {
-      "source": "East African Community",
-      "sourcePublishedAt": "2026-10-15",
-      "headline": "EAC adopts a ten-year regional tourism marketing strategy",
-      "sourceUrl": "https://www.eac.int/press-releases/156-tourism-wildlife-management/3608-eac-ministers-adopt-ten-year-tourism-marketing-strategy-and-commit-to-leverage-afcon-2027",
-      "whyItMatters": "Common standards, cross-border packages and easier movement can create a regional tourism product, but implementation remains national and incomplete."
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-10-23",
+      "headline": "Drought compounds Sudan’s famine risk",
+      "sourceUrl": "https://www.reuters.com/world/new-famine-risk-haunts-war-torn-sudan-with-el-nio-driven-drought-2026-10-23/",
+      "whyItMatters": "Conflict, agricultural loss and reduced assistance are converging instead of arriving as separate shocks. The WFP figures are forecasts, and the food-security totals are being updated."
     }
   ]
 }
