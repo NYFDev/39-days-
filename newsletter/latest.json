@@ -1,58 +1,44 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-007",
-  "title": "The Capacity Is Local. The Shock Is Regional.",
-  "url": "https://nyfholdings.ca/newsletter/signal-007/",
-  "publishedAt": "2026-10-28T04:00:00-06:00",
+  "issue": "signal-008",
+  "title": "The Mandates Are Ending. The Pressure Is Not.",
+  "url": "https://nyfholdings.ca/newsletter/signal-008/",
+  "publishedAt": "2026-10-30T04:00:00-06:00",
   "scope": [
     "record",
-    "enterprise",
     "institutions",
-    "public health"
+    "capital",
+    "diplomacy"
   ],
-  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a six-item gate including two primary institutional sources.",
+  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a four-item gate including two primary institutional sources.",
   "items": [
     {
-      "source": "Kenya National Commission on Human Rights",
-      "sourcePublishedAt": "2026-10-27",
-      "headline": "Moyale displacement overwhelms local reception capacity",
-      "sourceUrl": "https://www.knchr.org/Articles/ArtMID/2432/ArticleID/1269/KNCHR-Calls-for-Urgent-Rights-Based-Humanitarian-Response-to-Influx-of-Ethiopian-Refugees-in-Moyale",
-      "whyItMatters": "The rapid rise turns a local conflict into a cross-border capacity test for reception, registration and public health. The total is still a reported estimate, and calm observed on October 27 does not establish that the underlying conflict is resolved."
+      "source": "Médecins Sans Frontières Switzerland",
+      "sourcePublishedAt": "2026-10-28",
+      "headline": "Nyala market strike sends mass casualties to an MSF-supported hospital",
+      "sourceUrl": "https://msf-switzerland.prezly.com/at-least-36-people-killed-and-150-injured-in-a-sudanese-armed-forces-drone-strike-on-a-market-in-nyala",
+      "whyItMatters": "The hospital record establishes mass civilian harm even while the final toll and legal attribution remain unsettled. Repeated market strikes also disrupt access to food and supplies in a city already facing malnutrition."
     },
     {
-      "source": "East African Community",
-      "sourcePublishedAt": "2026-10-16",
-      "headline": "EAC advances regional e-commerce coordination",
-      "sourceUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3609-eac-partner-states-advance-measure-to-strengthen-e-commerce-and-digital-trade",
-      "whyItMatters": "Common rules and interoperable systems could widen market access for smaller firms and make cross-border trade more usable. The record establishes coordination and planned measures, not completed interoperability or measured commercial outcomes."
+      "source": "The EastAfrican",
+      "sourcePublishedAt": "2026-10-28",
+      "headline": "Somalia seeks a longer Ugandan troop presence",
+      "sourceUrl": "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-seeks-longer-ugandan-troop-presence-5649534",
+      "whyItMatters": "A delayed drawdown could reduce the risk of a sudden security gap, but it would not solve the mission’s financing problem or establish a durable Somali replacement capacity. The extension request remains secondary reporting rather than a published bilateral agreement."
     },
     {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-10-23",
-      "headline": "Kenya reports a second Ebola death and nine confirmed cases",
-      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-reports-second-death-ebola-2026-10-23/",
-      "whyItMatters": "Containment depends on contact tracing holding beyond known exposure chains. The absence of reported community transmission is a current surveillance finding, not proof that onward transmission cannot occur."
+      "source": "U.S. Department of the Treasury",
+      "sourcePublishedAt": "2026-10-28",
+      "headline": "United States sanctions Rwanda’s defence ministry and Zigama",
+      "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0668/",
+      "whyItMatters": "The action moves pressure from individual commanders onto a state ministry and a financial institution, increasing compliance risk around Rwanda-linked defence and banking activity. Treasury’s allegations are the U.S. government’s stated basis for sanctions; Rwanda’s response and any behavioural effect remain unresolved."
     },
     {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-10-16",
-      "headline": "Ethiopia installs a six-month caretaker administration in Tigray",
-      "sourceUrl": "https://www.reuters.com/world/africa/ethiopias-abiy-names-new-tigray-government-wants-polls-six-months-2026-10-16/",
-      "whyItMatters": "A fixed mandate creates a near-term test of authority, service restoration and electoral preparation. The administration’s durability and the response of Tigrayan political and armed actors remain unresolved."
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-10-23",
-      "headline": "Abyei market strike exposes a fuel corridor serving Sudan’s war",
-      "sourceUrl": "https://www.reuters.com/world/africa/drone-strike-market-town-exposes-reach-trade-fuelling-sudan-war-2026-10-23/",
-      "whyItMatters": "The record shows how civilian trade routes can become part of a wider war economy and therefore a target. The supply-network evidence does not itself identify who launched the strike."
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-10-23",
-      "headline": "Drought compounds Sudan’s famine risk",
-      "sourceUrl": "https://www.reuters.com/world/new-famine-risk-haunts-war-torn-sudan-with-el-nio-driven-drought-2026-10-23/",
-      "whyItMatters": "Conflict, agricultural loss and reduced assistance are converging instead of arriving as separate shocks. The WFP figures are forecasts, and the food-security totals are being updated."
+      "source": "The EastAfrican",
+      "sourcePublishedAt": "2026-10-29",
+      "headline": "Russia offers to mediate Ethiopia–Eritrea tensions",
+      "sourceUrl": "https://theeastafrican.co.ke/tea/news/eastern-africa/russia-offers-to-mediate-ethiopia-eritrea-tensions-5650584",
+      "whyItMatters": "Another mediation channel could create space for de-escalation around the Red Sea and the Ethiopia–Eritrea frontier. No formal process, mandate or acceptance by both parties was reported, and the arms relationship complicates the neutrality claim."
     }
   ]
 }
