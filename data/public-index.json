@@ -1,8 +1,191 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-30T10:00:00.000Z",
-  "count": 40,
+  "generatedAt": "2026-11-01T10:00:00.000Z",
+  "count": 46,
   "records": [
+    {
+      "id": "record:repository:4e4a00232618e18e0ec1",
+      "kind": "artifact",
+      "title": "The Systems Are Advancing. The Protection Gap Is Wider.",
+      "summary": "Five source records connect regional digital integration, cross-border displacement, civilian drone casualties and Somalia’s transfer of institutional responsibility.",
+      "observedAt": "2026-11-01",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "African Union",
+        "EAC",
+        "digital infrastructure",
+        "artificial intelligence",
+        "Moyale",
+        "displacement",
+        "Ethiopia",
+        "drone warfare",
+        "Somalia",
+        "UNTMIS"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-009/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:54900d94fab56220874e",
+      "kind": "artifact",
+      "title": "The Dispatch Newsletter",
+      "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
+      "observedAt": "2026-11-01",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/",
+      "lanes": [
+        "enterprise",
+        "capital",
+        "culture",
+        "record"
+      ],
+      "topics": [
+        "newsletter",
+        "Dispatch",
+        "RSS",
+        "subscribe",
+        "free content"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:dd85b6673b4a5385dacc",
+      "kind": "artifact",
+      "title": "MVP Build Log",
+      "summary": "The public acceptance log for the NYF Holdings MVP: seven elapsed days and zero accepted deployments before the Day 07 release.",
+      "observedAt": "2026-11-01",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/build-log/",
+      "lanes": [
+        "operations",
+        "record"
+      ],
+      "topics": [
+        "build log",
+        "deployment",
+        "zero for seven",
+        "MVP",
+        "acceptance record"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/build-log/",
+          "publishedUrl": "https://nyfholdings.ca/build-log/"
+        }
+      ]
+    },
+    {
+      "id": "web:eac:regional-ai-digital-biotech-strategies-2026-10-31",
+      "kind": "article",
+      "title": "EAC adopts regional AI, digital-transformation and biotechnology strategies",
+      "summary": "EAC ministers adopted regional AI, digital-transformation and biotechnology strategies and approved an AI foundation module for universities. They also directed work on Kiswahili AI-certification benchmarks, qualification mobility and implementation frameworks across partner states.",
+      "observedAt": "2026-10-31",
+      "source": "East African Community",
+      "sourceUrl": "https://www.eac.int/press-releases",
+      "lanes": [
+        "enterprise"
+      ],
+      "topics": [
+        "artificial intelligence",
+        "digital transformation",
+        "biotechnology",
+        "Kiswahili"
+      ],
+      "geography": [
+        "East Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        }
+      ]
+    },
+    {
+      "id": "web:un-somalia:untmis-mandate-conclusion-2026-10-31",
+      "kind": "article",
+      "title": "UNTMIS completes its mandate as functions transfer to Somali institutions",
+      "summary": "The United Nations said its Transitional Assistance Mission in Somalia would cease operations on October 31 after a two-year transition requested by Somalia’s federal government. Mandated functions were transferred to Somali institutions and to U.N. agencies, funds and programmes under an agreed roadmap.",
+      "observedAt": "2026-10-31",
+      "source": "United Nations in Somalia",
+      "sourceUrl": "https://somalia.un.org/en",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "institutional transition",
+        "peacebuilding",
+        "UNTMIS"
+      ],
+      "geography": [
+        "Somalia"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        }
+      ]
+    },
     {
       "id": "record:repository:055553654e8b94d68e6f",
       "kind": "artifact",
@@ -36,60 +219,142 @@
       ]
     },
     {
-      "id": "record:repository:54900d94fab56220874e",
-      "kind": "artifact",
-      "title": "The Dispatch Newsletter",
-      "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
+      "id": "web:african-union:digital-strategies-delivery-2026-10-30",
+      "kind": "article",
+      "title": "AU ministers call for financing that turns digital strategies into infrastructure",
+      "summary": "The African Union’s communications and ICT committee called for dedicated financing for cross-border fibre, regional data centres, internet exchange points, cloud infrastructure and last-mile access. Ministers linked implementation to a Single African Digital Market, interoperable identity, cross-border payments, cybersecurity and data governance.",
       "observedAt": "2026-10-30",
-      "source": "NYF Holdings repository",
-      "sourceUrl": "https://nyfholdings.ca/newsletter/",
+      "source": "African Union",
+      "sourceUrl": "https://www.au.int/en/pressreleases/20261030/digital-strategies-delivery-au-ministers-call-increased-investment",
       "lanes": [
-        "enterprise",
-        "capital",
-        "culture",
-        "record"
+        "capital"
       ],
       "topics": [
-        "newsletter",
-        "Dispatch",
-        "RSS",
-        "subscribe",
-        "free content"
+        "digital infrastructure",
+        "financing",
+        "Single African Digital Market"
       ],
-      "geography": [],
+      "geography": [
+        "Africa"
+      ],
       "outputs": [
         {
-          "surface": "site",
-          "slug": "/newsletter/",
-          "publishedUrl": "https://nyfholdings.ca/newsletter/"
+          "surface": "newsletter",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
         }
       ]
     },
     {
-      "id": "record:repository:dd85b6673b4a5385dacc",
-      "kind": "artifact",
-      "title": "MVP Build Log",
-      "summary": "The public acceptance log for the NYF Holdings MVP: seven elapsed days and zero accepted deployments before the Day 07 release.",
+      "id": "web:ap:moyale-displacement-50000-2026-10-30",
+      "kind": "article",
+      "title": "Moyale displacement estimate rises to as many as 50,000 people",
+      "summary": "AP reported continued gunfire from the Ethiopian side of Moyale, stranded cargo trucks and an estimated 50,000 people crossing into Kenya, citing the U.N. refugee agency and local authorities. Registration was continuing, and people staying with host families made the total uncertain.",
       "observedAt": "2026-10-30",
-      "source": "NYF Holdings repository",
-      "sourceUrl": "https://nyfholdings.ca/build-log/",
+      "source": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/ethiopia-kenya-moyale-border-conflict-refugees-gunfire-e0a1189e426f109136738c84653248ca",
       "lanes": [
-        "operations",
         "record"
       ],
       "topics": [
-        "build log",
-        "deployment",
-        "zero for seven",
-        "MVP",
-        "acceptance record"
+        "displacement",
+        "Moyale",
+        "trade corridor"
       ],
-      "geography": [],
+      "geography": [
+        "Ethiopia",
+        "Kenya"
+      ],
       "outputs": [
         {
-          "surface": "site",
-          "slug": "/build-log/",
-          "publishedUrl": "https://nyfholdings.ca/build-log/"
+          "surface": "newsletter",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        }
+      ]
+    },
+    {
+      "id": "web:reuters:jari2-camp-drone-strikes-2026-10-30",
+      "kind": "article",
+      "title": "Drone strikes kill at least 15 people at an Ethiopian displacement camp",
+      "summary": "Reuters reported that strikes on Jari 2 camp in Ethiopia’s Amhara region killed at least 15 people, including five children, and injured 36. Witnesses said no fighting was underway at the camp; the attacker and motive were not identified.",
+      "observedAt": "2026-10-30",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/strikes-camp-ethiopia-kill-least-15-sources-say-2026-10-30/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "civilian harm",
+        "drone warfare",
+        "displacement"
+      ],
+      "geography": [
+        "Ethiopia",
+        "Amhara"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-009",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+          "publishedAt": "2026-11-01T04:00:00-06:00"
         }
       ]
     },
