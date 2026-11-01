@@ -1,25 +1,25 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-15T00:00:00.000Z",
-  "count": 27,
+  "generatedAt": "2026-10-30T10:00:00.000Z",
+  "count": 40,
   "records": [
     {
-      "id": "record:repository:284a35c2fd7391a776f3",
+      "id": "record:repository:055553654e8b94d68e6f",
       "schemaVersion": 2,
       "visibility": "public",
       "kind": "artifact",
       "source": {
         "name": "NYF Holdings repository",
         "type": "repository",
-        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-002/",
-        "externalId": "search-index:/newsletter/signal-002/",
-        "publishedAt": "2026-08-15",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+        "externalId": "search-index:/newsletter/signal-008/",
+        "publishedAt": "2026-10-30",
         "retrievedAt": null
       },
-      "title": "The Region Is Financing Its Connective Tissue.",
-      "summary": "Eight source-linked signals on regional infrastructure, capital, culture and the public record across East Africa, the Horn and its diaspora.",
-      "context": "Public NYF Signal / 002 artifact in the NYF record.",
-      "observedAt": "2026-08-15",
+      "title": "The Mandates Are Ending. The Pressure Is Not.",
+      "summary": "Four source records connect civilian drone casualties, Somalia’s security transition, financial pressure on Rwanda and competing mediation around Ethiopia and Eritrea.",
+      "context": "Public NYF Signal / 008 artifact in the NYF record.",
+      "observedAt": "2026-10-30",
       "entities": [
         "NYF Holdings"
       ],
@@ -28,14 +28,16 @@
         "record"
       ],
       "topics": [
-        "aggregated newsletter",
-        "East Africa",
-        "Horn of Africa",
-        "diaspora",
-        "infrastructure",
-        "capital",
-        "enterprise",
-        "culture"
+        "Sudan",
+        "Nyala",
+        "Somalia",
+        "Uganda",
+        "AUSSOM",
+        "Rwanda",
+        "sanctions",
+        "Ethiopia",
+        "Eritrea",
+        "mediation"
       ],
       "projects": [],
       "status": "published",
@@ -47,12 +49,12 @@
       "outputs": [
         {
           "surface": "site",
-          "slug": "/newsletter/signal-002/",
-          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+          "slug": "/newsletter/signal-008/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/"
         }
       ],
       "payload": {
-        "section": "NYF Signal / 002"
+        "section": "NYF Signal / 008"
       },
       "provenance": {
         "derivedFrom": [
@@ -70,13 +72,13 @@
         "type": "repository",
         "canonicalUrl": "https://nyfholdings.ca/newsletter/",
         "externalId": "search-index:/newsletter/",
-        "publishedAt": "2026-08-15",
+        "publishedAt": "2026-10-30",
         "retrievedAt": null
       },
       "title": "The Dispatch Newsletter",
       "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
       "context": "Public Newsletter artifact in the NYF record.",
-      "observedAt": "2026-08-15",
+      "observedAt": "2026-10-30",
       "entities": [
         "NYF Holdings"
       ],
@@ -127,13 +129,13 @@
         "type": "repository",
         "canonicalUrl": "https://nyfholdings.ca/build-log/",
         "externalId": "search-index:/build-log/",
-        "publishedAt": "2026-08-15",
+        "publishedAt": "2026-10-30",
         "retrievedAt": null
       },
       "title": "MVP Build Log",
       "summary": "The public acceptance log for the NYF Holdings MVP: seven elapsed days and zero accepted deployments before the Day 07 release.",
       "context": "Public Deployment record artifact in the NYF record.",
-      "observedAt": "2026-08-15",
+      "observedAt": "2026-10-30",
       "entities": [
         "NYF Holdings"
       ],
@@ -165,6 +167,711 @@
       ],
       "payload": {
         "section": "Deployment record"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "web:eastafrican:russia-ethiopia-eritrea-mediation-2026-10-29",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "The EastAfrican",
+        "type": "web",
+        "canonicalUrl": "https://theeastafrican.co.ke/tea/news/eastern-africa/russia-offers-to-mediate-ethiopia-eritrea-tensions-5650584",
+        "publishedAt": "2026-10-29",
+        "retrievedAt": null
+      },
+      "title": "Russia offers to mediate Ethiopia–Eritrea tensions",
+      "summary": "Russia offered to mediate between Ethiopia and Eritrea on the sidelines of the Russia–Africa summit in Moscow, according to The EastAfrican. The offer came as both governments attended the summit and as Ethiopia received Russian military equipment, raising questions about Moscow’s neutrality.",
+      "context": "Another mediation channel could create space for de-escalation around the Red Sea and the Ethiopia–Eritrea frontier. No formal process, mandate or acceptance by both parties was reported, and the arms relationship complicates the neutrality claim.",
+      "observedAt": "2026-10-29",
+      "entities": [
+        "Government of Russia",
+        "Government of Ethiopia",
+        "Government of Eritrea"
+      ],
+      "geography": [
+        "Ethiopia",
+        "Eritrea",
+        "Russia"
+      ],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "mediation",
+        "diplomacy",
+        "Red Sea",
+        "arms"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "state": "source-checked",
+        "checkedAt": "2026-10-30",
+        "notes": "Secondary reporting; no formal mediation process or bilateral acceptance was reported."
+      },
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        }
+      ],
+      "payload": {},
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-008.json"
+        ]
+      }
+    },
+    {
+      "id": "record:repository:e65b0c04e81778c3d7dc",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-007/",
+        "externalId": "search-index:/newsletter/signal-007/",
+        "publishedAt": "2026-10-28",
+        "retrievedAt": null
+      },
+      "title": "The Capacity Is Local. The Shock Is Regional.",
+      "summary": "Six source records connect cross-border displacement, digital trade, public health, conflict governance, war supply routes and food security across East Africa and the Horn.",
+      "context": "Public NYF Signal / 007 artifact in the NYF record.",
+      "observedAt": "2026-10-28",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "Moyale",
+        "Ethiopia",
+        "Kenya",
+        "EAC",
+        "digital trade",
+        "Ebola",
+        "Tigray",
+        "Abyei",
+        "Sudan",
+        "food security"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-007/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-007/"
+        }
+      ],
+      "payload": {
+        "section": "NYF Signal / 007"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "web:eastafrican:somalia-uganda-troops-2026-10-28",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "The EastAfrican",
+        "type": "web",
+        "canonicalUrl": "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-seeks-longer-ugandan-troop-presence-5649534",
+        "publishedAt": "2026-10-28",
+        "retrievedAt": null
+      },
+      "title": "Somalia seeks a longer Ugandan troop presence",
+      "summary": "The EastAfrican reported that Somalia asked Uganda to extend its troop deployment as al-Shabaab activity and AUSSOM funding shortfalls increase pressure on Somali forces. Uganda’s State House confirmed bilateral security talks but did not publicly confirm the reported withdrawal-delay request.",
+      "context": "A delayed drawdown could reduce the risk of a sudden security gap, but it would not solve the mission’s financing problem or establish a durable Somali replacement capacity. The extension request remains secondary reporting rather than a published bilateral agreement.",
+      "observedAt": "2026-10-28",
+      "entities": [
+        "Federal Government of Somalia",
+        "Government of Uganda",
+        "AUSSOM"
+      ],
+      "geography": [
+        "Somalia",
+        "Uganda"
+      ],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "security transition",
+        "AUSSOM",
+        "al-Shabaab"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "state": "source-checked",
+        "checkedAt": "2026-10-30",
+        "notes": "Secondary reporting; Uganda confirmed security talks but not the reported extension request."
+      },
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        }
+      ],
+      "payload": {},
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-008.json"
+        ]
+      }
+    },
+    {
+      "id": "web:msf-switzerland:nyala-market-strike-2026-10-28",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "Médecins Sans Frontières Switzerland",
+        "type": "web",
+        "canonicalUrl": "https://msf-switzerland.prezly.com/at-least-36-people-killed-and-150-injured-in-a-sudanese-armed-forces-drone-strike-on-a-market-in-nyala",
+        "publishedAt": "2026-10-28",
+        "retrievedAt": null
+      },
+      "title": "Nyala market strike sends mass casualties to an MSF-supported hospital",
+      "summary": "MSF said Nyala Teaching Hospital received at least 36 bodies and treated more than 150 wounded after an October 26 drone strike on a busy market and a second strike on a civilian neighbourhood. MSF attributed the attack to Sudan’s armed forces; other reporting carried higher death estimates that remain disputed.",
+      "context": "The hospital record establishes mass civilian harm even while the final toll and legal attribution remain unsettled. Repeated market strikes also disrupt access to food and supplies in a city already facing malnutrition.",
+      "observedAt": "2026-10-28",
+      "entities": [
+        "Médecins Sans Frontières",
+        "Nyala Teaching Hospital"
+      ],
+      "geography": [
+        "Sudan",
+        "Nyala"
+      ],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "civilian harm",
+        "drone warfare",
+        "healthcare"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "state": "source-checked",
+        "checkedAt": "2026-10-30",
+        "notes": "Primary institutional source; final casualty toll and legal attribution remain unresolved."
+      },
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        }
+      ],
+      "payload": {},
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-008.json"
+        ]
+      }
+    },
+    {
+      "id": "web:us-treasury:rwanda-mod-zigama-sanctions-2026-10-28",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "U.S. Department of the Treasury",
+        "type": "web",
+        "canonicalUrl": "https://home.treasury.gov/news/press-releases/sb0668/",
+        "publishedAt": "2026-10-28",
+        "retrievedAt": null
+      },
+      "title": "United States sanctions Rwanda’s defence ministry and Zigama",
+      "summary": "The U.S. Treasury sanctioned Rwanda’s Ministry of Defence and Zigama Credit and Savings Society, alleging support for M23 and financial facilitation tied to military procurement and minerals from eastern Congo. The designations block covered property under U.S. jurisdiction and generally prohibit transactions involving the listed entities by U.S. persons.",
+      "context": "The action moves pressure from individual commanders onto a state ministry and a financial institution, increasing compliance risk around Rwanda-linked defence and banking activity. Treasury’s allegations are the U.S. government’s stated basis for sanctions; Rwanda’s response and any behavioural effect remain unresolved.",
+      "observedAt": "2026-10-28",
+      "entities": [
+        "U.S. Department of the Treasury",
+        "Rwanda Ministry of Defence",
+        "Zigama Credit and Savings Society",
+        "M23"
+      ],
+      "geography": [
+        "Rwanda",
+        "Democratic Republic of the Congo"
+      ],
+      "lanes": [
+        "capital",
+        "record"
+      ],
+      "topics": [
+        "sanctions",
+        "banking",
+        "military procurement",
+        "minerals"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "state": "source-checked",
+        "checkedAt": "2026-10-30",
+        "notes": "Primary government sanctions record; behavioural effects and Rwanda’s response remain unresolved."
+      },
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-008",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+          "publishedAt": "2026-10-30T04:00:00-06:00"
+        }
+      ],
+      "payload": {},
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-008.json"
+        ]
+      }
+    },
+    {
+      "id": "record:repository:0ac73a4a4467dd21f610",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-006/",
+        "externalId": "search-index:/newsletter/signal-006/",
+        "publishedAt": "2026-10-16",
+        "retrievedAt": null
+      },
+      "title": "The Calendars Are Set. The Conditions Are Not.",
+      "summary": "Four source records connect Somalia's election timetable, Kenya's financing options, Ethiopia–Eritrea diplomacy and regional tourism coordination.",
+      "context": "Public NYF Signal / 006 artifact in the NYF record.",
+      "observedAt": "2026-10-16",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "Somalia",
+        "elections",
+        "Kenya",
+        "multilateral financing",
+        "Ethiopia",
+        "Eritrea",
+        "EAC",
+        "tourism",
+        "institutions"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-006/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-006/"
+        }
+      ],
+      "payload": {
+        "section": "NYF Signal / 006"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "record:repository:42fbfb2bbbcb08640b1c",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-005/",
+        "externalId": "search-index:/newsletter/signal-005/",
+        "publishedAt": "2026-09-24",
+        "retrievedAt": null
+      },
+      "title": "The Political Calendar Is Moving Faster Than the Guardrails.",
+      "summary": "Five source records connect political transitions, conflict escalation, digital integration and outbreak preparedness across East Africa and the Horn.",
+      "context": "Public NYF Signal / 005 artifact in the NYF record.",
+      "observedAt": "2026-09-24",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "South Sudan",
+        "Sudan",
+        "Tigray",
+        "Ethiopia",
+        "EAC",
+        "IGAD",
+        "digital integration",
+        "outbreak preparedness",
+        "institutions"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-005/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-005/"
+        }
+      ],
+      "payload": {
+        "section": "NYF Signal / 005"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "record:repository:6d150d330895f2f4085f",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/morning-wire/",
+        "externalId": "search-index:/newsletter/morning-wire/",
+        "publishedAt": "2026-09-03",
+        "retrievedAt": null
+      },
+      "title": "East Corner Morning Wire",
+      "summary": "The 3 September 2026 scan covers Ethiopian Airlines cargo expansion, Kenya aviation labour and private-sector activity, press freedom, and the U.N. record on drone warfare in Sudan.",
+      "context": "Public Source-linked discovery artifact in the NYF record.",
+      "observedAt": "2026-09-03",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "Morning Wire",
+        "East Africa",
+        "Horn of Africa",
+        "Ethiopia",
+        "Kenya",
+        "Sudan",
+        "aviation",
+        "PMI",
+        "press freedom",
+        "drone warfare"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/morning-wire/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/morning-wire/"
+        }
+      ],
+      "payload": {
+        "section": "Source-linked discovery"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "record:repository:89f79e46a3090d7caf23",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-004/",
+        "externalId": "search-index:/newsletter/signal-004/",
+        "publishedAt": "2026-08-18",
+        "retrievedAt": null
+      },
+      "title": "Growth Is Arriving Before the Balance Sheet Is Ready.",
+      "summary": "Uganda's IMF programme talks, oil outlook and regional infrastructure constraints in a source-linked Morning Wire.",
+      "context": "Public NYF Signal / 004 Morning Wire artifact in the NYF record.",
+      "observedAt": "2026-08-18",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "Uganda",
+        "IMF",
+        "oil",
+        "debt service",
+        "infrastructure",
+        "Morning Wire"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-004/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-004/"
+        }
+      ],
+      "payload": {
+        "section": "NYF Signal / 004 Morning Wire"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "record:repository:162ff111d312edcd567a",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-003/",
+        "externalId": "search-index:/newsletter/signal-003/",
+        "publishedAt": "2026-08-17",
+        "retrievedAt": null
+      },
+      "title": "The Financing Menu Is Expanding. So Are the Conditions.",
+      "summary": "Four source records connect sovereign borrowing, technology infrastructure, Gulf investment and regional financial integration.",
+      "context": "Public NYF Signal / 003 artifact in the NYF record.",
+      "observedAt": "2026-08-17",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "capital",
+        "Kenya",
+        "sovereign borrowing",
+        "technology infrastructure",
+        "Gulf investment",
+        "regional integration"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-003/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-003/"
+        }
+      ],
+      "payload": {
+        "section": "NYF Signal / 003"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "record:repository:284a35c2fd7391a776f3",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-002/",
+        "externalId": "search-index:/newsletter/signal-002/",
+        "publishedAt": "2026-08-15",
+        "retrievedAt": null
+      },
+      "title": "The Region Is Financing Its Connective Tissue.",
+      "summary": "Eight source-linked signals on regional infrastructure, capital, culture and the public record across East Africa, the Horn and its diaspora.",
+      "context": "Public NYF Signal / 002 artifact in the NYF record.",
+      "observedAt": "2026-08-15",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "aggregated newsletter",
+        "East Africa",
+        "Horn of Africa",
+        "diaspora",
+        "infrastructure",
+        "capital",
+        "enterprise",
+        "culture"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-002/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-002/"
+        }
+      ],
+      "payload": {
+        "section": "NYF Signal / 002"
       },
       "provenance": {
         "derivedFrom": [
@@ -632,6 +1339,61 @@
       }
     },
     {
+      "id": "record:repository:832b8b88f806074cb3aa",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/east-corner/dispatch-002/",
+        "externalId": "search-index:/east-corner/dispatch-002/",
+        "publishedAt": "2026-08-14",
+        "retrievedAt": null
+      },
+      "title": "The Hose Does Not Need to Remain a Hose",
+      "summary": "East Corner on systems, contradiction, desire, function and the difference between preserving a component and making the whole thing work.",
+      "context": "Public East Corner / Dispatch 002 artifact in the NYF record.",
+      "observedAt": "2026-08-14",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "systems",
+        "function",
+        "contradiction",
+        "design",
+        "East Corner",
+        "dispatch"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/east-corner/dispatch-002/",
+          "publishedUrl": "https://nyfholdings.ca/east-corner/dispatch-002/"
+        }
+      ],
+      "payload": {
+        "section": "East Corner / Dispatch 002"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
       "id": "record:repository:841ea57f274ef0766ef8",
       "schemaVersion": 2,
       "visibility": "public",
@@ -1065,6 +1827,61 @@
       ],
       "payload": {
         "section": "Living documentary"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "record:repository:ceae3e31a6f1a9d6aa2f",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/39-days/archive/v1/",
+        "externalId": "search-index:/39-days/archive/v1/",
+        "publishedAt": "2026-08-14",
+        "retrievedAt": null
+      },
+      "title": "39 DAYS — V1 Archive",
+      "summary": "The preserved first published edition of 39 DAYS, archived in August 2026 and superseded by the current edition.",
+      "context": "Public Living record archive artifact in the NYF record.",
+      "observedAt": "2026-08-14",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "39-days",
+        "record"
+      ],
+      "topics": [
+        "39 days",
+        "V1 archive",
+        "documentary",
+        "preserved edition",
+        "repository history"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/39-days/archive/v1/",
+          "publishedUrl": "https://nyfholdings.ca/39-days/archive/v1/"
+        }
+      ],
+      "payload": {
+        "section": "Living record archive"
       },
       "provenance": {
         "derivedFrom": [
