@@ -1,0 +1,214 @@
+[
+  {
+    "id": "web:msf-switzerland:nyala-market-strike-2026-10-28",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Médecins Sans Frontières Switzerland",
+      "type": "web",
+      "canonicalUrl": "https://msf-switzerland.prezly.com/at-least-36-people-killed-and-150-injured-in-a-sudanese-armed-forces-drone-strike-on-a-market-in-nyala",
+      "publishedAt": "2026-10-28",
+      "retrievedAt": null
+    },
+    "title": "Nyala market strike sends mass casualties to an MSF-supported hospital",
+    "summary": "MSF said Nyala Teaching Hospital received at least 36 bodies and treated more than 150 wounded after an October 26 drone strike on a busy market and a second strike on a civilian neighbourhood. MSF attributed the attack to Sudan’s armed forces; other reporting carried higher death estimates that remain disputed.",
+    "context": "The hospital record establishes mass civilian harm even while the final toll and legal attribution remain unsettled. Repeated market strikes also disrupt access to food and supplies in a city already facing malnutrition.",
+    "observedAt": "2026-10-28",
+    "entities": [
+      "Médecins Sans Frontières",
+      "Nyala Teaching Hospital"
+    ],
+    "geography": [
+      "Sudan",
+      "Nyala"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "civilian harm",
+      "drone warfare",
+      "healthcare"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-10-30",
+      "notes": "Primary institutional source; final casualty toll and legal attribution remain unresolved."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-008",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+        "publishedAt": "2026-10-30T04:00:00-06:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:eastafrican:somalia-uganda-troops-2026-10-28",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "The EastAfrican",
+      "type": "web",
+      "canonicalUrl": "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-seeks-longer-ugandan-troop-presence-5649534",
+      "publishedAt": "2026-10-28",
+      "retrievedAt": null
+    },
+    "title": "Somalia seeks a longer Ugandan troop presence",
+    "summary": "The EastAfrican reported that Somalia asked Uganda to extend its troop deployment as al-Shabaab activity and AUSSOM funding shortfalls increase pressure on Somali forces. Uganda’s State House confirmed bilateral security talks but did not publicly confirm the reported withdrawal-delay request.",
+    "context": "A delayed drawdown could reduce the risk of a sudden security gap, but it would not solve the mission’s financing problem or establish a durable Somali replacement capacity. The extension request remains secondary reporting rather than a published bilateral agreement.",
+    "observedAt": "2026-10-28",
+    "entities": [
+      "Federal Government of Somalia",
+      "Government of Uganda",
+      "AUSSOM"
+    ],
+    "geography": [
+      "Somalia",
+      "Uganda"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "security transition",
+      "AUSSOM",
+      "al-Shabaab"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-10-30",
+      "notes": "Secondary reporting; Uganda confirmed security talks but not the reported extension request."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-008",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+        "publishedAt": "2026-10-30T04:00:00-06:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:us-treasury:rwanda-mod-zigama-sanctions-2026-10-28",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "U.S. Department of the Treasury",
+      "type": "web",
+      "canonicalUrl": "https://home.treasury.gov/news/press-releases/sb0668/",
+      "publishedAt": "2026-10-28",
+      "retrievedAt": null
+    },
+    "title": "United States sanctions Rwanda’s defence ministry and Zigama",
+    "summary": "The U.S. Treasury sanctioned Rwanda’s Ministry of Defence and Zigama Credit and Savings Society, alleging support for M23 and financial facilitation tied to military procurement and minerals from eastern Congo. The designations block covered property under U.S. jurisdiction and generally prohibit transactions involving the listed entities by U.S. persons.",
+    "context": "The action moves pressure from individual commanders onto a state ministry and a financial institution, increasing compliance risk around Rwanda-linked defence and banking activity. Treasury’s allegations are the U.S. government’s stated basis for sanctions; Rwanda’s response and any behavioural effect remain unresolved.",
+    "observedAt": "2026-10-28",
+    "entities": [
+      "U.S. Department of the Treasury",
+      "Rwanda Ministry of Defence",
+      "Zigama Credit and Savings Society",
+      "M23"
+    ],
+    "geography": [
+      "Rwanda",
+      "Democratic Republic of the Congo"
+    ],
+    "lanes": [
+      "capital",
+      "record"
+    ],
+    "topics": [
+      "sanctions",
+      "banking",
+      "military procurement",
+      "minerals"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-10-30",
+      "notes": "Primary government sanctions record; behavioural effects and Rwanda’s response remain unresolved."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-008",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+        "publishedAt": "2026-10-30T04:00:00-06:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:eastafrican:russia-ethiopia-eritrea-mediation-2026-10-29",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "The EastAfrican",
+      "type": "web",
+      "canonicalUrl": "https://theeastafrican.co.ke/tea/news/eastern-africa/russia-offers-to-mediate-ethiopia-eritrea-tensions-5650584",
+      "publishedAt": "2026-10-29",
+      "retrievedAt": null
+    },
+    "title": "Russia offers to mediate Ethiopia–Eritrea tensions",
+    "summary": "Russia offered to mediate between Ethiopia and Eritrea on the sidelines of the Russia–Africa summit in Moscow, according to The EastAfrican. The offer came as both governments attended the summit and as Ethiopia received Russian military equipment, raising questions about Moscow’s neutrality.",
+    "context": "Another mediation channel could create space for de-escalation around the Red Sea and the Ethiopia–Eritrea frontier. No formal process, mandate or acceptance by both parties was reported, and the arms relationship complicates the neutrality claim.",
+    "observedAt": "2026-10-29",
+    "entities": [
+      "Government of Russia",
+      "Government of Ethiopia",
+      "Government of Eritrea"
+    ],
+    "geography": [
+      "Ethiopia",
+      "Eritrea",
+      "Russia"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "mediation",
+      "diplomacy",
+      "Red Sea",
+      "arms"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-10-30",
+      "notes": "Secondary reporting; no formal mediation process or bilateral acceptance was reported."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-008",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-008/",
+        "publishedAt": "2026-10-30T04:00:00-06:00"
+      }
+    ],
+    "payload": {}
+  }
+]
