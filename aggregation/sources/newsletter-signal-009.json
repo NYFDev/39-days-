@@ -1,0 +1,240 @@
+[
+  {
+    "id": "web:african-union:digital-strategies-delivery-2026-10-30",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "African Union",
+      "type": "web",
+      "canonicalUrl": "https://www.au.int/en/pressreleases/20261030/digital-strategies-delivery-au-ministers-call-increased-investment",
+      "publishedAt": "2026-10-30",
+      "retrievedAt": null
+    },
+    "title": "AU ministers call for financing that turns digital strategies into infrastructure",
+    "summary": "The African Union’s communications and ICT committee called for dedicated financing for cross-border fibre, regional data centres, internet exchange points, cloud infrastructure and last-mile access. Ministers linked implementation to a Single African Digital Market, interoperable identity, cross-border payments, cybersecurity and data governance.",
+    "context": "The record shifts the continental digital agenda from strategy-writing toward financing and delivery. No funding facility, capital amount or implementation timetable was announced, so execution remains the unresolved test.",
+    "observedAt": "2026-10-30",
+    "entities": [],
+    "geography": [
+      "Africa"
+    ],
+    "lanes": [
+      "capital"
+    ],
+    "topics": [
+      "digital infrastructure",
+      "financing",
+      "Single African Digital Market"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-01",
+      "notes": "Primary institutional source."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-009",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+        "publishedAt": "2026-11-01T04:00:00-06:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:eac:regional-ai-digital-biotech-strategies-2026-10-31",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "East African Community",
+      "type": "web",
+      "canonicalUrl": "https://www.eac.int/press-releases",
+      "publishedAt": "2026-10-31",
+      "retrievedAt": null
+    },
+    "title": "EAC adopts regional AI, digital-transformation and biotechnology strategies",
+    "summary": "EAC ministers adopted regional AI, digital-transformation and biotechnology strategies and approved an AI foundation module for universities. They also directed work on Kiswahili AI-certification benchmarks, qualification mobility and implementation frameworks across partner states.",
+    "context": "Common strategies and credentials can reduce fragmentation across universities, labour markets and technology policy. Adoption is not rollout: national alignment, financing and measurable implementation remain outstanding.",
+    "observedAt": "2026-10-31",
+    "entities": [],
+    "geography": [
+      "East Africa"
+    ],
+    "lanes": [
+      "enterprise"
+    ],
+    "topics": [
+      "artificial intelligence",
+      "digital transformation",
+      "biotechnology",
+      "Kiswahili"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-01",
+      "notes": "Primary institutional source."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-009",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+        "publishedAt": "2026-11-01T04:00:00-06:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:ap:moyale-displacement-50000-2026-10-30",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Associated Press",
+      "type": "web",
+      "canonicalUrl": "https://apnews.com/article/ethiopia-kenya-moyale-border-conflict-refugees-gunfire-e0a1189e426f109136738c84653248ca",
+      "publishedAt": "2026-10-30",
+      "retrievedAt": null
+    },
+    "title": "Moyale displacement estimate rises to as many as 50,000 people",
+    "summary": "AP reported continued gunfire from the Ethiopian side of Moyale, stranded cargo trucks and an estimated 50,000 people crossing into Kenya, citing the U.N. refugee agency and local authorities. Registration was continuing, and people staying with host families made the total uncertain.",
+    "context": "The displacement is now large enough to strain food, water, shelter and health capacity in northern Kenya while interrupting a regional trade corridor. The population estimate is provisional and responsibility for individual incidents remains unresolved.",
+    "observedAt": "2026-10-30",
+    "entities": [],
+    "geography": [
+      "Ethiopia",
+      "Kenya"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "displacement",
+      "Moyale",
+      "trade corridor"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-01",
+      "notes": "AP field reporting citing UNHCR and local authorities; displacement estimate remains provisional."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-009",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+        "publishedAt": "2026-11-01T04:00:00-06:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:reuters:jari2-camp-drone-strikes-2026-10-30",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/world/africa/strikes-camp-ethiopia-kill-least-15-sources-say-2026-10-30/",
+      "publishedAt": "2026-10-30",
+      "retrievedAt": null
+    },
+    "title": "Drone strikes kill at least 15 people at an Ethiopian displacement camp",
+    "summary": "Reuters reported that strikes on Jari 2 camp in Ethiopia’s Amhara region killed at least 15 people, including five children, and injured 36. Witnesses said no fighting was underway at the camp; the attacker and motive were not identified.",
+    "context": "A camp holding people displaced by earlier violence became a target itself, deepening the civilian-protection failure in northern Ethiopia. The casualty account is source-based and neither attribution nor legal responsibility has been established.",
+    "observedAt": "2026-10-30",
+    "entities": [],
+    "geography": [
+      "Ethiopia",
+      "Amhara"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "civilian harm",
+      "drone warfare",
+      "displacement"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-01",
+      "notes": "Reuters field reporting; attacker and motive remain unidentified."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-009",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+        "publishedAt": "2026-11-01T04:00:00-06:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:un-somalia:untmis-mandate-conclusion-2026-10-31",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "United Nations in Somalia",
+      "type": "web",
+      "canonicalUrl": "https://somalia.un.org/en",
+      "publishedAt": "2026-10-31",
+      "retrievedAt": null
+    },
+    "title": "UNTMIS completes its mandate as functions transfer to Somali institutions",
+    "summary": "The United Nations said its Transitional Assistance Mission in Somalia would cease operations on October 31 after a two-year transition requested by Somalia’s federal government. Mandated functions were transferred to Somali institutions and to U.N. agencies, funds and programmes under an agreed roadmap.",
+    "context": "The closure ends more than three decades of successive U.N. political missions in Somalia and places greater weight on national institutions during a difficult security transition. Formal transfer does not itself demonstrate that every receiving institution has equivalent capacity.",
+    "observedAt": "2026-10-31",
+    "entities": [],
+    "geography": [
+      "Somalia"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "institutional transition",
+      "peacebuilding",
+      "UNTMIS"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-01",
+      "notes": "Primary institutional source."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-009",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/",
+        "publishedAt": "2026-11-01T04:00:00-06:00"
+      }
+    ],
+    "payload": {}
+  }
+]

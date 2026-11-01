@@ -1,44 +1,51 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-008",
-  "title": "The Mandates Are Ending. The Pressure Is Not.",
-  "url": "https://nyfholdings.ca/newsletter/signal-008/",
-  "publishedAt": "2026-10-30T04:00:00-06:00",
+  "issue": "signal-009",
+  "title": "The Systems Are Advancing. The Protection Gap Is Wider.",
+  "url": "https://nyfholdings.ca/newsletter/signal-009/",
+  "publishedAt": "2026-11-01T04:00:00-06:00",
   "scope": [
-    "record",
-    "institutions",
+    "enterprise",
     "capital",
-    "diplomacy"
+    "record",
+    "institutions"
   ],
-  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a four-item gate including two primary institutional sources.",
+  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a five-item gate including three primary institutional sources.",
   "items": [
     {
-      "source": "Médecins Sans Frontières Switzerland",
-      "sourcePublishedAt": "2026-10-28",
-      "headline": "Nyala market strike sends mass casualties to an MSF-supported hospital",
-      "sourceUrl": "https://msf-switzerland.prezly.com/at-least-36-people-killed-and-150-injured-in-a-sudanese-armed-forces-drone-strike-on-a-market-in-nyala",
-      "whyItMatters": "The hospital record establishes mass civilian harm even while the final toll and legal attribution remain unsettled. Repeated market strikes also disrupt access to food and supplies in a city already facing malnutrition."
+      "source": "African Union",
+      "sourcePublishedAt": "2026-10-30",
+      "headline": "AU ministers call for financing that turns digital strategies into infrastructure",
+      "sourceUrl": "https://www.au.int/en/pressreleases/20261030/digital-strategies-delivery-au-ministers-call-increased-investment",
+      "whyItMatters": "The record shifts the continental digital agenda from strategy-writing toward financing and delivery. No funding facility, capital amount or implementation timetable was announced, so execution remains the unresolved test."
     },
     {
-      "source": "The EastAfrican",
-      "sourcePublishedAt": "2026-10-28",
-      "headline": "Somalia seeks a longer Ugandan troop presence",
-      "sourceUrl": "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-seeks-longer-ugandan-troop-presence-5649534",
-      "whyItMatters": "A delayed drawdown could reduce the risk of a sudden security gap, but it would not solve the mission’s financing problem or establish a durable Somali replacement capacity. The extension request remains secondary reporting rather than a published bilateral agreement."
+      "source": "East African Community",
+      "sourcePublishedAt": "2026-10-31",
+      "headline": "EAC adopts regional AI, digital-transformation and biotechnology strategies",
+      "sourceUrl": "https://www.eac.int/press-releases",
+      "whyItMatters": "Common strategies and credentials can reduce fragmentation across universities, labour markets and technology policy. Adoption is not rollout: national alignment, financing and measurable implementation remain outstanding."
     },
     {
-      "source": "U.S. Department of the Treasury",
-      "sourcePublishedAt": "2026-10-28",
-      "headline": "United States sanctions Rwanda’s defence ministry and Zigama",
-      "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0668/",
-      "whyItMatters": "The action moves pressure from individual commanders onto a state ministry and a financial institution, increasing compliance risk around Rwanda-linked defence and banking activity. Treasury’s allegations are the U.S. government’s stated basis for sanctions; Rwanda’s response and any behavioural effect remain unresolved."
+      "source": "Associated Press",
+      "sourcePublishedAt": "2026-10-30",
+      "headline": "Moyale displacement estimate rises to as many as 50,000 people",
+      "sourceUrl": "https://apnews.com/article/ethiopia-kenya-moyale-border-conflict-refugees-gunfire-e0a1189e426f109136738c84653248ca",
+      "whyItMatters": "The displacement is now large enough to strain food, water, shelter and health capacity in northern Kenya while interrupting a regional trade corridor. The population estimate is provisional and responsibility for individual incidents remains unresolved."
     },
     {
-      "source": "The EastAfrican",
-      "sourcePublishedAt": "2026-10-29",
-      "headline": "Russia offers to mediate Ethiopia–Eritrea tensions",
-      "sourceUrl": "https://theeastafrican.co.ke/tea/news/eastern-africa/russia-offers-to-mediate-ethiopia-eritrea-tensions-5650584",
-      "whyItMatters": "Another mediation channel could create space for de-escalation around the Red Sea and the Ethiopia–Eritrea frontier. No formal process, mandate or acceptance by both parties was reported, and the arms relationship complicates the neutrality claim."
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-10-30",
+      "headline": "Drone strikes kill at least 15 people at an Ethiopian displacement camp",
+      "sourceUrl": "https://www.reuters.com/world/africa/strikes-camp-ethiopia-kill-least-15-sources-say-2026-10-30/",
+      "whyItMatters": "A camp holding people displaced by earlier violence became a target itself, deepening the civilian-protection failure in northern Ethiopia. The casualty account is source-based and neither attribution nor legal responsibility has been established."
+    },
+    {
+      "source": "United Nations in Somalia",
+      "sourcePublishedAt": "2026-10-31",
+      "headline": "UNTMIS completes its mandate as functions transfer to Somali institutions",
+      "sourceUrl": "https://somalia.un.org/en",
+      "whyItMatters": "The closure ends more than three decades of successive U.N. political missions in Somalia and places greater weight on national institutions during a difficult security transition. Formal transfer does not itself demonstrate that every receiving institution has equivalent capacity."
     }
   ]
 }
