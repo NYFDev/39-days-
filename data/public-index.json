@@ -1,8 +1,385 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-01T10:00:00.000Z",
-  "count": 46,
+  "generatedAt": "2026-11-06T11:00:00.000Z",
+  "count": 53,
   "records": [
+    {
+      "id": "record:repository:54900d94fab56220874e",
+      "kind": "artifact",
+      "title": "The Dispatch Newsletter",
+      "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
+      "observedAt": "2026-11-06",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/",
+      "lanes": [
+        "enterprise",
+        "capital",
+        "culture",
+        "record"
+      ],
+      "topics": [
+        "newsletter",
+        "Dispatch",
+        "RSS",
+        "subscribe",
+        "free content"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:dbd6a8b53e14ec77efaf",
+      "kind": "artifact",
+      "title": "The Projects Are Advancing. The Guarantees Are Thinning.",
+      "summary": "Six source records connect regional trade gains and refinery investment with troop withdrawal, diplomatic rupture, trade-preference risk and Kenya’s governance constraint.",
+      "observedAt": "2026-11-06",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "East Africa",
+        "Horn of Africa",
+        "Uganda",
+        "Somalia",
+        "Rwanda",
+        "AGOA",
+        "Ethiopia",
+        "Sudan",
+        "Kenya",
+        "Dangote",
+        "EAC",
+        "trade",
+        "governance"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-010/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:dd85b6673b4a5385dacc",
+      "kind": "artifact",
+      "title": "MVP Build Log",
+      "summary": "The public acceptance log for the NYF Holdings MVP: seven elapsed days and zero accepted deployments before the Day 07 release.",
+      "observedAt": "2026-11-06",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/build-log/",
+      "lanes": [
+        "operations",
+        "record"
+      ],
+      "topics": [
+        "build log",
+        "deployment",
+        "zero for seven",
+        "MVP",
+        "acceptance record"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/build-log/",
+          "publishedUrl": "https://nyfholdings.ca/build-log/"
+        }
+      ]
+    },
+    {
+      "id": "web:eac:msme-trade-facilitation-2026-11-05",
+      "kind": "article",
+      "title": "EAC records faster cargo transit and stronger African exports while pressing for trade-finance reform",
+      "summary": "At the EAC MSME Trade Fair, the Secretariat said the Single Customs Territory had cut cargo transit time from 18 days to four and that EAC exports to the rest of Africa had risen 44% to $7.2 billion. Officials called for simpler customs procedures, lower non-tariff barriers, better transport, interoperable payments and wider access to trade finance.",
+      "observedAt": "2026-11-05",
+      "source": "East African Community",
+      "sourceUrl": "https://www.eac.int/press-releases/157-trade/3614-eac-calls-for-stronger-regional-collaboration-to-unlock-msme-growth-and-expand-trade-opportunities",
+      "lanes": [
+        "enterprise",
+        "capital"
+      ],
+      "topics": [
+        "MSMEs",
+        "trade facilitation",
+        "regional exports"
+      ],
+      "geography": [
+        "East Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "web:reuters:dangote-lamu-refinery-tribunal-2026-11-05",
+      "kind": "article",
+      "title": "Kenyan tribunal dismisses challenge to Dangote’s planned Lamu refinery",
+      "summary": "A Kenyan tribunal dismissed a consumer group’s challenge to approvals for Dangote’s proposed 700,000-barrel-per-day refinery at Lamu. The ruling said the petitioner had not shown the project was a public-private partnership; Dangote has offered regional governments a combined 30% stake and targets completion in 2030.",
+      "observedAt": "2026-11-05",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/energy/kenyan-tribunal-dismisses-challenge-dangotes-planned-refinery-2026-11-05/",
+      "lanes": [
+        "enterprise",
+        "capital"
+      ],
+      "topics": [
+        "refining",
+        "Lamu",
+        "investment"
+      ],
+      "geography": [
+        "Kenya",
+        "East Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "web:reuters:ethiopia-sudan-consulates-2026-11-04",
+      "kind": "article",
+      "title": "Ethiopia and Sudan close each other’s border consulates",
+      "summary": "Ethiopia ordered six Sudanese consular staff to leave Assosa and closed the mission; Sudan responded by closing Ethiopia’s consulate in Gedaref. Each government has accused the other of supporting hostile forces as Sudan’s war and Ethiopia’s internal conflicts press against the shared border.",
+      "observedAt": "2026-11-04",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/ethiopia-expels-sudanese-diplomats-after-fresh-allegations-support-rsf-2026-11-04/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "diplomacy",
+        "border security",
+        "consulates"
+      ],
+      "geography": [
+        "Ethiopia",
+        "Sudan"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "web:reuters:kenya-economic-update-governance-2026-11-04",
+      "kind": "article",
+      "title": "World Bank raises Kenya’s 2026 growth forecast while naming governance as a binding constraint",
+      "summary": "The World Bank raised its Kenya growth forecast for 2026 to 4.6% from 4.3% after a stronger first half. Its Kenya Economic Update estimated corruption and collusion cost roughly 2% of GDP annually through larger deficits, added borrowing and higher financing costs; Kenya’s Treasury said reforms are underway and expects growth of at least 5%.",
+      "observedAt": "2026-11-04",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/world-bank-urges-kenya-curb-graft-raises-2026-growth-forecast-2026-11-04/",
+      "lanes": [
+        "capital",
+        "record"
+      ],
+      "topics": [
+        "growth",
+        "governance",
+        "sovereign borrowing"
+      ],
+      "geography": [
+        "Kenya"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "web:ap:uganda-somalia-withdrawal-2026-11-02",
+      "kind": "article",
+      "title": "Uganda begins a phased withdrawal from Somalia",
+      "summary": "Uganda began returning troops deployed in Somalia under a bilateral agreement, with the first cohort already home. Military authorities said all Ugandan forces, including personnel serving under AUSSOM, are expected to leave by the end of 2027; thousands remain deployed.",
+      "observedAt": "2026-11-02",
+      "source": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/b6190eae50810b62a902bd9211f91d77",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "AUSSOM",
+        "security transition",
+        "troop withdrawal"
+      ],
+      "geography": [
+        "Somalia",
+        "Uganda"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "web:ustr:rwanda-agoa-termination-intent-2026-11-02",
+      "kind": "article",
+      "title": "United States intends to remove Rwanda from AGOA on January 1",
+      "summary": "USTR said the U.S. president intends to terminate Rwanda’s eligibility for African Growth and Opportunity Act benefits effective January 1, 2027. The agency cited trade barriers and concerns spanning rule of law, political pluralism, labour and human rights, and security.",
+      "observedAt": "2026-11-02",
+      "source": "Office of the United States Trade Representative",
+      "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ambassador-greer-issues-statement-president-trumps-intent-terminate-rwanda-and-south-africa-agoa",
+      "lanes": [
+        "capital",
+        "record"
+      ],
+      "topics": [
+        "AGOA",
+        "trade preferences",
+        "market access"
+      ],
+      "geography": [
+        "Rwanda",
+        "United States"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-010",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+          "publishedAt": "2026-11-06T04:00:00-07:00"
+        }
+      ]
+    },
     {
       "id": "record:repository:4e4a00232618e18e0ec1",
       "kind": "artifact",
@@ -32,64 +409,6 @@
           "surface": "site",
           "slug": "/newsletter/signal-009/",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-009/"
-        }
-      ]
-    },
-    {
-      "id": "record:repository:54900d94fab56220874e",
-      "kind": "artifact",
-      "title": "The Dispatch Newsletter",
-      "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
-      "observedAt": "2026-11-01",
-      "source": "NYF Holdings repository",
-      "sourceUrl": "https://nyfholdings.ca/newsletter/",
-      "lanes": [
-        "enterprise",
-        "capital",
-        "culture",
-        "record"
-      ],
-      "topics": [
-        "newsletter",
-        "Dispatch",
-        "RSS",
-        "subscribe",
-        "free content"
-      ],
-      "geography": [],
-      "outputs": [
-        {
-          "surface": "site",
-          "slug": "/newsletter/",
-          "publishedUrl": "https://nyfholdings.ca/newsletter/"
-        }
-      ]
-    },
-    {
-      "id": "record:repository:dd85b6673b4a5385dacc",
-      "kind": "artifact",
-      "title": "MVP Build Log",
-      "summary": "The public acceptance log for the NYF Holdings MVP: seven elapsed days and zero accepted deployments before the Day 07 release.",
-      "observedAt": "2026-11-01",
-      "source": "NYF Holdings repository",
-      "sourceUrl": "https://nyfholdings.ca/build-log/",
-      "lanes": [
-        "operations",
-        "record"
-      ],
-      "topics": [
-        "build log",
-        "deployment",
-        "zero for seven",
-        "MVP",
-        "acceptance record"
-      ],
-      "geography": [],
-      "outputs": [
-        {
-          "surface": "site",
-          "slug": "/build-log/",
-          "publishedUrl": "https://nyfholdings.ca/build-log/"
         }
       ]
     },
