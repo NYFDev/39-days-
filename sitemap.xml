@@ -11,8 +11,9 @@
   <url><loc>https://nyfholdings.ca/39-days/archive/</loc><lastmod>2026-08-14</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://nyfholdings.ca/39-days/archive/v1/</loc><lastmod>2026-08-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nyfholdings.ca/39-days/day-07/</loc><lastmod>2026-08-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://nyfholdings.ca/newsletter/</loc><lastmod>2026-11-01</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nyfholdings.ca/newsletter/</loc><lastmod>2026-11-06</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
   <url><loc>https://nyfholdings.ca/newsletter/morning-wire/</loc><lastmod>2026-09-03</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nyfholdings.ca/newsletter/signal-010/</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://nyfholdings.ca/newsletter/signal-009/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://nyfholdings.ca/newsletter/signal-008/</loc><lastmod>2026-10-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://nyfholdings.ca/newsletter/signal-007/</loc><lastmod>2026-10-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -27,6 +28,6 @@
   <url><loc>https://nyfholdings.ca/ten-cots/</loc><lastmod>2026-08-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nyfholdings.ca/operations/</loc><lastmod>2026-08-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nyfholdings.ca/method/</loc><lastmod>2026-08-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://nyfholdings.ca/build-log/</loc><lastmod>2026-11-01</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nyfholdings.ca/build-log/</loc><lastmod>2026-11-06</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://nyfholdings.ca/search/</loc><lastmod>2026-08-14</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 </urlset>

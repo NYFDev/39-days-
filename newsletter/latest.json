@@ -1,51 +1,58 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-009",
-  "title": "The Systems Are Advancing. The Protection Gap Is Wider.",
-  "url": "https://nyfholdings.ca/newsletter/signal-009/",
-  "publishedAt": "2026-11-01T04:00:00-06:00",
+  "issue": "signal-010",
+  "title": "The Projects Are Advancing. The Guarantees Are Thinning.",
+  "url": "https://nyfholdings.ca/newsletter/signal-010/",
+  "publishedAt": "2026-11-06T04:00:00-07:00",
   "scope": [
     "enterprise",
     "capital",
     "record",
     "institutions"
   ],
-  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a five-item gate including three primary institutional sources.",
+  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a six-item gate including two primary institutional sources.",
   "items": [
     {
-      "source": "African Union",
-      "sourcePublishedAt": "2026-10-30",
-      "headline": "AU ministers call for financing that turns digital strategies into infrastructure",
-      "sourceUrl": "https://www.au.int/en/pressreleases/20261030/digital-strategies-delivery-au-ministers-call-increased-investment",
-      "whyItMatters": "The record shifts the continental digital agenda from strategy-writing toward financing and delivery. No funding facility, capital amount or implementation timetable was announced, so execution remains the unresolved test."
-    },
-    {
-      "source": "East African Community",
-      "sourcePublishedAt": "2026-10-31",
-      "headline": "EAC adopts regional AI, digital-transformation and biotechnology strategies",
-      "sourceUrl": "https://www.eac.int/press-releases",
-      "whyItMatters": "Common strategies and credentials can reduce fragmentation across universities, labour markets and technology policy. Adoption is not rollout: national alignment, financing and measurable implementation remain outstanding."
-    },
-    {
       "source": "Associated Press",
-      "sourcePublishedAt": "2026-10-30",
-      "headline": "Moyale displacement estimate rises to as many as 50,000 people",
-      "sourceUrl": "https://apnews.com/article/ethiopia-kenya-moyale-border-conflict-refugees-gunfire-e0a1189e426f109136738c84653248ca",
-      "whyItMatters": "The displacement is now large enough to strain food, water, shelter and health capacity in northern Kenya while interrupting a regional trade corridor. The population estimate is provisional and responsibility for individual incidents remains unresolved."
+      "sourcePublishedAt": "2026-11-02",
+      "headline": "Uganda begins a phased withdrawal from Somalia",
+      "sourceUrl": "https://apnews.com/article/b6190eae50810b62a902bd9211f91d77",
+      "whyItMatters": "The timetable turns Somalia’s security transition into a capacity test with a fixed horizon. The unresolved point is whether Somali forces and remaining partners can cover areas vulnerable to al-Shabaab as Ugandan contingents depart."
+    },
+    {
+      "source": "Office of the United States Trade Representative",
+      "sourcePublishedAt": "2026-11-02",
+      "headline": "United States intends to remove Rwanda from AGOA on January 1",
+      "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ambassador-greer-issues-statement-president-trumps-intent-terminate-rwanda-and-south-africa-agoa",
+      "whyItMatters": "The decision would deepen Rwanda’s existing partial exclusion from the preference programme and add policy risk for exporters using U.S. market access. Implementation is prospective until the stated effective date."
     },
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-10-30",
-      "headline": "Drone strikes kill at least 15 people at an Ethiopian displacement camp",
-      "sourceUrl": "https://www.reuters.com/world/africa/strikes-camp-ethiopia-kill-least-15-sources-say-2026-10-30/",
-      "whyItMatters": "A camp holding people displaced by earlier violence became a target itself, deepening the civilian-protection failure in northern Ethiopia. The casualty account is source-based and neither attribution nor legal responsibility has been established."
+      "sourcePublishedAt": "2026-11-04",
+      "headline": "Ethiopia and Sudan close each other’s border consulates",
+      "sourceUrl": "https://www.reuters.com/world/africa/ethiopia-expels-sudanese-diplomats-after-fresh-allegations-support-rsf-2026-11-04/",
+      "whyItMatters": "Consulate closures remove local diplomatic capacity precisely where cross-border security and humanitarian risks are rising. The governments’ competing allegations remain disputed and have not been independently adjudicated."
     },
     {
-      "source": "United Nations in Somalia",
-      "sourcePublishedAt": "2026-10-31",
-      "headline": "UNTMIS completes its mandate as functions transfer to Somali institutions",
-      "sourceUrl": "https://somalia.un.org/en",
-      "whyItMatters": "The closure ends more than three decades of successive U.N. political missions in Somalia and places greater weight on national institutions during a difficult security transition. Formal transfer does not itself demonstrate that every receiving institution has equivalent capacity."
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-11-04",
+      "headline": "World Bank raises Kenya’s 2026 growth forecast while naming governance as a binding constraint",
+      "sourceUrl": "https://www.reuters.com/world/africa/world-bank-urges-kenya-curb-graft-raises-2026-growth-forecast-2026-11-04/",
+      "whyItMatters": "The update links governance directly to the price of capital rather than treating it as a separate institutional issue. Forecasts remain estimates, and the government disputes the Bank’s growth projection as too low."
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-11-05",
+      "headline": "Kenyan tribunal dismisses challenge to Dangote’s planned Lamu refinery",
+      "sourceUrl": "https://www.reuters.com/business/energy/kenyan-tribunal-dismisses-challenge-dangotes-planned-refinery-2026-11-05/",
+      "whyItMatters": "The decision removes one legal obstacle from a project that could reshape regional fuel supply and public-sector exposure. It does not settle other approvals, financing terms, government participation or the construction timetable."
+    },
+    {
+      "source": "East African Community",
+      "sourcePublishedAt": "2026-11-05",
+      "headline": "EAC records faster cargo transit and stronger African exports while pressing for trade-finance reform",
+      "sourceUrl": "https://www.eac.int/press-releases/157-trade/3614-eac-calls-for-stronger-regional-collaboration-to-unlock-msme-growth-and-expand-trade-opportunities",
+      "whyItMatters": "The record supplies measurable evidence that integration can reduce time costs and expand markets, while identifying finance and border friction as the next constraints. The release does not specify the export comparison period or provide a new implementation timetable for the proposed reforms."
     }
   ]
 }

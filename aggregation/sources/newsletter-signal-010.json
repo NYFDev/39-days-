@@ -1,0 +1,292 @@
+[
+  {
+    "id": "web:ap:uganda-somalia-withdrawal-2026-11-02",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Associated Press",
+      "type": "web",
+      "canonicalUrl": "https://apnews.com/article/b6190eae50810b62a902bd9211f91d77",
+      "publishedAt": "2026-11-02",
+      "retrievedAt": null
+    },
+    "title": "Uganda begins a phased withdrawal from Somalia",
+    "summary": "Uganda began returning troops deployed in Somalia under a bilateral agreement, with the first cohort already home. Military authorities said all Ugandan forces, including personnel serving under AUSSOM, are expected to leave by the end of 2027; thousands remain deployed.",
+    "context": "The timetable turns Somalia’s security transition into a capacity test with a fixed horizon. The unresolved point is whether Somali forces and remaining partners can cover areas vulnerable to al-Shabaab as Ugandan contingents depart.",
+    "observedAt": "2026-11-02",
+    "entities": [],
+    "geography": [
+      "Somalia",
+      "Uganda"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "AUSSOM",
+      "security transition",
+      "troop withdrawal"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-06",
+      "notes": "AP reporting based on a statement from Uganda's military spokesman."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-010",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+        "publishedAt": "2026-11-06T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:ustr:rwanda-agoa-termination-intent-2026-11-02",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Office of the United States Trade Representative",
+      "type": "web",
+      "canonicalUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ambassador-greer-issues-statement-president-trumps-intent-terminate-rwanda-and-south-africa-agoa",
+      "publishedAt": "2026-11-02",
+      "retrievedAt": null
+    },
+    "title": "United States intends to remove Rwanda from AGOA on January 1",
+    "summary": "USTR said the U.S. president intends to terminate Rwanda’s eligibility for African Growth and Opportunity Act benefits effective January 1, 2027. The agency cited trade barriers and concerns spanning rule of law, political pluralism, labour and human rights, and security.",
+    "context": "The decision would deepen Rwanda’s existing partial exclusion from the preference programme and add policy risk for exporters using U.S. market access. Implementation is prospective until the stated effective date.",
+    "observedAt": "2026-11-02",
+    "entities": [],
+    "geography": [
+      "Rwanda",
+      "United States"
+    ],
+    "lanes": [
+      "capital",
+      "record"
+    ],
+    "topics": [
+      "AGOA",
+      "trade preferences",
+      "market access"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-06",
+      "notes": "Primary government source."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-010",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+        "publishedAt": "2026-11-06T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:reuters:ethiopia-sudan-consulates-2026-11-04",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/world/africa/ethiopia-expels-sudanese-diplomats-after-fresh-allegations-support-rsf-2026-11-04/",
+      "publishedAt": "2026-11-04",
+      "retrievedAt": null
+    },
+    "title": "Ethiopia and Sudan close each other’s border consulates",
+    "summary": "Ethiopia ordered six Sudanese consular staff to leave Assosa and closed the mission; Sudan responded by closing Ethiopia’s consulate in Gedaref. Each government has accused the other of supporting hostile forces as Sudan’s war and Ethiopia’s internal conflicts press against the shared border.",
+    "context": "Consulate closures remove local diplomatic capacity precisely where cross-border security and humanitarian risks are rising. The governments’ competing allegations remain disputed and have not been independently adjudicated.",
+    "observedAt": "2026-11-04",
+    "entities": [],
+    "geography": [
+      "Ethiopia",
+      "Sudan"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "diplomacy",
+      "border security",
+      "consulates"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-06",
+      "notes": "Reuters reporting; allegations by the governments remain disputed."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-010",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+        "publishedAt": "2026-11-06T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:reuters:kenya-economic-update-governance-2026-11-04",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/world/africa/world-bank-urges-kenya-curb-graft-raises-2026-growth-forecast-2026-11-04/",
+      "publishedAt": "2026-11-04",
+      "retrievedAt": null
+    },
+    "title": "World Bank raises Kenya’s 2026 growth forecast while naming governance as a binding constraint",
+    "summary": "The World Bank raised its Kenya growth forecast for 2026 to 4.6% from 4.3% after a stronger first half. Its Kenya Economic Update estimated corruption and collusion cost roughly 2% of GDP annually through larger deficits, added borrowing and higher financing costs; Kenya’s Treasury said reforms are underway and expects growth of at least 5%.",
+    "context": "The update links governance directly to the price of capital rather than treating it as a separate institutional issue. Forecasts remain estimates, and the government disputes the Bank’s growth projection as too low.",
+    "observedAt": "2026-11-04",
+    "entities": [],
+    "geography": [
+      "Kenya"
+    ],
+    "lanes": [
+      "capital",
+      "record"
+    ],
+    "topics": [
+      "growth",
+      "governance",
+      "sovereign borrowing"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-06",
+      "notes": "Reuters reporting on the World Bank's Kenya Economic Update and Kenya Treasury response."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-010",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+        "publishedAt": "2026-11-06T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:reuters:dangote-lamu-refinery-tribunal-2026-11-05",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/business/energy/kenyan-tribunal-dismisses-challenge-dangotes-planned-refinery-2026-11-05/",
+      "publishedAt": "2026-11-05",
+      "retrievedAt": null
+    },
+    "title": "Kenyan tribunal dismisses challenge to Dangote’s planned Lamu refinery",
+    "summary": "A Kenyan tribunal dismissed a consumer group’s challenge to approvals for Dangote’s proposed 700,000-barrel-per-day refinery at Lamu. The ruling said the petitioner had not shown the project was a public-private partnership; Dangote has offered regional governments a combined 30% stake and targets completion in 2030.",
+    "context": "The decision removes one legal obstacle from a project that could reshape regional fuel supply and public-sector exposure. It does not settle other approvals, financing terms, government participation or the construction timetable.",
+    "observedAt": "2026-11-05",
+    "entities": [],
+    "geography": [
+      "Kenya",
+      "East Africa"
+    ],
+    "lanes": [
+      "enterprise",
+      "capital"
+    ],
+    "topics": [
+      "refining",
+      "Lamu",
+      "investment"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-06",
+      "notes": "Reuters reporting based on the tribunal ruling; additional legal and financing conditions remain."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-010",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+        "publishedAt": "2026-11-06T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:eac:msme-trade-facilitation-2026-11-05",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "East African Community",
+      "type": "web",
+      "canonicalUrl": "https://www.eac.int/press-releases/157-trade/3614-eac-calls-for-stronger-regional-collaboration-to-unlock-msme-growth-and-expand-trade-opportunities",
+      "publishedAt": "2026-11-05",
+      "retrievedAt": null
+    },
+    "title": "EAC records faster cargo transit and stronger African exports while pressing for trade-finance reform",
+    "summary": "At the EAC MSME Trade Fair, the Secretariat said the Single Customs Territory had cut cargo transit time from 18 days to four and that EAC exports to the rest of Africa had risen 44% to $7.2 billion. Officials called for simpler customs procedures, lower non-tariff barriers, better transport, interoperable payments and wider access to trade finance.",
+    "context": "The record supplies measurable evidence that integration can reduce time costs and expand markets, while identifying finance and border friction as the next constraints. The release does not specify the export comparison period or provide a new implementation timetable for the proposed reforms.",
+    "observedAt": "2026-11-05",
+    "entities": [],
+    "geography": [
+      "East Africa"
+    ],
+    "lanes": [
+      "enterprise",
+      "capital"
+    ],
+    "topics": [
+      "MSMEs",
+      "trade facilitation",
+      "regional exports"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-06",
+      "notes": "Primary institutional source; the comparison period for the reported export increase is not stated."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-010",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-010/",
+        "publishedAt": "2026-11-06T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  }
+]
