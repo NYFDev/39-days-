@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-010",
-  "title": "The Projects Are Advancing. The Guarantees Are Thinning.",
-  "url": "https://nyfholdings.ca/newsletter/signal-010/",
-  "publishedAt": "2026-11-06T04:00:00-07:00",
+  "issue": "signal-011",
+  "title": "The Response Architecture Is Moving. The Exposure Is Multiplying.",
+  "url": "https://nyfholdings.ca/newsletter/signal-011/",
+  "publishedAt": "2026-11-11T04:00:00-07:00",
   "scope": [
     "enterprise",
     "capital",
@@ -13,46 +13,46 @@
   "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a six-item gate including two primary institutional sources.",
   "items": [
     {
-      "source": "Associated Press",
-      "sourcePublishedAt": "2026-11-02",
-      "headline": "Uganda begins a phased withdrawal from Somalia",
-      "sourceUrl": "https://apnews.com/article/b6190eae50810b62a902bd9211f91d77",
-      "whyItMatters": "The timetable turns Somalia’s security transition into a capacity test with a fixed horizon. The unresolved point is whether Somali forces and remaining partners can cover areas vulnerable to al-Shabaab as Ugandan contingents depart."
-    },
-    {
-      "source": "Office of the United States Trade Representative",
-      "sourcePublishedAt": "2026-11-02",
-      "headline": "United States intends to remove Rwanda from AGOA on January 1",
-      "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ambassador-greer-issues-statement-president-trumps-intent-terminate-rwanda-and-south-africa-agoa",
-      "whyItMatters": "The decision would deepen Rwanda’s existing partial exclusion from the preference programme and add policy risk for exporters using U.S. market access. Implementation is prospective until the stated effective date."
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-11-04",
-      "headline": "Ethiopia and Sudan close each other’s border consulates",
-      "sourceUrl": "https://www.reuters.com/world/africa/ethiopia-expels-sudanese-diplomats-after-fresh-allegations-support-rsf-2026-11-04/",
-      "whyItMatters": "Consulate closures remove local diplomatic capacity precisely where cross-border security and humanitarian risks are rising. The governments’ competing allegations remain disputed and have not been independently adjudicated."
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-11-04",
-      "headline": "World Bank raises Kenya’s 2026 growth forecast while naming governance as a binding constraint",
-      "sourceUrl": "https://www.reuters.com/world/africa/world-bank-urges-kenya-curb-graft-raises-2026-growth-forecast-2026-11-04/",
-      "whyItMatters": "The update links governance directly to the price of capital rather than treating it as a separate institutional issue. Forecasts remain estimates, and the government disputes the Bank’s growth projection as too low."
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-11-05",
-      "headline": "Kenyan tribunal dismisses challenge to Dangote’s planned Lamu refinery",
-      "sourceUrl": "https://www.reuters.com/business/energy/kenyan-tribunal-dismisses-challenge-dangotes-planned-refinery-2026-11-05/",
-      "whyItMatters": "The decision removes one legal obstacle from a project that could reshape regional fuel supply and public-sector exposure. It does not settle other approvals, financing terms, government participation or the construction timetable."
+      "source": "African Union",
+      "sourcePublishedAt": "2026-11-09",
+      "headline": "African Union and Uganda sign the host agreement for the African Humanitarian Agency.",
+      "sourceUrl": "https://au.int/en/pressreleases/20261109/african-union-and-uganda-officially-signs-host-agreement-african",
+      "whyItMatters": "The agreement supplies a legal base, a host state and a stated financing commitment for a continent-led response institution. The unresolved point is whether the tranches, staffing and depot network arrive on the announced timetable."
     },
     {
       "source": "East African Community",
-      "sourcePublishedAt": "2026-11-05",
-      "headline": "EAC records faster cargo transit and stronger African exports while pressing for trade-finance reform",
-      "sourceUrl": "https://www.eac.int/press-releases/157-trade/3614-eac-calls-for-stronger-regional-collaboration-to-unlock-msme-growth-and-expand-trade-opportunities",
-      "whyItMatters": "The record supplies measurable evidence that integration can reduce time costs and expand markets, while identifying finance and border friction as the next constraints. The release does not specify the export comparison period or provide a new implementation timetable for the proposed reforms."
+      "sourcePublishedAt": "2026-11-09",
+      "headline": "EAC adopts a regional El Niño emergency plan with November implementation deadlines.",
+      "sourceUrl": "https://www.eac.int/press-releases/144-environment-natural-resources/3617-eac-ministers-adopt-regional-el-ni%C3%B1o-emergency-preparedness-and-response-plan",
+      "whyItMatters": "The plan converts a regional climate warning into named coordination structures and near-term deadlines. Financing remains to be mobilized, so operational readiness cannot yet be inferred from adoption alone."
+    },
+    {
+      "source": "Associated Press",
+      "sourcePublishedAt": "2026-11-06",
+      "headline": "Somalia’s Supreme Court rules the president’s term has expired.",
+      "sourceUrl": "https://apnews.com/article/0beacddf6ba0ef748fc99be4b45e0051",
+      "whyItMatters": "The ruling creates a judicial timetable for a political dispute already linked to armed tension in Mogadishu. Enforcement, interim authority and the presidency’s response remain unresolved."
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-11-10",
+      "headline": "Eight people are killed in a suspected al-Shabaab attack in northeastern Kenya.",
+      "sourceUrl": "https://www.reuters.com/world/africa/eight-people-killed-kenyas-northeast-suspected-al-shabaab-attack-2026-11-10/",
+      "whyItMatters": "The attack shows how insecurity can directly interrupt infrastructure work and civilian mobility along the Kenya–Somalia border. Attribution remains suspected rather than judicially established."
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-11-10",
+      "headline": "Congo’s Ebola outbreak surpasses 11,000 confirmed cases.",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-cases-surpass-11000-government-data-show-2026-11-10/",
+      "whyItMatters": "The scale makes regional containment capacity—not only national case management—the operative test. The totals are government data and may change as surveillance and delayed reporting continue."
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-11-11",
+      "headline": "Kenya releases its last Ebola patient and starts the 42-day disease-free countdown.",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-releases-last-ebola-patient-starts-42-day-countdown-disease-free-status-2026-11-11/",
+      "whyItMatters": "Kenya’s containment progress contrasts with the expanding outbreak in Congo and shows the value of contact tracing around an imported cluster. Disease-free status is conditional on completing 42 days without another case."
     }
   ]
 }

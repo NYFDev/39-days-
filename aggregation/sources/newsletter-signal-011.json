@@ -1,0 +1,293 @@
+[
+  {
+    "id": "web:au:afha-host-agreement-2026-11-09",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "African Union",
+      "type": "web",
+      "canonicalUrl": "https://au.int/en/pressreleases/20261109/african-union-and-uganda-officially-signs-host-agreement-african",
+      "publishedAt": "2026-11-09",
+      "retrievedAt": null
+    },
+    "title": "African Union and Uganda sign the host agreement for the African Humanitarian Agency.",
+    "summary": "The African Union and Uganda signed the host agreement establishing the African Humanitarian Agency in Kampala. Uganda committed US$86 million in three tranches over three years; the AU said interim staff are expected to move by mid-December and five regional depots are planned.",
+    "context": "The agreement supplies a legal base, a host state and a stated financing commitment for a continent-led response institution. The unresolved point is whether the tranches, staffing and depot network arrive on the announced timetable.",
+    "observedAt": "2026-11-09",
+    "entities": [],
+    "geography": [
+      "Uganda",
+      "Africa"
+    ],
+    "lanes": [
+      "capital",
+      "record",
+      "institutions"
+    ],
+    "topics": [
+      "humanitarian response",
+      "institutional finance",
+      "African Union"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-11",
+      "notes": "Primary AU release states the signed host agreement, Uganda's US$86 million commitment and planned staffing timetable."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-011",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+        "publishedAt": "2026-11-11T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:eac:el-nino-plan-2026-11-09",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "East African Community",
+      "type": "web",
+      "canonicalUrl": "https://www.eac.int/press-releases/144-environment-natural-resources/3617-eac-ministers-adopt-regional-el-ni%C3%B1o-emergency-preparedness-and-response-plan",
+      "publishedAt": "2026-11-09",
+      "retrievedAt": null
+    },
+    "title": "EAC adopts a regional El Niño emergency plan with November implementation deadlines.",
+    "summary": "The EAC adopted a joint plan covering early warning, health, infrastructure, food security and climate displacement. It directed the Secretariat to prepare an implementation plan by November 30 and work with Kenya on a regional disaster-information dashboard by November 25.",
+    "context": "The plan converts a regional climate warning into named coordination structures and near-term deadlines. Financing remains to be mobilized, so operational readiness cannot yet be inferred from adoption alone.",
+    "observedAt": "2026-11-09",
+    "entities": [],
+    "geography": [
+      "East Africa"
+    ],
+    "lanes": [
+      "capital",
+      "record",
+      "institutions"
+    ],
+    "topics": [
+      "El Niño",
+      "emergency preparedness",
+      "regional coordination"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-11",
+      "notes": "Primary EAC release states the plan, priority areas and implementation deadlines."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-011",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+        "publishedAt": "2026-11-11T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:ap:somalia-supreme-court-term-2026-11-06",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Associated Press",
+      "type": "web",
+      "canonicalUrl": "https://apnews.com/article/0beacddf6ba0ef748fc99be4b45e0051",
+      "publishedAt": "2026-11-06",
+      "retrievedAt": null
+    },
+    "title": "Somalia’s Supreme Court rules the president’s term has expired.",
+    "summary": "Somalia’s Supreme Court rejected the claim that constitutional changes extended the incumbent president’s mandate. It gave political leaders 30 days to agree on an election process, ordered elections within 90 days and limited the government to routine administration while a vote is pending.",
+    "context": "The ruling creates a judicial timetable for a political dispute already linked to armed tension in Mogadishu. Enforcement, interim authority and the presidency’s response remain unresolved.",
+    "observedAt": "2026-11-06",
+    "entities": [],
+    "geography": [
+      "Somalia"
+    ],
+    "lanes": [
+      "record",
+      "institutions"
+    ],
+    "topics": [
+      "constitutional law",
+      "elections",
+      "Supreme Court"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-11",
+      "notes": "AP reviewed the court judgment; enforcement and the executive response remained unresolved at publication."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-011",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+        "publishedAt": "2026-11-11T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:reuters:kenya-mandera-attack-2026-11-10",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/world/africa/eight-people-killed-kenyas-northeast-suspected-al-shabaab-attack-2026-11-10/",
+      "publishedAt": "2026-11-10",
+      "retrievedAt": null
+    },
+    "title": "Eight people are killed in a suspected al-Shabaab attack in northeastern Kenya.",
+    "summary": "Two police reservists, five construction workers and a driver were killed in an ambush near a road project in Mandera County. Police and a regional official said the attackers were suspected al-Shabaab militants who may have crossed from Somalia; investigations were still underway.",
+    "context": "The attack shows how insecurity can directly interrupt infrastructure work and civilian mobility along the Kenya–Somalia border. Attribution remains suspected rather than judicially established.",
+    "observedAt": "2026-11-10",
+    "entities": [],
+    "geography": [
+      "Kenya",
+      "Somalia"
+    ],
+    "lanes": [
+      "enterprise",
+      "record"
+    ],
+    "topics": [
+      "Mandera",
+      "al-Shabaab",
+      "cross-border security"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-11",
+      "notes": "Reuters report based on police and regional officials; attribution remained under investigation."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-011",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+        "publishedAt": "2026-11-11T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:reuters:drc-ebola-11000-2026-11-10",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-cases-surpass-11000-government-data-show-2026-11-10/",
+      "publishedAt": "2026-11-10",
+      "retrievedAt": null
+    },
+    "title": "Congo’s Ebola outbreak surpasses 11,000 confirmed cases.",
+    "summary": "Congolese government data showed 11,042 confirmed infections and 5,387 deaths across eight provinces. The Bundibugyo outbreak has no approved treatment or vaccine, and delayed detection, conflict and strained health services have accelerated its spread.",
+    "context": "The scale makes regional containment capacity—not only national case management—the operative test. The totals are government data and may change as surveillance and delayed reporting continue.",
+    "observedAt": "2026-11-10",
+    "entities": [],
+    "geography": [
+      "Democratic Republic of Congo"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "Ebola",
+      "public health",
+      "Bundibugyo"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-11",
+      "notes": "Reuters cited Congolese government data; totals remain subject to ongoing surveillance."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-011",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+        "publishedAt": "2026-11-11T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  },
+  {
+    "id": "web:reuters:kenya-last-ebola-patient-2026-11-11",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-releases-last-ebola-patient-starts-42-day-countdown-disease-free-status-2026-11-11/",
+      "publishedAt": "2026-11-11",
+      "retrievedAt": null
+    },
+    "title": "Kenya releases its last Ebola patient and starts the 42-day disease-free countdown.",
+    "summary": "Kenya discharged its last Ebola patient after recording nine cases, two deaths and seven recoveries. No new infection has been recorded since October 19, the last 11 contacts left quarantine, and arrivals from Congo will face a 21-day quarantine.",
+    "context": "Kenya’s containment progress contrasts with the expanding outbreak in Congo and shows the value of contact tracing around an imported cluster. Disease-free status is conditional on completing 42 days without another case.",
+    "observedAt": "2026-11-11",
+    "entities": [],
+    "geography": [
+      "Kenya",
+      "Democratic Republic of Congo"
+    ],
+    "lanes": [
+      "record"
+    ],
+    "topics": [
+      "Ebola",
+      "contact tracing",
+      "border health"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "state": "source-checked",
+      "checkedAt": "2026-11-11",
+      "notes": "Reuters cited Kenya's health minister and ministry briefing; disease-free status remains conditional."
+    },
+    "outputs": [
+      {
+        "surface": "newsletter",
+        "slug": "signal-011",
+        "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+        "publishedAt": "2026-11-11T04:00:00-07:00"
+      }
+    ],
+    "payload": {}
+  }
+]
