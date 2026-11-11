@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-06T11:00:00.000Z",
-  "count": 53,
+  "generatedAt": "2026-11-11T11:00:00.000Z",
+  "count": 60,
   "records": [
     {
       "id": "record:repository:54900d94fab56220874e",
       "kind": "artifact",
       "title": "The Dispatch Newsletter",
       "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
-      "observedAt": "2026-11-06",
+      "observedAt": "2026-11-11",
       "source": "NYF Holdings repository",
       "sourceUrl": "https://nyfholdings.ca/newsletter/",
       "lanes": [
@@ -30,6 +30,308 @@
           "surface": "site",
           "slug": "/newsletter/",
           "publishedUrl": "https://nyfholdings.ca/newsletter/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:dd85b6673b4a5385dacc",
+      "kind": "artifact",
+      "title": "MVP Build Log",
+      "summary": "The public acceptance log for the NYF Holdings MVP: seven elapsed days and zero accepted deployments before the Day 07 release.",
+      "observedAt": "2026-11-11",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/build-log/",
+      "lanes": [
+        "operations",
+        "record"
+      ],
+      "topics": [
+        "build log",
+        "deployment",
+        "zero for seven",
+        "MVP",
+        "acceptance record"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/build-log/",
+          "publishedUrl": "https://nyfholdings.ca/build-log/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:e19a7c7aeff3b1f2111d",
+      "kind": "artifact",
+      "title": "The Response Architecture Is Moving. The Exposure Is Multiplying.",
+      "summary": "Six source records connect new humanitarian and climate-response institutions with constitutional rupture, cross-border attack and a widening Ebola emergency.",
+      "observedAt": "2026-11-11",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+      "lanes": [
+        "enterprise",
+        "capital",
+        "culture",
+        "record"
+      ],
+      "topics": [
+        "East Africa",
+        "Horn of Africa",
+        "humanitarian response",
+        "El Niño",
+        "Somalia",
+        "Kenya",
+        "Ebola",
+        "Congo",
+        "Uganda",
+        "African Union",
+        "EAC"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-011/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/"
+        }
+      ]
+    },
+    {
+      "id": "web:reuters:kenya-last-ebola-patient-2026-11-11",
+      "kind": "article",
+      "title": "Kenya releases its last Ebola patient and starts the 42-day disease-free countdown.",
+      "summary": "Kenya discharged its last Ebola patient after recording nine cases, two deaths and seven recoveries. No new infection has been recorded since October 19, the last 11 contacts left quarantine, and arrivals from Congo will face a 21-day quarantine.",
+      "observedAt": "2026-11-11",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-releases-last-ebola-patient-starts-42-day-countdown-disease-free-status-2026-11-11/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "Ebola",
+        "contact tracing",
+        "border health"
+      ],
+      "geography": [
+        "Kenya",
+        "Democratic Republic of Congo"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "web:reuters:drc-ebola-11000-2026-11-10",
+      "kind": "article",
+      "title": "Congo’s Ebola outbreak surpasses 11,000 confirmed cases.",
+      "summary": "Congolese government data showed 11,042 confirmed infections and 5,387 deaths across eight provinces. The Bundibugyo outbreak has no approved treatment or vaccine, and delayed detection, conflict and strained health services have accelerated its spread.",
+      "observedAt": "2026-11-10",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-cases-surpass-11000-government-data-show-2026-11-10/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "Ebola",
+        "public health",
+        "Bundibugyo"
+      ],
+      "geography": [
+        "Democratic Republic of Congo"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "web:reuters:kenya-mandera-attack-2026-11-10",
+      "kind": "article",
+      "title": "Eight people are killed in a suspected al-Shabaab attack in northeastern Kenya.",
+      "summary": "Two police reservists, five construction workers and a driver were killed in an ambush near a road project in Mandera County. Police and a regional official said the attackers were suspected al-Shabaab militants who may have crossed from Somalia; investigations were still underway.",
+      "observedAt": "2026-11-10",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/eight-people-killed-kenyas-northeast-suspected-al-shabaab-attack-2026-11-10/",
+      "lanes": [
+        "enterprise",
+        "record"
+      ],
+      "topics": [
+        "Mandera",
+        "al-Shabaab",
+        "cross-border security"
+      ],
+      "geography": [
+        "Kenya",
+        "Somalia"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "web:au:afha-host-agreement-2026-11-09",
+      "kind": "article",
+      "title": "African Union and Uganda sign the host agreement for the African Humanitarian Agency.",
+      "summary": "The African Union and Uganda signed the host agreement establishing the African Humanitarian Agency in Kampala. Uganda committed US$86 million in three tranches over three years; the AU said interim staff are expected to move by mid-December and five regional depots are planned.",
+      "observedAt": "2026-11-09",
+      "source": "African Union",
+      "sourceUrl": "https://au.int/en/pressreleases/20261109/african-union-and-uganda-officially-signs-host-agreement-african",
+      "lanes": [
+        "capital",
+        "record",
+        "institutions"
+      ],
+      "topics": [
+        "humanitarian response",
+        "institutional finance",
+        "African Union"
+      ],
+      "geography": [
+        "Uganda",
+        "Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "web:eac:el-nino-plan-2026-11-09",
+      "kind": "article",
+      "title": "EAC adopts a regional El Niño emergency plan with November implementation deadlines.",
+      "summary": "The EAC adopted a joint plan covering early warning, health, infrastructure, food security and climate displacement. It directed the Secretariat to prepare an implementation plan by November 30 and work with Kenya on a regional disaster-information dashboard by November 25.",
+      "observedAt": "2026-11-09",
+      "source": "East African Community",
+      "sourceUrl": "https://www.eac.int/press-releases/144-environment-natural-resources/3617-eac-ministers-adopt-regional-el-ni%C3%B1o-emergency-preparedness-and-response-plan",
+      "lanes": [
+        "capital",
+        "record",
+        "institutions"
+      ],
+      "topics": [
+        "El Niño",
+        "emergency preparedness",
+        "regional coordination"
+      ],
+      "geography": [
+        "East Africa"
+      ],
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
         }
       ]
     },
@@ -69,30 +371,49 @@
       ]
     },
     {
-      "id": "record:repository:dd85b6673b4a5385dacc",
-      "kind": "artifact",
-      "title": "MVP Build Log",
-      "summary": "The public acceptance log for the NYF Holdings MVP: seven elapsed days and zero accepted deployments before the Day 07 release.",
+      "id": "web:ap:somalia-supreme-court-term-2026-11-06",
+      "kind": "article",
+      "title": "Somalia’s Supreme Court rules the president’s term has expired.",
+      "summary": "Somalia’s Supreme Court rejected the claim that constitutional changes extended the incumbent president’s mandate. It gave political leaders 30 days to agree on an election process, ordered elections within 90 days and limited the government to routine administration while a vote is pending.",
       "observedAt": "2026-11-06",
-      "source": "NYF Holdings repository",
-      "sourceUrl": "https://nyfholdings.ca/build-log/",
+      "source": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/0beacddf6ba0ef748fc99be4b45e0051",
       "lanes": [
-        "operations",
-        "record"
+        "record",
+        "institutions"
       ],
       "topics": [
-        "build log",
-        "deployment",
-        "zero for seven",
-        "MVP",
-        "acceptance record"
+        "constitutional law",
+        "elections",
+        "Supreme Court"
       ],
-      "geography": [],
+      "geography": [
+        "Somalia"
+      ],
       "outputs": [
         {
-          "surface": "site",
-          "slug": "/build-log/",
-          "publishedUrl": "https://nyfholdings.ca/build-log/"
+          "surface": "newsletter",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-011",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-011/",
+          "publishedAt": "2026-11-11T04:00:00-07:00"
         }
       ]
     },
