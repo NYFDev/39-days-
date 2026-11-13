@@ -1,58 +1,52 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-011",
-  "title": "The Response Architecture Is Moving. The Exposure Is Multiplying.",
-  "url": "https://nyfholdings.ca/newsletter/signal-011/",
-  "publishedAt": "2026-11-11T04:00:00-07:00",
+  "issue": "signal-012",
+  "title": "The Alerts Are Specific. The Capacity Gaps Are Already Here.",
+  "url": "https://nyfholdings.ca/newsletter/signal-012/",
+  "publishedAt": "2026-11-13T04:00:00-07:00",
   "scope": [
-    "enterprise",
-    "capital",
     "record",
-    "institutions"
+    "institutions",
+    "capital",
+    "enterprise"
   ],
-  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a six-item gate including two primary institutional sources.",
+  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a five-item gate supported by direct MSF and WHO primary publications.",
   "items": [
     {
-      "source": "African Union",
-      "sourcePublishedAt": "2026-11-09",
-      "headline": "African Union and Uganda sign the host agreement for the African Humanitarian Agency.",
-      "sourceUrl": "https://au.int/en/pressreleases/20261109/african-union-and-uganda-officially-signs-host-agreement-african",
-      "whyItMatters": "The agreement supplies a legal base, a host state and a stated financing commitment for a continent-led response institution. The unresolved point is whether the tranches, staffing and depot network arrive on the announced timetable."
-    },
-    {
-      "source": "East African Community",
-      "sourcePublishedAt": "2026-11-09",
-      "headline": "EAC adopts a regional El Niño emergency plan with November implementation deadlines.",
-      "sourceUrl": "https://www.eac.int/press-releases/144-environment-natural-resources/3617-eac-ministers-adopt-regional-el-ni%C3%B1o-emergency-preparedness-and-response-plan",
-      "whyItMatters": "The plan converts a regional climate warning into named coordination structures and near-term deadlines. Financing remains to be mobilized, so operational readiness cannot yet be inferred from adoption alone."
+      "source": "Associated Press",
+      "sourcePublishedAt": "2026-11-11",
+      "headline": "ADF-linked attacks kill at least 22 civilians across eastern Congo communities.",
+      "sourceUrl": "https://apnews.com/article/c1c568db3a670679818aa426cf28fc80",
+      "whyItMatters": "The attacks join civilian protection, border security and outbreak control in the same operating terrain. The death and abduction counts remain provisional and were reported by local monitoring groups."
     },
     {
       "source": "Associated Press",
-      "sourcePublishedAt": "2026-11-06",
-      "headline": "Somalia’s Supreme Court rules the president’s term has expired.",
-      "sourceUrl": "https://apnews.com/article/0beacddf6ba0ef748fc99be4b45e0051",
-      "whyItMatters": "The ruling creates a judicial timetable for a political dispute already linked to armed tension in Mogadishu. Enforcement, interim authority and the presidency’s response remain unresolved."
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-11-10",
-      "headline": "Eight people are killed in a suspected al-Shabaab attack in northeastern Kenya.",
-      "sourceUrl": "https://www.reuters.com/world/africa/eight-people-killed-kenyas-northeast-suspected-al-shabaab-attack-2026-11-10/",
-      "whyItMatters": "The attack shows how insecurity can directly interrupt infrastructure work and civilian mobility along the Kenya–Somalia border. Attribution remains suspected rather than judicially established."
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-11-10",
-      "headline": "Congo’s Ebola outbreak surpasses 11,000 confirmed cases.",
-      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-cases-surpass-11000-government-data-show-2026-11-10/",
-      "whyItMatters": "The scale makes regional containment capacity—not only national case management—the operative test. The totals are government data and may change as surveillance and delayed reporting continue."
-    },
-    {
-      "source": "Reuters",
       "sourcePublishedAt": "2026-11-11",
-      "headline": "Kenya releases its last Ebola patient and starts the 42-day disease-free countdown.",
-      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-releases-last-ebola-patient-starts-42-day-countdown-disease-free-status-2026-11-11/",
-      "whyItMatters": "Kenya’s containment progress contrasts with the expanding outbreak in Congo and shows the value of contact tracing around an imported cluster. Disease-free status is conditional on completing 42 days without another case."
+      "headline": "South Sudan’s December election is advancing without settled confidence in the peace framework.",
+      "sourceUrl": "https://apnews.com/article/2f416a2ec9a0d6e11f492a19f7418154",
+      "whyItMatters": "The calendar is moving faster than the conditions needed for an inclusive and credible vote. Whether preparations, participation and post-election dialogue can be completed remains unresolved."
+    },
+    {
+      "source": "Médecins Sans Frontières / World Health Organization",
+      "sourcePublishedAt": "2026-11-12",
+      "headline": "Primary responders say Congo’s Ebola resources are not reaching the frontline.",
+      "sourceUrl": "https://www.msf.org/ebola-drc-persistent-gaps-between-resources-and-action-remain-six-months",
+      "supportingSourceUrl": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-member-state-briefing-on-ebola-outbreak-in-the-democratic-republic-of-the-congo---11-november-2026",
+      "whyItMatters": "The constraint is no longer only resource mobilisation; it is conversion of money, staffing and supplies into reliable field operations. MSF’s figures describe its operating areas and should not be generalized to every affected province."
+    },
+    {
+      "source": "Associated Press",
+      "sourcePublishedAt": "2026-11-12",
+      "headline": "Ethiopian families reaching Kenya face registration and nutrition gaps.",
+      "sourceUrl": "https://apnews.com/article/ethiopia-kenya-refugees-mothers-children-conflict-hunger-7b2a38ff1af4faef3d6e781db8ad7852",
+      "whyItMatters": "Safety at the border does not complete protection when registration, food and maternal or child health support lag behind arrivals. The 50,000 figure is a local-authority estimate, not a verified UNHCR count."
+    },
+    {
+      "source": "Associated Press",
+      "sourcePublishedAt": "2026-11-13",
+      "headline": "Kenya moves from regional El Niño planning to local flood logistics.",
+      "sourceUrl": "https://apnews.com/article/kenya-el-nino-nairobi-floods-ca89cbcfc9d9e88f59cbefe076559195",
+      "whyItMatters": "The measures give the regional warning an operating form: shelters, drainage work and communications. Preparedness cannot be inferred as sufficient until those plans are staffed, supplied and accessible to residents who cannot afford to move."
     }
   ]
 }
