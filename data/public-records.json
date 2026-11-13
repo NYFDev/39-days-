@@ -1,8 +1,286 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-11T11:00:00.000Z",
-  "count": 60,
+  "generatedAt": "2026-11-13T11:00:00.000Z",
+  "count": 66,
   "records": [
+    {
+      "id": "record:repository:b647b09d5b5f21220a1e",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+        "externalId": "search-index:/newsletter/signal-012/",
+        "publishedAt": "2026-11-13",
+        "retrievedAt": null
+      },
+      "title": "The Alerts Are Specific. The Capacity Gaps Are Already Here.",
+      "summary": "Five source records connect election risk, armed violence, cross-border displacement, Ebola-response failures and flood preparation across East Africa.",
+      "context": "Public NYF Signal / 012 artifact in the NYF record.",
+      "observedAt": "2026-11-13",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "East Africa",
+        "Congo",
+        "ADF",
+        "South Sudan",
+        "elections",
+        "Ebola",
+        "MSF",
+        "WHO",
+        "Ethiopia",
+        "Kenya",
+        "refugees",
+        "El Niño",
+        "flood preparedness"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-012/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/"
+        }
+      ],
+      "payload": {
+        "section": "NYF Signal / 012"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "web:ap:kenya-el-nino-preparedness-2026-11-13",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "Associated Press",
+        "type": "web",
+        "canonicalUrl": "https://apnews.com/article/kenya-el-nino-nairobi-floods-ca89cbcfc9d9e88f59cbefe076559195",
+        "publishedAt": "2026-11-13",
+        "retrievedAt": null
+      },
+      "title": "Kenya moves from regional El Niño planning to local flood logistics.",
+      "summary": "Kenyan authorities said 1.5 million people could be affected by heavier October–December rains. Nairobi agencies were clearing drainage systems, identifying 172 possible shelters and planning mobile emergency alerts with Safaricom.",
+      "context": "The measures give the regional warning an operating form: shelters, drainage work and communications. Preparedness cannot be inferred as sufficient until those plans are staffed, supplied and accessible to residents who cannot afford to move.",
+      "observedAt": "2026-11-13",
+      "entities": [],
+      "geography": [
+        "Kenya"
+      ],
+      "lanes": [
+        "enterprise",
+        "record"
+      ],
+      "topics": [
+        "El Niño",
+        "flood preparedness",
+        "urban infrastructure"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "state": "source-checked",
+        "checkedAt": "2026-11-13",
+        "notes": "AP field report cites Kenyan agencies for the exposure estimate, shelter plan and alert preparations."
+      },
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        }
+      ],
+      "payload": {},
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-012.json"
+        ]
+      }
+    },
+    {
+      "id": "web:ap:ethiopia-kenya-refugees-2026-11-12",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "Associated Press",
+        "type": "web",
+        "canonicalUrl": "https://apnews.com/article/ethiopia-kenya-refugees-mothers-children-conflict-hunger-7b2a38ff1af4faef3d6e781db8ad7852",
+        "publishedAt": "2026-11-12",
+        "retrievedAt": null
+      },
+      "title": "Ethiopian families reaching Kenya face registration and nutrition gaps.",
+      "summary": "Families fleeing fighting between Somali and Oromo communities in southern Ethiopia continued arriving in Kenya’s Marsabit County. UNHCR had profiled about 14,000 people by November 6, while local authorities estimated that as many as 50,000 had crossed.",
+      "context": "Safety at the border does not complete protection when registration, food and maternal or child health support lag behind arrivals. The 50,000 figure is a local-authority estimate, not a verified UNHCR count.",
+      "observedAt": "2026-11-12",
+      "entities": [],
+      "geography": [
+        "Ethiopia",
+        "Kenya"
+      ],
+      "lanes": [
+        "capital",
+        "record"
+      ],
+      "topics": [
+        "displacement",
+        "refugees",
+        "food security"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "state": "source-checked",
+        "checkedAt": "2026-11-13",
+        "notes": "AP field reporting cites UNHCR's profiled count and distinguishes it from the larger local-authority estimate."
+      },
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        }
+      ],
+      "payload": {},
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-012.json"
+        ]
+      }
+    },
+    {
+      "id": "web:msf:drc-ebola-response-gaps-2026-11-12",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "Médecins Sans Frontières / World Health Organization",
+        "type": "web",
+        "canonicalUrl": "https://www.msf.org/ebola-drc-persistent-gaps-between-resources-and-action-remain-six-months",
+        "publishedAt": "2026-11-12",
+        "retrievedAt": null
+      },
+      "title": "Primary responders say Congo’s Ebola resources are not reaching the frontline.",
+      "summary": "MSF said the outbreak remained out of control despite major international financing, citing unpaid or untrained responders, fuel shortages, weak surveillance and health facilities without basic infection-control capacity. WHO separately said new hotspots continued to emerge.",
+      "context": "The constraint is no longer only resource mobilisation; it is conversion of money, staffing and supplies into reliable field operations. MSF’s figures describe its operating areas and should not be generalized to every affected province.",
+      "observedAt": "2026-11-12",
+      "entities": [],
+      "geography": [
+        "Democratic Republic of Congo"
+      ],
+      "lanes": [
+        "capital",
+        "record"
+      ],
+      "topics": [
+        "Ebola",
+        "health systems",
+        "humanitarian finance"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "state": "source-checked",
+        "checkedAt": "2026-11-13",
+        "notes": "Primary MSF press release provides operational observations; WHO's 11 November briefing independently supports the continuing emergency and new-hotspot assessment."
+      },
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        }
+      ],
+      "payload": {
+        "supportingSourceUrl": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-member-state-briefing-on-ebola-outbreak-in-the-democratic-republic-of-the-congo---11-november-2026"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-012.json"
+        ]
+      }
+    },
     {
       "id": "record:repository:54900d94fab56220874e",
       "schemaVersion": 2,
@@ -175,6 +453,147 @@
       "provenance": {
         "derivedFrom": [
           "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "web:ap:drc-adf-mambasa-attacks-2026-11-11",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "Associated Press",
+        "type": "web",
+        "canonicalUrl": "https://apnews.com/article/c1c568db3a670679818aa426cf28fc80",
+        "publishedAt": "2026-11-11",
+        "retrievedAt": null
+      },
+      "title": "ADF-linked attacks kill at least 22 civilians across eastern Congo communities.",
+      "summary": "Civil-society and human-rights monitors said Allied Democratic Forces fighters attacked eight remote communities in Ituri’s Mambasa territory over two days, killing at least 22 civilians and abducting at least 10. Homes and motorcycles were burned, and the locations are difficult to reach.",
+      "context": "The attacks join civilian protection, border security and outbreak control in the same operating terrain. The death and abduction counts remain provisional and were reported by local monitoring groups.",
+      "observedAt": "2026-11-11",
+      "entities": [],
+      "geography": [
+        "Democratic Republic of Congo",
+        "Uganda"
+      ],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "ADF",
+        "civilian protection",
+        "Ituri"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "state": "source-checked",
+        "checkedAt": "2026-11-13",
+        "notes": "AP report attributes the provisional toll and abduction count to civil-society and human-rights monitors."
+      },
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        }
+      ],
+      "payload": {},
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-012.json"
+        ]
+      }
+    },
+    {
+      "id": "web:ap:south-sudan-election-risk-2026-11-11",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "Associated Press",
+        "type": "web",
+        "canonicalUrl": "https://apnews.com/article/2f416a2ec9a0d6e11f492a19f7418154",
+        "publishedAt": "2026-11-11",
+        "retrievedAt": null
+      },
+      "title": "South Sudan’s December election is advancing without settled confidence in the peace framework.",
+      "summary": "African Union and United Nations envoys warned that a flawed or violent December 22 election could deepen South Sudan’s political and security crisis. The elections commission had not announced party-registration dates and opposition activity remained limited.",
+      "context": "The calendar is moving faster than the conditions needed for an inclusive and credible vote. Whether preparations, participation and post-election dialogue can be completed remains unresolved.",
+      "observedAt": "2026-11-11",
+      "entities": [],
+      "geography": [
+        "South Sudan"
+      ],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "elections",
+        "peace agreement",
+        "political transition"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "state": "source-checked",
+        "checkedAt": "2026-11-13",
+        "notes": "AP report cites AU and UN envoys, the elections commission and South Sudan's government; readiness and participation remain unresolved."
+      },
+      "outputs": [
+        {
+          "surface": "newsletter",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "east-corner",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "feed",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        },
+        {
+          "surface": "activity",
+          "slug": "signal-012",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
+          "publishedAt": "2026-11-13T04:00:00-07:00"
+        }
+      ],
+      "payload": {},
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-012.json"
         ]
       }
     },
