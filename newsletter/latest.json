@@ -1,52 +1,47 @@
 {
   "schemaVersion": 1,
-  "issue": "signal-012",
-  "title": "The Alerts Are Specific. The Capacity Gaps Are Already Here.",
-  "url": "https://nyfholdings.ca/newsletter/signal-012/",
-  "publishedAt": "2026-11-13T04:00:00-07:00",
+  "issue": "signal-013",
+  "title": "The Forecast Is Improving. The Physical Risk Is Compounding.",
+  "url": "https://nyfholdings.ca/newsletter/signal-013/",
+  "publishedAt": "2026-11-14T04:00:00-07:00",
   "scope": [
-    "record",
-    "institutions",
     "capital",
-    "enterprise"
+    "enterprise",
+    "record"
   ],
-  "method": "AI-assisted cross-source synthesis with direct links to originating publishers. Reviewed against a five-item gate supported by direct MSF and WHO primary publications.",
+  "method": "AI-assisted cross-source synthesis with direct source links. Reviewed against a four-item gate supported by primary African Development Bank and FEWS NET publications; the Ethiopia fatality item uses a Reuters-attributed aggregator copy because a canonical Reuters page was not discoverable.",
   "items": [
     {
-      "source": "Associated Press",
-      "sourcePublishedAt": "2026-11-11",
-      "headline": "ADF-linked attacks kill at least 22 civilians across eastern Congo communities.",
-      "sourceUrl": "https://apnews.com/article/c1c568db3a670679818aa426cf28fc80",
-      "whyItMatters": "The attacks join civilian protection, border security and outbreak control in the same operating terrain. The death and abduction counts remain provisional and were reported by local monitoring groups."
+      "headline": "The African Development Bank lifts its 2026 growth outlook, with East Africa among the largest upward revisions.",
+      "publisher": "African Development Bank",
+      "publishedAt": "2026-11-13",
+      "url": "https://www.afdb.org/en/documents/africas-macroeconomic-performance-outlook-november-98553",
+      "summary": "The African Development Bank projects African growth of 4.6 per cent in 2026 and 4.5 per cent in 2027, compared with 4.5 per cent in 2025. Its November update raises the 2026 forecast by 0.4 percentage points from the May outlook; East Africa and North Africa received the largest regional upward revisions, each 0.7 percentage points.",
+      "whyItMatters": "The revision strengthens the capital case for the region, but it is a forecast rather than a measure of household or firm-level outcomes. Country performance and exposure to commodity, climate and financing shocks remain uneven."
     },
     {
-      "source": "Associated Press",
-      "sourcePublishedAt": "2026-11-11",
-      "headline": "South Sudan’s December election is advancing without settled confidence in the peace framework.",
-      "sourceUrl": "https://apnews.com/article/2f416a2ec9a0d6e11f492a19f7418154",
-      "whyItMatters": "The calendar is moving faster than the conditions needed for an inclusive and credible vote. Whether preparations, participation and post-election dialogue can be completed remains unresolved."
+      "headline": "Six people die after the top floor of a building under construction collapses near Nairobi.",
+      "publisher": "Reuters",
+      "publishedAt": "2026-11-13",
+      "url": "https://www.reuters.com/world/africa/six-people-dead-near-kenyas-capital-after-building-collapses-citizen-tv-2026-11-13/",
+      "summary": "Police said six people died and five were hospitalized after the top floor of a multistorey building under construction collapsed in Syokimau, southeast of Nairobi. All 405 workers at the site were accounted for and the site was closed. Reuters noted that an October 23 collapse in Nairobi killed eight people.",
+      "whyItMatters": "The incident turns construction quality and supervision into an immediate enterprise and public-safety record. Reuters cites a state institute attributing many collapses to poor workmanship, substandard materials, weak supervision and faulty design; responsibility for this specific collapse has not been established."
     },
     {
-      "source": "Médecins Sans Frontières / World Health Organization",
-      "sourcePublishedAt": "2026-11-12",
-      "headline": "Primary responders say Congo’s Ebola resources are not reaching the frontline.",
-      "sourceUrl": "https://www.msf.org/ebola-drc-persistent-gaps-between-resources-and-action-remain-six-months",
-      "supportingSourceUrl": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-member-state-briefing-on-ebola-outbreak-in-the-democratic-republic-of-the-congo---11-november-2026",
-      "whyItMatters": "The constraint is no longer only resource mobilisation; it is conversion of money, staffing and supplies into reliable field operations. MSF’s figures describe its operating areas and should not be generalized to every affected province."
+      "headline": "Flash floods in Jijiga kill 25 people, including 19 children, a regional official says.",
+      "publisher": "Reuters via VoteKansas.org",
+      "publishedAt": "2026-11-14",
+      "url": "https://www.votekansas.org/reform/f/aggregator/sources/19?page=129",
+      "summary": "A Reuters report carried by VoteKansas.org says 25 people were killed by flash floods in Ethiopia’s eastern town of Jijiga during the week, including 19 children, according to a regional official. The available copy provides the death toll and attribution but limited detail on displacement, damage or the response.",
+      "whyItMatters": "The deaths show the human cost behind the region’s seasonal flood warnings. Source limitation: the discoverable link is an aggregator copy attributed to Reuters, not Reuters’ canonical page, so details beyond the reported toll remain unresolved."
     },
     {
-      "source": "Associated Press",
-      "sourcePublishedAt": "2026-11-12",
-      "headline": "Ethiopian families reaching Kenya face registration and nutrition gaps.",
-      "sourceUrl": "https://apnews.com/article/ethiopia-kenya-refugees-mothers-children-conflict-hunger-7b2a38ff1af4faef3d6e781db8ad7852",
-      "whyItMatters": "Safety at the border does not complete protection when registration, food and maternal or child health support lag behind arrivals. The 50,000 figure is a local-authority estimate, not a verified UNHCR count."
-    },
-    {
-      "source": "Associated Press",
-      "sourcePublishedAt": "2026-11-13",
-      "headline": "Kenya moves from regional El Niño planning to local flood logistics.",
-      "sourceUrl": "https://apnews.com/article/kenya-el-nino-nairobi-floods-ca89cbcfc9d9e88f59cbefe076559195",
-      "whyItMatters": "The measures give the regional warning an operating form: shelters, drainage work and communications. Preparedness cannot be inferred as sufficient until those plans are staffed, supplied and accessible to residents who cannot afford to move."
+      "headline": "An erratic East African rainfall season is already producing localized floods and rising river levels.",
+      "publisher": "FEWS NET",
+      "publishedAt": "2026-11-13",
+      "url": "https://fews.net/east-africa/seasonal-monitor/november-2026",
+      "summary": "FEWS NET reports above-average rainfall across much of southern and central Somalia and southern and eastern Ethiopia, with localized heavy rain in eastern Kenya. It records rising Juba and Shabelle river levels, including the Shabelle at Jowhar reaching 5.38 metres by the week ending October 14, close to the 5.5-metre bankfull level, alongside localized flooding in the Tana basin.",
+      "whyItMatters": "The monitor provides measured operating indicators behind broader El Niño preparedness: river levels, basin conditions and observed flooding. Conditions are localized and evolving; the report does not imply uniform flooding across the region."
     }
   ]
 }
