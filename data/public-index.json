@@ -1,8 +1,134 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-13T11:00:00.000Z",
-  "count": 66,
+  "generatedAt": "2026-11-14T11:00:00.000Z",
+  "count": 71,
   "records": [
+    {
+      "id": "nyf-signal-013-03",
+      "kind": "article",
+      "title": "Flash floods in Jijiga kill 25 people, including 19 children, a regional official says.",
+      "summary": "A Reuters report carried by VoteKansas.org says 25 people were killed by flash floods in Ethiopia’s eastern town of Jijiga during the week, including 19 children, according to a regional official. The available copy provides the death toll and attribution but limited detail on displacement, damage or the response.",
+      "observedAt": "2026-11-14",
+      "source": "Reuters via VoteKansas.org",
+      "sourceUrl": "https://www.votekansas.org/reform/f/aggregator/sources/19?page=129",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "flash floods",
+        "children",
+        "disaster response"
+      ],
+      "geography": [
+        "Ethiopia",
+        "Jijiga"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "record:repository:ead2c295bbd3c5514a08",
+      "kind": "artifact",
+      "title": "The Forecast Is Improving. The Physical Risk Is Compounding.",
+      "summary": "Four source records connect a stronger regional growth outlook with fatal construction failure, flash-flood deaths and measurable river stress across East Africa and the Horn.",
+      "observedAt": "2026-11-14",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/signal-013/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "East Africa",
+        "African Development Bank",
+        "economic outlook",
+        "Kenya",
+        "construction",
+        "Ethiopia",
+        "Jijiga",
+        "flash floods",
+        "FEWS NET",
+        "river levels"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-013/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-013/"
+        }
+      ]
+    },
+    {
+      "id": "nyf-signal-013-01",
+      "kind": "report",
+      "title": "The African Development Bank lifts its 2026 growth outlook, with East Africa among the largest upward revisions.",
+      "summary": "The African Development Bank projects African growth of 4.6 per cent in 2026 and 4.5 per cent in 2027, compared with 4.5 per cent in 2025. Its November update raises the 2026 forecast by 0.4 percentage points from the May outlook; East Africa and North Africa received the largest regional upward revisions, each 0.7 percentage points.",
+      "observedAt": "2026-11-13",
+      "source": "African Development Bank",
+      "sourceUrl": "https://www.afdb.org/en/documents/africas-macroeconomic-performance-outlook-november-98553",
+      "lanes": [
+        "capital",
+        "enterprise"
+      ],
+      "topics": [
+        "economic outlook",
+        "growth",
+        "capital"
+      ],
+      "geography": [
+        "Africa",
+        "East Africa"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "nyf-signal-013-02",
+      "kind": "article",
+      "title": "Six people die after the top floor of a building under construction collapses near Nairobi.",
+      "summary": "Police said six people died and five were hospitalized after the top floor of a multistorey building under construction collapsed in Syokimau, southeast of Nairobi. All 405 workers at the site were accounted for and the site was closed. Reuters noted that an October 23 collapse in Nairobi killed eight people.",
+      "observedAt": "2026-11-13",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/six-people-dead-near-kenyas-capital-after-building-collapses-citizen-tv-2026-11-13/",
+      "lanes": [
+        "enterprise",
+        "record"
+      ],
+      "topics": [
+        "construction",
+        "public safety",
+        "infrastructure"
+      ],
+      "geography": [
+        "Kenya",
+        "Nairobi",
+        "Syokimau"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "nyf-signal-013-04",
+      "kind": "report",
+      "title": "An erratic East African rainfall season is already producing localized floods and rising river levels.",
+      "summary": "FEWS NET reports above-average rainfall across much of southern and central Somalia and southern and eastern Ethiopia, with localized heavy rain in eastern Kenya. It records rising Juba and Shabelle river levels, including the Shabelle at Jowhar reaching 5.38 metres by the week ending October 14, close to the 5.5-metre bankfull level, alongside localized flooding in the Tana basin.",
+      "observedAt": "2026-11-13",
+      "source": "FEWS NET",
+      "sourceUrl": "https://fews.net/east-africa/seasonal-monitor/november-2026",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "rainfall",
+        "river levels",
+        "flood risk",
+        "food security"
+      ],
+      "geography": [
+        "East Africa",
+        "Somalia",
+        "Ethiopia",
+        "Kenya"
+      ],
+      "outputs": []
+    },
     {
       "id": "record:repository:b647b09d5b5f21220a1e",
       "kind": "artifact",
