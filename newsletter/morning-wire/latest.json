@@ -1,83 +1,68 @@
 {
   "schemaVersion": 1,
   "product": "East Corner Morning Wire",
-  "generatedAt": "2026-09-03T04:02:31-06:00",
-  "date": "2026-09-03",
+  "generatedAt": "2026-11-16T04:00:00-07:00",
+  "date": "2026-11-16",
   "timezone": "America/Edmonton",
   "status": "published",
-  "collectionStatus": "full",
-  "collectionCount": 5,
+  "collectionStatus": "change-only",
+  "collectionCount": 4,
   "editorialState": "source-linked discovery",
-  "note": "Five materially new source-linked records published after the 29 August wire. This is discovery material, not a numbered East Corner editorial conclusion; Signal 005 remains held because the set does not meet the two-primary-source foundation required for reviewed synthesis.",
+  "note": "Four materially new or materially updated source-linked records published after Signal 013. This is discovery material, not a numbered East Corner editorial conclusion; Signal 013 remains the current reviewed synthesis because this set does not meet the two-primary-source foundation required for a numbered Signal.",
   "items": [
     {
       "source": "Reuters",
-      "sourcePublishedAt": "2026-09-01",
-      "sourceHeadline": "Kenya aviation workers end strike that disrupted flights, officials say",
-      "sourceUrl": "https://www.reuters.com/business/world-at-work/kenya-aviation-workers-end-strike-that-disrupted-flights-officials-say-2026-09-01/",
-      "sourceDescription": "Kenya's aviation workers ended a two-day strike after the union, aviation authorities and Jambojet signed a return-to-work agreement. The disruption delayed and cancelled flights linking Nairobi with airports across East Africa and beyond; negotiations continue over collective agreements and other grievances.",
-      "whyItMatters": "The stoppage exposed how labour relations at Nairobi's main aviation hub can propagate quickly through regional passenger and cargo networks. Service has resumed, but the underlying labour disputes are not settled.",
-      "inferenceOrUnresolved": "The agreement restores operations while leaving the outstanding collective-bargaining and workplace issues under negotiation.",
-      "beats": [
-        "enterprise",
-        "infrastructure-logistics",
-        "record"
-      ]
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-09-02",
-      "sourceHeadline": "Ethiopian Airlines nears Boeing cargo plane order, sources say",
-      "sourceUrl": "https://www.reuters.com/business/aerospace-defense/ethiopian-airlines-nears-boeing-cargo-plane-order-sources-say-2026-09-02/",
-      "sourceDescription": "Two industry sources told Reuters that Ethiopian Airlines was nearing an order for eight to 10 Boeing 777 freighters, potentially including two current-generation 777Fs and later 777-8Fs. Neither Boeing nor Ethiopian Airlines confirmed the negotiations; the carrier is also helping finance a $12.5-billion airport project at Bishoftu.",
-      "whyItMatters": "A larger freighter fleet would deepen Addis Ababa's position as an African cargo hub alongside the planned airport expansion. The commercial terms, delivery timetable and final aircraft mix remain unconfirmed.",
-      "inferenceOrUnresolved": "This is a reported negotiation, not an announced order; Boeing and Ethiopian Airlines did not confirm it.",
-      "beats": [
-        "enterprise",
-        "capital",
-        "infrastructure-logistics"
-      ]
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-09-02",
-      "sourceHeadline": "Kenyan editor found safe after abduction, employer says",
-      "sourceUrl": "https://www.reuters.com/business/media-telecom/kenyan-editor-found-safe-after-abduction-standard-group-says-2026-09-02/",
-      "sourceDescription": "Standard Group said associate editor Alex Kiprotich was abducted near Nakuru by armed men and released hours later near Masinga Dam, more than 200 km away. The company's chief executive said the abductors demanded the newspaper's sources; police opened an investigation while criticizing aspects of the newspaper's reporting.",
-      "whyItMatters": "The case puts source protection and journalist safety back into Kenya's institutional record. Kiprotich's safe recovery does not resolve who carried out the abduction or whether anyone will be held accountable.",
-      "inferenceOrUnresolved": "The abductors' identities, the circumstances of release and accountability outcome remain unresolved.",
+      "sourcePublishedAt": "2026-11-14",
+      "sourceHeadline": "South Sudan delays election to February 11, 2027",
+      "sourceUrl": "https://www.reuters.com/world/africa/south-sudan-delays-election-february-11-2027-2026-11-14/",
+      "sourceDescription": "South Sudan’s National Elections Commission moved presidential and parliamentary elections from December 22, 2026 to February 11, 2027. The commission said the extra time was intended for preparations including voter-registration materials, registration centres and logistics.",
+      "whyItMatters": "The revised date confirms that the preparation gap identified in Signal 012 has changed the formal calendar. A later date does not by itself resolve safeguards, participation or political-dialogue concerns.",
+      "inferenceOrUnresolved": "The commission described additional preparation time but did not establish that credibility and security conditions will be met by February.",
       "beats": [
         "record",
-        "media",
         "institutions-policy"
       ]
     },
     {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-09-03",
-      "sourceHeadline": "Kenya private sector activity slows in August, PMI shows",
-      "sourceUrl": "https://www.reuters.com/world/africa/kenya-private-sector-activity-slows-august-pmi-shows-2026-09-03/",
-      "sourceDescription": "The Stanbic Bank Kenya Purchasing Managers' Index fell to 49.7 in August from 51.3 in July, moving below the 50 threshold that separates expansion from contraction. Survey respondents cited supply constraints, higher raw-material costs and tight cash flow even as demand strengthened.",
-      "whyItMatters": "The reading suggests demand alone is not translating into output when firms face input and liquidity constraints. One monthly survey does not establish a durable downturn.",
-      "inferenceOrUnresolved": "The PMI is a survey indicator rather than a complete measure of national output, and the duration of the contraction signal is unknown.",
-      "beats": [
-        "enterprise",
-        "capital",
-        "record"
-      ]
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-09-03",
-      "sourceHeadline": "Foreign support, drones fuel Sudan war and possible war crimes, UN probe says",
-      "sourceUrl": "https://www.reuters.com/world/americas/foreign-support-drones-fuel-sudan-war-possible-war-crimes-un-probe-says-2026-09-03/",
-      "sourceDescription": "A U.N. fact-finding mission said foreign weapons, technology, fighters and logistics are sustaining Sudan's war and expanding both sides' drone reach. It recorded more than 1,000 deaths from drone strikes in the first five months of 2026 and said some operations may amount to war crimes; parties named in the report disputed or did not answer allegations.",
-      "whyItMatters": "The report connects external supply networks to civilian harm and the destruction of essential infrastructure far from front lines. Its allegations require careful attribution because several governments and both Sudanese belligerents contest responsibility.",
-      "inferenceOrUnresolved": "The UAE denied supplying military materiel, Somalia cited information-sharing gaps while denying authorized support, and investigations into external support for Sudan's army remain at an early stage.",
+      "source": "Associated Press",
+      "sourcePublishedAt": "2026-11-16",
+      "sourceHeadline": "Ethiopia and Sudan accuse each other of backing armed groups as regional tensions rise",
+      "sourceUrl": "https://apnews.com/article/sudan-rsf-ethiopia-tigray-war-649640494d674bfffcdc4418205b7485",
+      "sourceDescription": "Sudan’s military accused Ethiopia of allowing RSF camps, drone launches and cross-border attacks, while Ethiopia accused Sudan of supporting Tigrayan rebels. Ethiopia expelled six Sudanese consular staff and closed the mission in Asosa after Sudan filed complaints with the United Nations and African Union.",
+      "whyItMatters": "The accusations connect the Sudan and Tigray conflicts through a contested border, military logistics and competing alliances. Escalation could widen displacement and create a second operating front for both conflicts.",
+      "inferenceOrUnresolved": "Both governments deny the other’s claims, and AP said it could not independently verify the allegations. Assertions about external backing remain attributed claims, not established facts.",
       "beats": [
         "record",
         "security",
         "institutions-policy"
+      ]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-11-15",
+      "sourceHeadline": "Africa CDC says Congo’s Ebola outbreak remains out of control six months after declaration",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/africa-cdc-says-ebola-outbreak-still-out-control-six-months-since-it-was-2026-11-15/",
+      "sourceDescription": "Africa CDC Director-General Jean Kaseya said more than 11,200 infections and 5,500 deaths had been reported. He said more than 80% of new cases were emerging outside contact lists and more than 65% of deaths occurred in communities rather than health centres. About $2.9 billion had been pledged, while roughly $1.6 billion remained unreleased.",
+      "whyItMatters": "The new figures materially update the operational warning in Signal 012: surveillance and access gaps are widening even as funding pledges grow. The record separates pledged resources from money released and field capacity delivered.",
+      "inferenceOrUnresolved": "The infection and death totals are government data reported through Africa CDC. The article does not provide an independently audited accounting of all pledges or disbursements.",
+      "beats": [
+        "record",
+        "public-health",
+        "institutions-policy"
+      ]
+    },
+    {
+      "source": "Associated Press",
+      "sourcePublishedAt": "2026-11-16",
+      "sourceHeadline": "Kenyan farmers adopt erosion controls ahead of heavier seasonal rains",
+      "sourceUrl": "https://apnews.com/article/5490d6a6f019c7be64c105a9d3af1f42",
+      "sourceDescription": "Farmers in Kiambu County described using sand-filled trenches, Napier grass, bamboo, terracing and cover crops to slow runoff and protect soil. One farmer said 2024 floods destroyed crops and caused losses estimated at 200,000 Kenyan shillings before she restored the land and changed her erosion controls.",
+      "whyItMatters": "The examples show how regional flood warnings translate into farm-level investment and operating choices. They also expose the cost and labour burden of adaptation for small producers.",
+      "inferenceOrUnresolved": "The reported farms are illustrative examples, not a representative measure of adoption rates or expected losses across Kenya.",
+      "beats": [
+        "enterprise",
+        "record",
+        "climate"
       ]
     }
   ]
