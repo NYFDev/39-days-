@@ -1,8 +1,127 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-14T11:00:00.000Z",
-  "count": 71,
+  "generatedAt": "2026-11-16T11:00:00.000Z",
+  "count": 75,
   "records": [
+    {
+      "id": "nyf-morning-wire-2026-11-16-02",
+      "kind": "article",
+      "title": "Ethiopia and Sudan accuse each other of backing armed groups as regional tensions rise",
+      "summary": "Sudan’s military accused Ethiopia of allowing RSF camps, drone launches and cross-border attacks, while Ethiopia accused Sudan of supporting Tigrayan rebels. Ethiopia expelled six Sudanese consular staff and closed the mission in Asosa after Sudan filed complaints with the United Nations and African Union.",
+      "observedAt": "2026-11-16",
+      "source": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/sudan-rsf-ethiopia-tigray-war-649640494d674bfffcdc4418205b7485",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "record",
+        "security",
+        "institutions-policy"
+      ],
+      "geography": [
+        "Sudan",
+        "Ethiopia"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "nyf-morning-wire-2026-11-16-04",
+      "kind": "article",
+      "title": "Kenyan farmers adopt erosion controls ahead of heavier seasonal rains",
+      "summary": "Farmers in Kiambu County described using sand-filled trenches, Napier grass, bamboo, terracing and cover crops to slow runoff and protect soil. One farmer said 2024 floods destroyed crops and caused losses estimated at 200,000 Kenyan shillings before she restored the land and changed her erosion controls.",
+      "observedAt": "2026-11-16",
+      "source": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/5490d6a6f019c7be64c105a9d3af1f42",
+      "lanes": [
+        "enterprise",
+        "record"
+      ],
+      "topics": [
+        "enterprise",
+        "record",
+        "climate"
+      ],
+      "geography": [
+        "Kenya"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "record:repository:6d150d330895f2f4085f",
+      "kind": "artifact",
+      "title": "East Corner Morning Wire — 16 November 2026",
+      "summary": "Four current source-linked records covering South Sudan’s election timetable, Sudan–Ethiopia tensions, Congo’s Ebola response and Kenyan farm adaptation.",
+      "observedAt": "2026-11-16",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/morning-wire/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "East Africa",
+        "Horn of Africa",
+        "South Sudan",
+        "elections",
+        "Sudan",
+        "Ethiopia",
+        "Ebola",
+        "Africa CDC",
+        "Kenya",
+        "farm adaptation",
+        "Morning Wire"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/morning-wire/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/morning-wire/"
+        }
+      ]
+    },
+    {
+      "id": "nyf-morning-wire-2026-11-16-03",
+      "kind": "article",
+      "title": "Africa CDC says Congo’s Ebola outbreak remains out of control six months after declaration",
+      "summary": "Africa CDC Director-General Jean Kaseya said more than 11,200 infections and 5,500 deaths had been reported. He said more than 80% of new cases were emerging outside contact lists and more than 65% of deaths occurred in communities rather than health centres. About $2.9 billion had been pledged, while roughly $1.6 billion remained unreleased.",
+      "observedAt": "2026-11-15",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/africa-cdc-says-ebola-outbreak-still-out-control-six-months-since-it-was-2026-11-15/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "record",
+        "public-health",
+        "institutions-policy"
+      ],
+      "geography": [
+        "Democratic Republic of the Congo",
+        "Africa"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "nyf-morning-wire-2026-11-16-01",
+      "kind": "article",
+      "title": "South Sudan delays election to February 11, 2027",
+      "summary": "South Sudan’s National Elections Commission moved presidential and parliamentary elections from December 22, 2026 to February 11, 2027. The commission said the extra time was intended for preparations including voter-registration materials, registration centres and logistics.",
+      "observedAt": "2026-11-14",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/south-sudan-delays-election-february-11-2027-2026-11-14/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "record",
+        "institutions-policy"
+      ],
+      "geography": [
+        "South Sudan"
+      ],
+      "outputs": []
+    },
     {
       "id": "nyf-signal-013-03",
       "kind": "article",
@@ -1677,38 +1796,6 @@
           "surface": "site",
           "slug": "/newsletter/signal-005/",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-005/"
-        }
-      ]
-    },
-    {
-      "id": "record:repository:6d150d330895f2f4085f",
-      "kind": "artifact",
-      "title": "East Corner Morning Wire",
-      "summary": "The 3 September 2026 scan covers Ethiopian Airlines cargo expansion, Kenya aviation labour and private-sector activity, press freedom, and the U.N. record on drone warfare in Sudan.",
-      "observedAt": "2026-09-03",
-      "source": "NYF Holdings repository",
-      "sourceUrl": "https://nyfholdings.ca/newsletter/morning-wire/",
-      "lanes": [
-        "record"
-      ],
-      "topics": [
-        "Morning Wire",
-        "East Africa",
-        "Horn of Africa",
-        "Ethiopia",
-        "Kenya",
-        "Sudan",
-        "aviation",
-        "PMI",
-        "press freedom",
-        "drone warfare"
-      ],
-      "geography": [],
-      "outputs": [
-        {
-          "surface": "site",
-          "slug": "/newsletter/morning-wire/",
-          "publishedUrl": "https://nyfholdings.ca/newsletter/morning-wire/"
         }
       ]
     },
