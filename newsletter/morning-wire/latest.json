@@ -1,68 +1,67 @@
 {
   "schemaVersion": 1,
   "product": "East Corner Morning Wire",
-  "generatedAt": "2026-11-16T04:00:00-07:00",
-  "date": "2026-11-16",
+  "generatedAt": "2026-11-19T04:00:00-07:00",
+  "date": "2026-11-19",
   "timezone": "America/Edmonton",
   "status": "published",
   "collectionStatus": "change-only",
-  "collectionCount": 4,
+  "collectionCount": 3,
   "editorialState": "source-linked discovery",
-  "note": "Four materially new or materially updated source-linked records published after Signal 013. This is discovery material, not a numbered East Corner editorial conclusion; Signal 013 remains the current reviewed synthesis because this set does not meet the two-primary-source foundation required for a numbered Signal.",
+  "note": "Three materially new source-linked records published after the 16 November Morning Wire. This is discovery material, not a numbered East Corner editorial conclusion; Signal 013 remains the current reviewed synthesis because this set does not meet the two-primary-source foundation required for a numbered Signal.",
   "items": [
     {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-11-14",
-      "sourceHeadline": "South Sudan delays election to February 11, 2027",
-      "sourceUrl": "https://www.reuters.com/world/africa/south-sudan-delays-election-february-11-2027-2026-11-14/",
-      "sourceDescription": "South Sudan’s National Elections Commission moved presidential and parliamentary elections from December 22, 2026 to February 11, 2027. The commission said the extra time was intended for preparations including voter-registration materials, registration centres and logistics.",
-      "whyItMatters": "The revised date confirms that the preparation gap identified in Signal 012 has changed the formal calendar. A later date does not by itself resolve safeguards, participation or political-dialogue concerns.",
-      "inferenceOrUnresolved": "The commission described additional preparation time but did not establish that credibility and security conditions will be met by February.",
+      "source": "Associated Press",
+      "sourcePublishedAt": "2026-11-17",
+      "sourceHeadline": "Five European countries plan a rejected-asylum-seeker return hub in Rwanda; no agreement has been signed",
+      "sourceUrl": "https://apnews.com/article/rwanda-europe-migrants-return-hub-explainer-1bc253bba5d88d136dd4c2b963dceab4",
+      "sourceDescription": "Austria, Denmark, Germany, Greece and the Netherlands are planning a “return hub” in Rwanda for rejected asylum seekers and are consulting the U.N. refugee agency about human-rights compliance. AP reported that no agreement had been signed.",
+      "whyItMatters": "The proposal places Rwanda again at the centre of Europe’s externalized migration policy and could create a new state-revenue and diplomatic channel. It also revives legal and rights questions raised by earlier transfer arrangements.",
+      "inferenceOrUnresolved": "The plan remains a proposal. Its legal terms, financing, oversight and implementation timeline are unresolved.",
       "beats": [
+        "capital",
         "record",
-        "institutions-policy"
+        "diaspora-migration"
+      ],
+      "geography": [
+        "Rwanda",
+        "Europe"
       ]
     },
     {
       "source": "Associated Press",
-      "sourcePublishedAt": "2026-11-16",
-      "sourceHeadline": "Ethiopia and Sudan accuse each other of backing armed groups as regional tensions rise",
-      "sourceUrl": "https://apnews.com/article/sudan-rsf-ethiopia-tigray-war-649640494d674bfffcdc4418205b7485",
-      "sourceDescription": "Sudan’s military accused Ethiopia of allowing RSF camps, drone launches and cross-border attacks, while Ethiopia accused Sudan of supporting Tigrayan rebels. Ethiopia expelled six Sudanese consular staff and closed the mission in Asosa after Sudan filed complaints with the United Nations and African Union.",
-      "whyItMatters": "The accusations connect the Sudan and Tigray conflicts through a contested border, military logistics and competing alliances. Escalation could widen displacement and create a second operating front for both conflicts.",
-      "inferenceOrUnresolved": "Both governments deny the other’s claims, and AP said it could not independently verify the allegations. Assertions about external backing remain attributed claims, not established facts.",
+      "sourcePublishedAt": "2026-11-17",
+      "sourceHeadline": "Sudanese army airstrike kills at least 13 people in West Kordofan, rights group says",
+      "sourceUrl": "https://apnews.com/article/sudan-war-army-rapid-support-forces-64fecf743ea8c55ae9dc4a72d0acd2a7",
+      "sourceDescription": "The Emergency Lawyers group said a Sudanese army airstrike on Abu Qalb village near Abu Zabad in West Kordofan killed at least 13 people, with women and children among the dead. AP said it could not independently verify the reported toll.",
+      "whyItMatters": "The report adds another civilian-harm record as fighting shifts across Kordofan and supply routes remain contested. It underscores the difficulty of independently verifying casualties and responsibility in active war zones.",
+      "inferenceOrUnresolved": "The casualty count and attribution come from Emergency Lawyers and were not independently verified by AP.",
+      "beats": [
+        "record",
+        "security"
+      ],
+      "geography": [
+        "Sudan",
+        "West Kordofan"
+      ]
+    },
+    {
+      "source": "Reuters",
+      "sourcePublishedAt": "2026-11-18",
+      "sourceHeadline": "Ethiopia and Eritrea amass forces along their border as war fears rise",
+      "sourceUrl": "https://www.reuters.com/world/africa/ethiopia-eritrea-amass-forces-along-border-heightening-war-fears-sources-say-2026-11-18/",
+      "sourceDescription": "Conflict monitors and people tied to rival militias told Reuters that Ethiopia and Eritrea had amassed forces along their shared border. ACLED reported artillery shelling and armed clashes near Badme, while another militia-linked source disputed that the two national armies had clashed.",
+      "whyItMatters": "The buildup raises the risk that renewed fighting in Tigray expands into a direct interstate conflict, threatening trade routes, displacement patterns and regional diplomacy across the Horn.",
+      "inferenceOrUnresolved": "Reuters could not independently confirm reported skirmishes. Ethiopia did not respond to Reuters, and Eritrea rejected what it called propaganda without directly addressing the buildup.",
       "beats": [
         "record",
         "security",
         "institutions-policy"
-      ]
-    },
-    {
-      "source": "Reuters",
-      "sourcePublishedAt": "2026-11-15",
-      "sourceHeadline": "Africa CDC says Congo’s Ebola outbreak remains out of control six months after declaration",
-      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/africa-cdc-says-ebola-outbreak-still-out-control-six-months-since-it-was-2026-11-15/",
-      "sourceDescription": "Africa CDC Director-General Jean Kaseya said more than 11,200 infections and 5,500 deaths had been reported. He said more than 80% of new cases were emerging outside contact lists and more than 65% of deaths occurred in communities rather than health centres. About $2.9 billion had been pledged, while roughly $1.6 billion remained unreleased.",
-      "whyItMatters": "The new figures materially update the operational warning in Signal 012: surveillance and access gaps are widening even as funding pledges grow. The record separates pledged resources from money released and field capacity delivered.",
-      "inferenceOrUnresolved": "The infection and death totals are government data reported through Africa CDC. The article does not provide an independently audited accounting of all pledges or disbursements.",
-      "beats": [
-        "record",
-        "public-health",
-        "institutions-policy"
-      ]
-    },
-    {
-      "source": "Associated Press",
-      "sourcePublishedAt": "2026-11-16",
-      "sourceHeadline": "Kenyan farmers adopt erosion controls ahead of heavier seasonal rains",
-      "sourceUrl": "https://apnews.com/article/5490d6a6f019c7be64c105a9d3af1f42",
-      "sourceDescription": "Farmers in Kiambu County described using sand-filled trenches, Napier grass, bamboo, terracing and cover crops to slow runoff and protect soil. One farmer said 2024 floods destroyed crops and caused losses estimated at 200,000 Kenyan shillings before she restored the land and changed her erosion controls.",
-      "whyItMatters": "The examples show how regional flood warnings translate into farm-level investment and operating choices. They also expose the cost and labour burden of adaptation for small producers.",
-      "inferenceOrUnresolved": "The reported farms are illustrative examples, not a representative measure of adoption rates or expected losses across Kenya.",
-      "beats": [
-        "enterprise",
-        "record",
-        "climate"
+      ],
+      "geography": [
+        "Ethiopia",
+        "Eritrea",
+        "Tigray"
       ]
     }
   ]
