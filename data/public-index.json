@@ -1,8 +1,137 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-16T11:00:00.000Z",
-  "count": 75,
+  "generatedAt": "2026-11-19T11:00:00.000Z",
+  "count": 78,
   "records": [
+    {
+      "id": "record:repository:54900d94fab56220874e",
+      "kind": "artifact",
+      "title": "The Dispatch Newsletter",
+      "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
+      "observedAt": "2026-11-19",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/",
+      "lanes": [
+        "enterprise",
+        "capital",
+        "culture",
+        "record"
+      ],
+      "topics": [
+        "newsletter",
+        "Dispatch",
+        "RSS",
+        "subscribe",
+        "free content"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/"
+        }
+      ]
+    },
+    {
+      "id": "record:repository:6d150d330895f2f4085f",
+      "kind": "artifact",
+      "title": "East Corner Morning Wire — 19 November 2026",
+      "summary": "Three current source-linked records covering the Rwanda return-hub proposal, civilian deaths reported in West Kordofan and the Ethiopia–Eritrea border buildup.",
+      "observedAt": "2026-11-19",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/morning-wire/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "East Africa",
+        "Horn of Africa",
+        "Rwanda",
+        "migration",
+        "Sudan",
+        "West Kordofan",
+        "Ethiopia",
+        "Eritrea",
+        "Tigray",
+        "Morning Wire"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/morning-wire/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/morning-wire/"
+        }
+      ]
+    },
+    {
+      "id": "nyf-morning-wire-2026-11-19-03",
+      "kind": "article",
+      "title": "Ethiopia and Eritrea amass forces along their border as war fears rise",
+      "summary": "Conflict monitors and people tied to rival militias told Reuters that Ethiopia and Eritrea had amassed forces along their shared border. ACLED reported artillery shelling and armed clashes near Badme, while another militia-linked source disputed that the two national armies had clashed.",
+      "observedAt": "2026-11-18",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/ethiopia-eritrea-amass-forces-along-border-heightening-war-fears-sources-say-2026-11-18/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "record",
+        "security",
+        "institutions-policy"
+      ],
+      "geography": [
+        "Ethiopia",
+        "Eritrea",
+        "Tigray"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "nyf-morning-wire-2026-11-19-01",
+      "kind": "article",
+      "title": "Five European countries plan a rejected-asylum-seeker return hub in Rwanda; no agreement has been signed",
+      "summary": "Austria, Denmark, Germany, Greece and the Netherlands are planning a “return hub” in Rwanda for rejected asylum seekers and are consulting the U.N. refugee agency about human-rights compliance. AP reported that no agreement had been signed.",
+      "observedAt": "2026-11-17",
+      "source": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/rwanda-europe-migrants-return-hub-explainer-1bc253bba5d88d136dd4c2b963dceab4",
+      "lanes": [
+        "capital",
+        "record"
+      ],
+      "topics": [
+        "capital",
+        "record",
+        "diaspora-migration"
+      ],
+      "geography": [
+        "Rwanda",
+        "Europe"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "nyf-morning-wire-2026-11-19-02",
+      "kind": "article",
+      "title": "Sudanese army airstrike kills at least 13 people in West Kordofan, rights group says",
+      "summary": "The Emergency Lawyers group said a Sudanese army airstrike on Abu Qalb village near Abu Zabad in West Kordofan killed at least 13 people, with women and children among the dead. AP said it could not independently verify the reported toll.",
+      "observedAt": "2026-11-17",
+      "source": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/sudan-war-army-rapid-support-forces-64fecf743ea8c55ae9dc4a72d0acd2a7",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "record",
+        "security"
+      ],
+      "geography": [
+        "Sudan",
+        "West Kordofan"
+      ],
+      "outputs": []
+    },
     {
       "id": "nyf-morning-wire-2026-11-16-02",
       "kind": "article",
@@ -46,39 +175,6 @@
         "Kenya"
       ],
       "outputs": []
-    },
-    {
-      "id": "record:repository:6d150d330895f2f4085f",
-      "kind": "artifact",
-      "title": "East Corner Morning Wire — 16 November 2026",
-      "summary": "Four current source-linked records covering South Sudan’s election timetable, Sudan–Ethiopia tensions, Congo’s Ebola response and Kenyan farm adaptation.",
-      "observedAt": "2026-11-16",
-      "source": "NYF Holdings repository",
-      "sourceUrl": "https://nyfholdings.ca/newsletter/morning-wire/",
-      "lanes": [
-        "record"
-      ],
-      "topics": [
-        "East Africa",
-        "Horn of Africa",
-        "South Sudan",
-        "elections",
-        "Sudan",
-        "Ethiopia",
-        "Ebola",
-        "Africa CDC",
-        "Kenya",
-        "farm adaptation",
-        "Morning Wire"
-      ],
-      "geography": [],
-      "outputs": [
-        {
-          "surface": "site",
-          "slug": "/newsletter/morning-wire/",
-          "publishedUrl": "https://nyfholdings.ca/newsletter/morning-wire/"
-        }
-      ]
     },
     {
       "id": "nyf-morning-wire-2026-11-16-03",
@@ -422,36 +518,6 @@
           "slug": "signal-012",
           "publishedUrl": "https://nyfholdings.ca/newsletter/signal-012/",
           "publishedAt": "2026-11-13T04:00:00-07:00"
-        }
-      ]
-    },
-    {
-      "id": "record:repository:54900d94fab56220874e",
-      "kind": "artifact",
-      "title": "The Dispatch Newsletter",
-      "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
-      "observedAt": "2026-11-11",
-      "source": "NYF Holdings repository",
-      "sourceUrl": "https://nyfholdings.ca/newsletter/",
-      "lanes": [
-        "enterprise",
-        "capital",
-        "culture",
-        "record"
-      ],
-      "topics": [
-        "newsletter",
-        "Dispatch",
-        "RSS",
-        "subscribe",
-        "free content"
-      ],
-      "geography": [],
-      "outputs": [
-        {
-          "surface": "site",
-          "slug": "/newsletter/",
-          "publishedUrl": "https://nyfholdings.ca/newsletter/"
         }
       ]
     },
