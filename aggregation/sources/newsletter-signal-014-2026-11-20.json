@@ -1,0 +1,248 @@
+[
+  {
+    "id": "nyf-signal-014-01",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "East African Community",
+      "type": "web",
+      "canonicalUrl": "https://www.eac.int/press-releases/3623-eac-urges-partner-states-to-use-water-and-sanitation-data-to-close-gaps-in-services",
+      "publishedAt": "2026-11-20",
+      "retrievedAt": "2026-11-20T11:00:00Z"
+    },
+    "title": "EAC water data show a persistent urban–rural access gap across the region.",
+    "summary": "The EAC Secretariat said 70% of households across the Community could collect safe drinking water within 30 minutes in 2025, up from 69% in 2022. The regional urban rate was 87%, compared with 67% for rural households; in the Democratic Republic of the Congo, the reported urban–rural gap was 90% versus 43%.",
+    "context": "The figures turn water access into an investable infrastructure map rather than a general development claim. The 30-minute measure captures access time, not whether water is continuously available, safely managed or free from contamination. The press release attributes the figures to EAC Facts and Figures 2026 and the EAC Health Statistics Report 2025; this issue does not independently audit the underlying national datasets.",
+    "observedAt": "2026-11-20",
+    "entities": [],
+    "geography": [
+      "East African Community"
+    ],
+    "lanes": [
+      "record",
+      "enterprise"
+    ],
+    "topics": [
+      "record",
+      "enterprise"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "status": "source-reviewed",
+      "notes": "The press release attributes the figures to EAC Facts and Figures 2026 and the EAC Health Statistics Report 2025; this issue does not independently audit the underlying national datasets."
+    },
+    "outputs": [
+      {
+        "type": "signal",
+        "url": "https://nyfholdings.ca/newsletter/signal-014/"
+      }
+    ],
+    "payload": {
+      "issue": "signal-014",
+      "position": 1,
+      "editorialState": "reviewed synthesis"
+    }
+  },
+  {
+    "id": "nyf-signal-014-02",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "East African Community",
+      "type": "web",
+      "canonicalUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3622-eac-and-estdev-sign-cooperation-agreement-to-advance-development-of-regional-cross-border-public-e-services",
+      "publishedAt": "2026-11-19",
+      "retrievedAt": "2026-11-20T11:00:00Z"
+    },
+    "title": "EAC and Estonia’s development agency sign a cooperation agreement for cross-border digital public services.",
+    "summary": "The EAC Secretariat and the Estonian Centre for International Development signed an agreement to support the EU–EAC DEEP Programme for cross-border digital trade and public e-services. The EAC said the work will focus on practical digital solutions, secure data exchange, digital identity, payments and interoperable services across Partner States.",
+    "context": "Digital public infrastructure can reduce friction for firms and citizens operating across borders, making institutional interoperability part of the region’s trade architecture. The announcement does not disclose a financing amount, implementation timetable or named first-use cases, so delivery and adoption remain unresolved.",
+    "observedAt": "2026-11-19",
+    "entities": [],
+    "geography": [
+      "East African Community",
+      "Estonia"
+    ],
+    "lanes": [
+      "enterprise",
+      "record"
+    ],
+    "topics": [
+      "enterprise",
+      "record"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "status": "source-reviewed",
+      "notes": "The announcement does not disclose a financing amount, implementation timetable or named first-use cases, so delivery and adoption remain unresolved."
+    },
+    "outputs": [
+      {
+        "type": "signal",
+        "url": "https://nyfholdings.ca/newsletter/signal-014/"
+      }
+    ],
+    "payload": {
+      "issue": "signal-014",
+      "position": 2,
+      "editorialState": "reviewed synthesis"
+    }
+  },
+  {
+    "id": "nyf-signal-014-03",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "African Development Bank",
+      "type": "web",
+      "canonicalUrl": "https://www.afdb.org/en/news-and-events/africa-day-cop31-calls-water-security-climate-98741",
+      "publishedAt": "2026-11-19",
+      "retrievedAt": "2026-11-20T11:00:00Z"
+    },
+    "title": "Africa Day at COP31 puts water security and investable climate resilience at the centre of the financing agenda.",
+    "summary": "A November 19 African Development Bank record of the November 12 Africa Day event says participants called for investment in water, sanitation, watershed management, irrigation, climate-smart agriculture and hydrometeorological systems. The event also identified preparedness for the anticipated 2026–2027 El Niño as an urgent priority and linked the discussion to Africa’s preparations for COP32 in Ethiopia.",
+    "context": "The agenda connects early warning to project preparation and financing, shifting resilience from emergency response toward infrastructure and capital formation. The source records priorities and calls for investment; it does not announce a new funding commitment or disbursement.",
+    "observedAt": "2026-11-19",
+    "entities": [],
+    "geography": [
+      "Africa",
+      "Ethiopia"
+    ],
+    "lanes": [
+      "capital",
+      "record"
+    ],
+    "topics": [
+      "capital",
+      "record"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "status": "source-reviewed",
+      "notes": "The source records priorities and calls for investment; it does not announce a new funding commitment or disbursement."
+    },
+    "outputs": [
+      {
+        "type": "signal",
+        "url": "https://nyfholdings.ca/newsletter/signal-014/"
+      }
+    ],
+    "payload": {
+      "issue": "signal-014",
+      "position": 3,
+      "editorialState": "reviewed synthesis"
+    }
+  },
+  {
+    "id": "nyf-signal-014-04",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/world/africa/kenya-chooses-us-consortium-to-develop-mrima-hill-critical-minerals-project-2026-11-19/",
+      "publishedAt": "2026-11-19",
+      "retrievedAt": "2026-11-20T11:00:00Z"
+    },
+    "title": "Kenya selects a US consortium for the Mrima Hill critical-minerals project, but development has not begun.",
+    "summary": "Kenya selected the Frontier Minerals consortium, which includes ReElement Technologies, American Resources Corporation and Bunker Hill, to develop the Mrima Hill deposit. Reuters reported that the consortium must still engage local communities and obtain prospecting licences, while two rival bidders said they intend to challenge the decision.",
+    "context": "The selection places Kenyan rare earths and domestic processing inside the US–China competition over critical-mineral supply chains. Local processing could retain more value in Kenya, but the award is not yet an operating mine or refinery. Resource valuations are preliminary, rival procurement challenges are pending, and community, environmental, licensing and commercial terms remain unresolved.",
+    "observedAt": "2026-11-19",
+    "entities": [],
+    "geography": [
+      "Kenya",
+      "United States"
+    ],
+    "lanes": [
+      "capital",
+      "enterprise",
+      "record"
+    ],
+    "topics": [
+      "capital",
+      "enterprise",
+      "record"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "status": "source-reviewed",
+      "notes": "Resource valuations are preliminary, rival procurement challenges are pending, and community, environmental, licensing and commercial terms remain unresolved."
+    },
+    "outputs": [
+      {
+        "type": "signal",
+        "url": "https://nyfholdings.ca/newsletter/signal-014/"
+      }
+    ],
+    "payload": {
+      "issue": "signal-014",
+      "position": 4,
+      "editorialState": "reviewed synthesis"
+    }
+  },
+  {
+    "id": "nyf-signal-014-05",
+    "schemaVersion": 2,
+    "visibility": "public",
+    "kind": "article",
+    "source": {
+      "name": "Reuters",
+      "type": "web",
+      "canonicalUrl": "https://www.reuters.com/world/africa/ethiopian-airlines-investigates-data-breach-affecting-its-loyalty-programme-2026-11-19/",
+      "publishedAt": "2026-11-19",
+      "retrievedAt": "2026-11-20T11:00:00Z"
+    },
+    "title": "Ethiopian Airlines investigates a ShebaMiles data breach affecting an undetermined number of customers.",
+    "summary": "Ethiopian Airlines said it was investigating a cybersecurity incident of limited scope involving its ShebaMiles loyalty programme. The carrier told customers that some information may have been affected, said there was no current evidence that financial information was accessed, and reported no flight disruption; Reuters noted that ShebaMiles had more than 5.38 million customers last year.",
+    "context": "The incident shows that regional aviation infrastructure includes high-value identity and customer-data systems as well as aircraft and airports. A loyalty platform’s scale makes breach governance an enterprise and trust issue even when operations continue. The number of affected customers, exposed data fields, cause, containment status and notification obligations were not disclosed.",
+    "observedAt": "2026-11-19",
+    "entities": [],
+    "geography": [
+      "Ethiopia",
+      "Africa"
+    ],
+    "lanes": [
+      "enterprise",
+      "record"
+    ],
+    "topics": [
+      "enterprise",
+      "record"
+    ],
+    "projects": [
+      "east-corner"
+    ],
+    "status": "published",
+    "verification": {
+      "status": "source-reviewed",
+      "notes": "The number of affected customers, exposed data fields, cause, containment status and notification obligations were not disclosed."
+    },
+    "outputs": [
+      {
+        "type": "signal",
+        "url": "https://nyfholdings.ca/newsletter/signal-014/"
+      }
+    ],
+    "payload": {
+      "issue": "signal-014",
+      "position": 5,
+      "editorialState": "reviewed synthesis"
+    }
+  }
+]
