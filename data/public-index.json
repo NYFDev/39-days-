@@ -1,14 +1,66 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-19T11:00:00.000Z",
-  "count": 78,
+  "generatedAt": "2026-11-20T11:00:00.000Z",
+  "count": 84,
   "records": [
+    {
+      "id": "nyf-signal-014-01",
+      "kind": "article",
+      "title": "EAC water data show a persistent urban–rural access gap across the region.",
+      "summary": "The EAC Secretariat said 70% of households across the Community could collect safe drinking water within 30 minutes in 2025, up from 69% in 2022. The regional urban rate was 87%, compared with 67% for rural households; in the Democratic Republic of the Congo, the reported urban–rural gap was 90% versus 43%.",
+      "observedAt": "2026-11-20",
+      "source": "East African Community",
+      "sourceUrl": "https://www.eac.int/press-releases/3623-eac-urges-partner-states-to-use-water-and-sanitation-data-to-close-gaps-in-services",
+      "lanes": [
+        "record",
+        "enterprise"
+      ],
+      "topics": [
+        "record",
+        "enterprise"
+      ],
+      "geography": [
+        "East African Community"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "record:repository:075db3d3688baf74af1a",
+      "kind": "artifact",
+      "title": "The Infrastructure Is Becoming Digital. The Risk Is Becoming Strategic.",
+      "summary": "Five source records connect water-service data, cross-border public e-services, climate finance, critical-mineral processing and a major airline’s loyalty-programme breach.",
+      "observedAt": "2026-11-20",
+      "source": "NYF Holdings repository",
+      "sourceUrl": "https://nyfholdings.ca/newsletter/signal-014/",
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "East Africa",
+        "digital public infrastructure",
+        "water access",
+        "climate finance",
+        "critical minerals",
+        "cybersecurity",
+        "EAC",
+        "Kenya",
+        "Ethiopian Airlines"
+      ],
+      "geography": [],
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-014/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-014/"
+        }
+      ]
+    },
     {
       "id": "record:repository:54900d94fab56220874e",
       "kind": "artifact",
       "title": "The Dispatch Newsletter",
       "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
-      "observedAt": "2026-11-19",
+      "observedAt": "2026-11-20",
       "source": "NYF Holdings repository",
       "sourceUrl": "https://nyfholdings.ca/newsletter/",
       "lanes": [
@@ -32,6 +84,96 @@
           "publishedUrl": "https://nyfholdings.ca/newsletter/"
         }
       ]
+    },
+    {
+      "id": "nyf-signal-014-02",
+      "kind": "article",
+      "title": "EAC and Estonia’s development agency sign a cooperation agreement for cross-border digital public services.",
+      "summary": "The EAC Secretariat and the Estonian Centre for International Development signed an agreement to support the EU–EAC DEEP Programme for cross-border digital trade and public e-services. The EAC said the work will focus on practical digital solutions, secure data exchange, digital identity, payments and interoperable services across Partner States.",
+      "observedAt": "2026-11-19",
+      "source": "East African Community",
+      "sourceUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3622-eac-and-estdev-sign-cooperation-agreement-to-advance-development-of-regional-cross-border-public-e-services",
+      "lanes": [
+        "enterprise",
+        "record"
+      ],
+      "topics": [
+        "enterprise",
+        "record"
+      ],
+      "geography": [
+        "East African Community",
+        "Estonia"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "nyf-signal-014-03",
+      "kind": "article",
+      "title": "Africa Day at COP31 puts water security and investable climate resilience at the centre of the financing agenda.",
+      "summary": "A November 19 African Development Bank record of the November 12 Africa Day event says participants called for investment in water, sanitation, watershed management, irrigation, climate-smart agriculture and hydrometeorological systems. The event also identified preparedness for the anticipated 2026–2027 El Niño as an urgent priority and linked the discussion to Africa’s preparations for COP32 in Ethiopia.",
+      "observedAt": "2026-11-19",
+      "source": "African Development Bank",
+      "sourceUrl": "https://www.afdb.org/en/news-and-events/africa-day-cop31-calls-water-security-climate-98741",
+      "lanes": [
+        "capital",
+        "record"
+      ],
+      "topics": [
+        "capital",
+        "record"
+      ],
+      "geography": [
+        "Africa",
+        "Ethiopia"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "nyf-signal-014-04",
+      "kind": "article",
+      "title": "Kenya selects a US consortium for the Mrima Hill critical-minerals project, but development has not begun.",
+      "summary": "Kenya selected the Frontier Minerals consortium, which includes ReElement Technologies, American Resources Corporation and Bunker Hill, to develop the Mrima Hill deposit. Reuters reported that the consortium must still engage local communities and obtain prospecting licences, while two rival bidders said they intend to challenge the decision.",
+      "observedAt": "2026-11-19",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/kenya-chooses-us-consortium-to-develop-mrima-hill-critical-minerals-project-2026-11-19/",
+      "lanes": [
+        "capital",
+        "enterprise",
+        "record"
+      ],
+      "topics": [
+        "capital",
+        "enterprise",
+        "record"
+      ],
+      "geography": [
+        "Kenya",
+        "United States"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "nyf-signal-014-05",
+      "kind": "article",
+      "title": "Ethiopian Airlines investigates a ShebaMiles data breach affecting an undetermined number of customers.",
+      "summary": "Ethiopian Airlines said it was investigating a cybersecurity incident of limited scope involving its ShebaMiles loyalty programme. The carrier told customers that some information may have been affected, said there was no current evidence that financial information was accessed, and reported no flight disruption; Reuters noted that ShebaMiles had more than 5.38 million customers last year.",
+      "observedAt": "2026-11-19",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/africa/ethiopian-airlines-investigates-data-breach-affecting-its-loyalty-programme-2026-11-19/",
+      "lanes": [
+        "enterprise",
+        "record"
+      ],
+      "topics": [
+        "enterprise",
+        "record"
+      ],
+      "geography": [
+        "Ethiopia",
+        "Africa"
+      ],
+      "outputs": []
     },
     {
       "id": "record:repository:6d150d330895f2f4085f",
