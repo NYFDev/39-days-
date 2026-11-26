@@ -1,8 +1,377 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-20T11:00:00.000Z",
-  "count": 84,
+  "generatedAt": "2026-11-26T11:00:00.000Z",
+  "count": 90,
   "records": [
+    {
+      "id": "record:repository:047e01d34079052af94c",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/signal-015/",
+        "externalId": "search-index:/newsletter/signal-015/",
+        "publishedAt": "2026-11-26",
+        "retrievedAt": null
+      },
+      "title": "The Rules Are Converging. The Conflict Risks Are Spreading.",
+      "summary": "Five source records connect East Africa’s data and monetary rulemaking with renewed conflict exposure, civilian drone harm and food-supply chokepoints.",
+      "context": "Public NYF Signal / East Corner artifact in the NYF record.",
+      "observedAt": "2026-11-26",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "East Africa",
+        "EAC",
+        "cross-border data",
+        "data protection",
+        "monetary union",
+        "Tigray",
+        "Eritrea",
+        "Sudan",
+        "Blue Nile",
+        "WFP",
+        "food security",
+        "Somalia"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/signal-015/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/signal-015/"
+        }
+      ],
+      "payload": {
+        "section": "NYF Signal / East Corner"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "record:repository:54900d94fab56220874e",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "artifact",
+      "source": {
+        "name": "NYF Holdings repository",
+        "type": "repository",
+        "canonicalUrl": "https://nyfholdings.ca/newsletter/",
+        "externalId": "search-index:/newsletter/",
+        "publishedAt": "2026-11-26",
+        "retrievedAt": null
+      },
+      "title": "The Dispatch Newsletter",
+      "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
+      "context": "Public Newsletter artifact in the NYF record.",
+      "observedAt": "2026-11-26",
+      "entities": [
+        "NYF Holdings"
+      ],
+      "geography": [],
+      "lanes": [
+        "enterprise",
+        "capital",
+        "culture",
+        "record"
+      ],
+      "topics": [
+        "newsletter",
+        "Dispatch",
+        "RSS",
+        "subscribe",
+        "free content"
+      ],
+      "projects": [],
+      "status": "published",
+      "verification": {
+        "state": "verified",
+        "checkedAt": null,
+        "notes": "Canonical route is present in the public search inventory."
+      },
+      "outputs": [
+        {
+          "surface": "site",
+          "slug": "/newsletter/",
+          "publishedUrl": "https://nyfholdings.ca/newsletter/"
+        }
+      ],
+      "payload": {
+        "section": "Newsletter"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "search-index.json"
+        ]
+      }
+    },
+    {
+      "id": "nyf-signal-015-03",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "Associated Press",
+        "type": "web",
+        "canonicalUrl": "https://apnews.com/article/ethiopia-tigray-amnesty-war-crimes-eritrea-shelling-civilians-badme-427358084fef2eb567e38acd81c3eacd",
+        "publishedAt": "2026-11-25",
+        "retrievedAt": "2026-11-26T11:00:00Z"
+      },
+      "title": "Amnesty calls for a war-crimes inquiry into shelling that killed civilians in Tigray.",
+      "summary": "The Associated Press reports that Amnesty International independently verified 14 civilian deaths in four artillery attacks on Alamata between 26 and 28 September and called for an investigation of possible war crimes. AP also reports renewed fighting, military buildups near the Eritrean border and conflicting accounts from armed actors; Ethiopia’s government and military had not responded to Amnesty before publication.",
+      "context": "The findings add documented civilian harm to signs that the Ethiopia–Eritrea frontier and internal Tigray divisions are becoming a wider regional security risk. Attribution and legal responsibility require an independent investigation. Claims by residents and armed parties about deployments and territorial control remain contested.",
+      "observedAt": "2026-11-25",
+      "entities": [],
+      "geography": [
+        "Ethiopia",
+        "Tigray",
+        "Eritrea"
+      ],
+      "lanes": [
+        "record"
+      ],
+      "topics": [
+        "record"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "source-reviewed",
+        "notes": "Attribution and legal responsibility require an independent investigation. Claims by residents and armed parties about deployments and territorial control remain contested."
+      },
+      "outputs": [],
+      "payload": {
+        "issue": "signal-015",
+        "position": 3,
+        "editorialState": "reviewed synthesis"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-015.json",
+          "aggregation/sources/newsletter-signal-015-2026-11-26.json"
+        ]
+      }
+    },
+    {
+      "id": "nyf-signal-015-04",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "Reuters",
+        "type": "web",
+        "canonicalUrl": "https://www.reuters.com/world/africa/drone-strikes-kill-19-civilians-southeastern-sudan-says-rights-group-2026-11-25/",
+        "publishedAt": "2026-11-25",
+        "retrievedAt": "2026-11-26T11:00:00Z"
+      },
+      "title": "Drone strikes kill 19 civilians in Sudan’s Blue Nile state and threaten power infrastructure.",
+      "summary": "Reuters reports that the Sudanese rights group Emergency Lawyers said Rapid Support Forces drone strikes killed 19 civilians and wounded 20 in Damazin and Roseires. Witnesses confirmed strikes occurred; the RSF did not respond before publication. The group said drones also targeted the Roseires dam and power facilities.",
+      "context": "Civilian casualties and attacks near electricity assets connect Sudan’s war to infrastructure risk across Blue Nile, a state bordering South Sudan and Ethiopia. Reuters independently confirmed that strikes occurred, not the full casualty count or attribution. The extent of damage to the dam, power facilities and national grid was not established.",
+      "observedAt": "2026-11-25",
+      "entities": [],
+      "geography": [
+        "Sudan",
+        "Blue Nile",
+        "South Sudan",
+        "Ethiopia"
+      ],
+      "lanes": [
+        "enterprise",
+        "record"
+      ],
+      "topics": [
+        "enterprise",
+        "record"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "source-reviewed",
+        "notes": "Reuters independently confirmed that strikes occurred, not the full casualty count or attribution. The extent of damage to the dam, power facilities and national grid was not established."
+      },
+      "outputs": [],
+      "payload": {
+        "issue": "signal-015",
+        "position": 4,
+        "editorialState": "reviewed synthesis"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-015.json",
+          "aggregation/sources/newsletter-signal-015-2026-11-26.json"
+        ]
+      }
+    },
+    {
+      "id": "nyf-signal-015-01",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "East African Community",
+        "type": "web",
+        "canonicalUrl": "https://www.eac.int/eadrip-news-updates/eardip-press-releases/3625-eac-advances-regional-framework-for-trusted-cross-border-data-flows-and-data-protection",
+        "publishedAt": "2026-11-23",
+        "retrievedAt": "2026-11-26T11:00:00Z"
+      },
+      "title": "EAC advances a regional bill for cross-border data flows and data protection.",
+      "summary": "EAC legislative draftspersons, data-protection officials and cybersecurity experts developed a legislative scheme for a proposed regional bill governing cross-border data flows. The Secretariat says clause-by-clause drafting and consolidation are to be fast-tracked by 15 February 2027, with minimum regional safeguards and cooperation among national authorities among the issues under consideration.",
+      "context": "Common rules could reduce legal uncertainty for regional digital services and commerce while setting a baseline for personal-data protection across eight Partner States. The bill is still being drafted. Its final text, adoption path, enforcement mechanism and treatment of transfers outside the Community remain unresolved.",
+      "observedAt": "2026-11-23",
+      "entities": [],
+      "geography": [
+        "East African Community"
+      ],
+      "lanes": [
+        "enterprise",
+        "record"
+      ],
+      "topics": [
+        "enterprise",
+        "record"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "source-reviewed",
+        "notes": "The bill is still being drafted. Its final text, adoption path, enforcement mechanism and treatment of transfers outside the Community remain unresolved."
+      },
+      "outputs": [],
+      "payload": {
+        "issue": "signal-015",
+        "position": 1,
+        "editorialState": "reviewed synthesis"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-015.json",
+          "aggregation/sources/newsletter-signal-015-2026-11-26.json"
+        ]
+      }
+    },
+    {
+      "id": "nyf-signal-015-02",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "East African Community",
+        "type": "web",
+        "canonicalUrl": "https://www.eac.int/press-releases/145-financial-sector/3624-regional-monitoring-committee-calls-for-accelerated-implementation-of-roadmpad-to-achieven-monetary-union-by-2031",
+        "publishedAt": "2026-11-23",
+        "retrievedAt": "2026-11-26T11:00:00Z"
+      },
+      "title": "EAC monitoring committee warns that no Partner State meets all four monetary-union convergence tests.",
+      "summary": "The EAC’s monetary-union monitoring committee reviewed the revised roadmap and called for faster implementation toward the 2031 target. It reported progress on the legal framework for the East African Monetary Institute and cross-border payments, but said no Partner State currently meets all four primary macroeconomic convergence criteria at the same time.",
+      "context": "The record separates working payment infrastructure from the harder fiscal, legal and institutional conditions required for a common currency. The gap matters for investors, banks and firms pricing regional integration risk. The committee issued recommendations rather than a binding delivery schedule. The timetable for operationalising the monetary institute and other regional bodies remains unresolved.",
+      "observedAt": "2026-11-23",
+      "entities": [],
+      "geography": [
+        "East African Community"
+      ],
+      "lanes": [
+        "capital",
+        "record"
+      ],
+      "topics": [
+        "capital",
+        "record"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "source-reviewed",
+        "notes": "The committee issued recommendations rather than a binding delivery schedule. The timetable for operationalising the monetary institute and other regional bodies remains unresolved."
+      },
+      "outputs": [],
+      "payload": {
+        "issue": "signal-015",
+        "position": 2,
+        "editorialState": "reviewed synthesis"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-015.json",
+          "aggregation/sources/newsletter-signal-015-2026-11-26.json"
+        ]
+      }
+    },
+    {
+      "id": "nyf-signal-015-05",
+      "schemaVersion": 2,
+      "visibility": "public",
+      "kind": "article",
+      "source": {
+        "name": "Reuters",
+        "type": "web",
+        "canonicalUrl": "https://www.reuters.com/business/environment/un-food-agency-chief-warns-wars-jeopardize-food-aid-73-million-more-people-2026-11-23/",
+        "publishedAt": "2026-11-23",
+        "retrievedAt": "2026-11-26T11:00:00Z"
+      },
+      "title": "WFP says war-linked shipping chokepoints could add $727 million in costs and cut food aid.",
+      "summary": "Reuters reports that World Food Programme chief Luke Lindberg warned transport disruptions around the Black Sea, Strait of Hormuz and Bab el-Mandeb could raise WFP costs by $727 million by mid-2027, putting assistance for 7.3 million more people at risk. He said famine risk persists in Sudan, South Sudan and Somalia, while Somalia imports about 90% of its food.",
+      "context": "The warning turns distant maritime conflict into a direct budget and supply risk for import-dependent Horn economies and humanitarian operations. The $727 million figure is a WFP scenario contingent on current conditions. A new Black Sea arrangement was advocated, not agreed.",
+      "observedAt": "2026-11-23",
+      "entities": [],
+      "geography": [
+        "Horn of Africa",
+        "Somalia",
+        "Sudan",
+        "South Sudan"
+      ],
+      "lanes": [
+        "capital",
+        "record"
+      ],
+      "topics": [
+        "capital",
+        "record"
+      ],
+      "projects": [
+        "east-corner"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "source-reviewed",
+        "notes": "The $727 million figure is a WFP scenario contingent on current conditions. A new Black Sea arrangement was advocated, not agreed."
+      },
+      "outputs": [],
+      "payload": {
+        "issue": "signal-015",
+        "position": 5,
+        "editorialState": "reviewed synthesis"
+      },
+      "provenance": {
+        "derivedFrom": [
+          "aggregation/sources/newsletter-signal-015.json",
+          "aggregation/sources/newsletter-signal-015-2026-11-26.json"
+        ]
+      }
+    },
     {
       "id": "nyf-signal-014-01",
       "schemaVersion": 2,
@@ -102,63 +471,6 @@
       ],
       "payload": {
         "section": "NYF Signal / East Corner"
-      },
-      "provenance": {
-        "derivedFrom": [
-          "search-index.json"
-        ]
-      }
-    },
-    {
-      "id": "record:repository:54900d94fab56220874e",
-      "schemaVersion": 2,
-      "visibility": "public",
-      "kind": "artifact",
-      "source": {
-        "name": "NYF Holdings repository",
-        "type": "repository",
-        "canonicalUrl": "https://nyfholdings.ca/newsletter/",
-        "externalId": "search-index:/newsletter/",
-        "publishedAt": "2026-11-20",
-        "retrievedAt": null
-      },
-      "title": "The Dispatch Newsletter",
-      "summary": "The free newsletter and permanent web archive for East Corner and the 39 DAYS living record.",
-      "context": "Public Newsletter artifact in the NYF record.",
-      "observedAt": "2026-11-20",
-      "entities": [
-        "NYF Holdings"
-      ],
-      "geography": [],
-      "lanes": [
-        "enterprise",
-        "capital",
-        "culture",
-        "record"
-      ],
-      "topics": [
-        "newsletter",
-        "Dispatch",
-        "RSS",
-        "subscribe",
-        "free content"
-      ],
-      "projects": [],
-      "status": "published",
-      "verification": {
-        "state": "verified",
-        "checkedAt": null,
-        "notes": "Canonical route is present in the public search inventory."
-      },
-      "outputs": [
-        {
-          "surface": "site",
-          "slug": "/newsletter/",
-          "publishedUrl": "https://nyfholdings.ca/newsletter/"
-        }
-      ],
-      "payload": {
-        "section": "Newsletter"
       },
       "provenance": {
         "derivedFrom": [
